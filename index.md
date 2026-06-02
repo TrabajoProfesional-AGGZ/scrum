@@ -23,7 +23,7 @@ Para adaptar el marco Scrum a la realidad de nuestro equipo y asegurar la eficie
 
 Aquí llevaremos el registro histórico de cada ciclo de desarrollo:
 
-* 🗺️ **[Roadmap](roadmap/):** La hoja de ruta estratégica del proyecto, dividida por fases y entregables principales.
+* 🗺️ **[Hoja de ruta](roadmap/):** La hoja de ruta estratégica del proyecto, dividida por fases y entregables principales.
 * 🎯 **[Sprint Planning](sprint-planning/):** Los objetivos definidos al inicio de cada iteración y las tareas comprometidas por el equipo.
 * 🔍 **[Sprint Review](sprint-review/):** El resumen de lo que se logró construir, mostrar y validar al final de cada ciclo.
 * 🔄 **[Retrospectiva del Sprint](retrospectiva/):** Nuestro espacio de mejora continua, analizando qué salió bien, qué salió mal y qué acciones tomaremos para el próximo Sprint.
