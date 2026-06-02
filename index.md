@@ -7,9 +7,16 @@ description: "Página principal de la gestión ágil del proyecto SocioUnido."
 
 # Gestión Ágil y Scrum - SocioUnido
 
-Bienvenido al centro de monitoreo de desarrollo del Trabajo Profesional. 
-
 El objetivo de este sitio es documentar de forma clara, ordenada y accesible toda la planificación y ejecución de nuestro producto, utilizando el marco de trabajo Scrum.
+
+## Metodología y Dinámica de Trabajo
+
+Para adaptar el marco Scrum a la realidad de nuestro equipo y asegurar la eficiencia, establecimos los siguientes lineamientos:
+
+* **Sprints de una semana:** Trabajamos con iteraciones cortas para maximizar la capacidad de desarrollo del equipo. Esto nos permite alcanzar el mejor MVP posible en el menor tiempo, dejándonos buenos márgenes antes de la entrega final para la documentación y contando con un "salvavidas" ante cualquier imprevisto.
+* **Comunicación continua:** Los 4 integrantes del equipo vemos este proyecto como nuestra prioridad actual, lo que nos mantiene en contacto a diario. Por esta razón, decidimos no implementar la ceremonia de *Daily Scrum*, ya que la fluidez de nuestra comunicación hace que no aporte valor adicional al desarrollo.
+* **Refinamiento del Backlog:** Este proceso no está detallado en esta página. Toda la gestión y el refinamiento se trabajan directamente en el "Centro de monitoreo de tareas" (en un proyecto dentro de la organización de GitHub) y puede ser revisado a posteriori observando la evolución de dicho tablero.
+* **Sprint Review:** Si bien las *Sprint Reviews* se realizan como una ceremonia completa internamente, la interacción semanal que tenemos con los tutores en las reuniones de seguimiento forma parte integral de esta misma validación.
 
 ## ¿Qué vas a encontrar en esta página?
 
