@@ -3,6 +3,7 @@ layout: default
 title: Sprint Review
 nav_order: 4
 has_children: true
+has_toc: false
 ---
 
 # Registro de Sprint Reviews

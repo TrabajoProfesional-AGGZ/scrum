@@ -3,6 +3,7 @@ layout: default
 title: Retrospectiva del Sprint
 nav_order: 5
 has_children: true
+has_toc: false
 ---
 
 # Retrospectivas
