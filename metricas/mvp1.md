@@ -36,8 +36,6 @@ Compara los puntos comprometidos vs. completados en cada iteración. Deslizá ho
   </div>
 </div>
 
----
-
 ## 👤 Métricas Individuales de Seguimiento
 
 Seleccioná un integrante del equipo para evaluar la evolución de su rendimiento personal y la distribución de sus tareas asignadas:

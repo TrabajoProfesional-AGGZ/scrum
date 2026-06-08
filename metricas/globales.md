@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Métricas del Primer MVP
+title: Métricas Globales
 parent: Métricas
 nav_order: 2
 ---
 
 # Métricas Globales
 
-**Período:** 07/06/2026 al 13/08/2026
+**Período:** 07/06/2026 al xx/xx/2026
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -35,8 +35,6 @@ Compara los puntos comprometidos vs. completados en cada iteración. Deslizá ho
     <canvas id="grupalesVelocity"></canvas>
   </div>
 </div>
-
----
 
 ## 👤 Métricas Individuales de Seguimiento
 
