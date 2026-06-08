@@ -170,7 +170,7 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 <summary><strong>documentacion #36</strong>: Redactar múltiples variantes de la presentación breve de "SocioUnido" - <em>Responsable: Felipe</em></summary>
 
 * Prioridad: Alta.
-* Esfuerzo: Medio (3 Puntos).
+* Esfuerzo: Medio (3 puntos).
 
 </details>
 
@@ -178,7 +178,23 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 <summary><strong>documentacion #37</strong>: Crear primera versión de la presentación para la entrega intermedia - <em>Responsable: Felipe</em></summary>
 
 * Prioridad: Alta.
-* Esfuerzo: Alto (5 Puntos).
+* Esfuerzo: Alto (5 puntos).
+
+</details>
+
+<details markdown="1">
+<summary><strong>scrum #1</strong>: Documentar ceremonias de Scrum y métricas de la iteración N°1 - <em>Responsable: Felipe</em></summary>
+
+* Prioridad: Alta.
+* Esfuerzo: Medio (3 puntos).
+
+</details>
+
+<details markdown="1">
+<summary><strong>bitacora #2</strong>: Hacer la bitácora de la semana 13 - <em>Responsable: Felipe</em></summary>
+
+* Prioridad: Media.
+* Esfuerzo: Bajo (1 punto).
 
 </details>
 
