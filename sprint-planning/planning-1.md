@@ -32,31 +32,35 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 
 ### Historias de Usuario
 
-<details>
+<details markdown="1">
 <summary><strong>Épica 1: Accesos y Seguridad</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
-<details>
+<details markdown="1">
 <summary><strong>HU-1.1 Login de Usuario Administrativo #6</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
 **Criterios de Aceptación:**
+
 * **Dado que** el usuario ingresa credenciales válidas, **cuando** presiona "Ingresar", **entonces** el sistema lo redirige al Dashboard principal.
 * **Dado que** el usuario ingresa credenciales no válidas, **entonces** el sistema no le permite el ingreso y le aparece un mensaje explicando el motivo.
 
 **Sub-issues:**
+
 * Inicio de sesión de usuario administrativo (vista) `plataforma-web#1` - *Responsable/s: Axel*
 * Inicio de sesión de usuario administrativo (gateway) `gateway#1` - *Responsable/s: Lautaro*
 * Inicio de sesión de usuario administrativo (autenticación) `microservicio-autenticacion#1` - *Responsable/s: Martín*
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>HU-1.2 Gestión de Roles y Permisos #7</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
 **Criterios de Aceptación:**
+
 * **Dado que** el Super Administrador accede a la sección de configuración de seguridad, **cuando** guarda un nuevo rol o edita uno existente con permisos específicos, **entonces** el sistema actualiza la base de datos de accesos correctamente.
 * **Dado que** un usuario administrativo inicia sesión, **cuando** el sistema carga el menú de navegación, **entonces** solo debe renderizar las opciones y módulos para los cuales el usuario tiene permisos explícitos.
 
 **Sub-issues:**
+
 * Gestión de roles y permisos (vista) `plataforma-web#4` - *Responsable/s: Axel*
 * Gestión de roles y permisos (gateway) `gateway#4` - *Responsable/s: Lautaro*
 * Gestión de roles y permisos (autenticacion) `microservicio-autenticacion#4` - *Responsable/s: Martín*
@@ -64,14 +68,16 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>HU-1.3 ABM de Usuarios Administrativos #8</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
 **Criterios de Aceptación:**
+
 * **Dado que** el Super Administrador completa el formulario de alta de personal, **cuando** ingresa un correo electrónico válido y confirma la acción, **entonces** el sistema crea la cuenta y envía un enlace automático a ese correo para la generación de la contraseña.
 * **Dado que** un empleado ya no pertenece al club, **cuando** el Super Administrador ejecuta la acción de baja sobre su usuario, **entonces** el sistema cambia su estado lógico a "Inactivo" (Soft Delete) manteniendo intactos los registros históricos de sus operaciones.
 
 **Sub-issues:**
+
 * ABM usuarios administrativos (vista) `plataforma-web#2` - *Responsable/s: Axel*
 * ABM usuarios administrativos (gateway) `gateway#2` - *Responsable/s: Lautaro*
 * ABM usuarios administrativos (autenticación) `microservicio-autenticacion#2` - *Responsable/s: Martín*
@@ -81,17 +87,19 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Épica 2: Gestión Societaria</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
-<details>
+<details markdown="1">
 <summary><strong>HU-2.1 ABM de Socios #9</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
 **Criterios de Aceptación:**
+
 * **Dado que** un administrativo está registrando un nuevo socio, **cuando** ingresa un número de DNI que ya se encuentra activo en el padrón, **entonces** el sistema debe mostrar un mensaje de error y bloquear la creación del registro.
 * **Dado que** el administrativo completa el formulario de alta de socio, **cuando** ingresa la fecha de nacimiento, **entonces** el sistema debe calcular la edad y asignar automáticamente la categoría societaria correspondiente (ej. Cadete, Activo).
 
 **Sub-issues:**
+
 * ABM socios (vista) `plataforma-web#3` - *Responsable/s: Axel*
 * ABM socios (gateway) `gateway#3` - *Responsable/s: Lautaro*
 * ABM socios (autenticación) `microservicio-autenticacion#3` - *Responsable/s: Martín*
@@ -99,14 +107,16 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>HU-2.2 Consulta 360 del Socio #10</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
 **Criterios de Aceptación:**
+
 * **Dado que** el administrativo necesita localizar a un miembro, **cuando** ingresa un número de DNI, apellido o número de socio en la barra de búsqueda global, **entonces** el sistema debe listar los perfiles coincidentes.
 * **Dado que** el administrativo selecciona a un socio de los resultados de búsqueda, **cuando** se carga la "Vista 360", **entonces** el sistema debe mostrar consolidados los datos personales, el estado de pagos y el último ingreso detectado.
 
 **Sub-issues:**
+
 * Consulta del Socio (vista) `plataforma-web#5` - *Responsable/s: Axel*
 * Consulta del Socio (gateway) `gateway#5` - *Responsable/s: Lautaro*
 * Consulta del Socio (autenticación) `microservicio-autenticacion#5` - *Responsable/s: Martín*
@@ -118,7 +128,7 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 
 ### Tareas de Documentación
 
-<details>
+<details markdown="1">
 <summary><strong>documentacion #36</strong>: Redactar múltiples variantes de la presentación breve de "SocioUnido" - <em>Responsable: Felipe</em></summary>
 
 * Prioridad: Alta.
@@ -126,7 +136,7 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>documentacion #37</strong>: Crear primera versión de la presentación para la entrega intermedia - <em>Responsable: Felipe</em></summary>
 
 * Prioridad: Alta.
