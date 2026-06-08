@@ -191,6 +191,14 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 </details>
 
 <details markdown="1">
+<summary><strong>scrum #2</strong>: Definir la primer hoja de ruta para el MVP inicial - <em>Responsable: Axel, Felipe, Lautaro y Martín</em></summary>
+
+* Prioridad: Urgente.
+* Esfuerzo: Medio (3 puntos).
+
+</details>
+
+<details markdown="1">
 <summary><strong>bitacora #2</strong>: Hacer la bitácora de la semana 13 - <em>Responsable: Felipe</em></summary>
 
 * Prioridad: Media.
