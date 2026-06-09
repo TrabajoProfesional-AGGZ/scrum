@@ -1,34 +1,37 @@
 ---
 layout: default
-title: Métricas del Primer MVP
+title: Métricas del primer MVP
 parent: Métricas
 nav_order: 2
 ---
 
-# Métricas del Primer MVP (Sprint 1 a 10)
+# Métricas del primer MVP (Sprint 1 a 10)
 
 **Período:** 07/06/2026 al 13/08/2026
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-## 📊 Métricas Grupales
+## 📊 Métricas grupales
 
-### 1. Sprint Burndown Histórico (Evolución sobre el Total)
+### Release Burndown Chart
+
 Muestra cuántos puntos de historia van quedando pendientes sobre el total planificado para el MVP a lo largo de los 10 sprints.
 
 <div>
   <canvas id="grupalesBurndown" height="100"></canvas>
 </div>
 
-### 2. Release Burnup Chart
+### Release Burnup Chart
+
 Muestra la acumulación de puntos completados frente al alcance total trazado para este MVP.
 
 <div>
   <canvas id="grupalesBurnup" height="100"></canvas>
 </div>
 
-### 3. Velocity Chart (Con desplazamiento lateral)
-Compara los puntos comprometidos vs. completados en cada iteración. Deslizá horizontalmente para ver el historial completo.
+### Release Velocity Chart
+
+Compara los puntos comprometidos contra los puntos completados en cada iteración.
 
 <div style="width: 100%; overflow-x: auto; border: 1px solid #eee; padding: 10px; border-radius: 5px;">
   <div style="width: 1000px; height: 350px;">
@@ -36,9 +39,9 @@ Compara los puntos comprometidos vs. completados en cada iteración. Deslizá ho
   </div>
 </div>
 
-## 👤 Métricas Individuales de Seguimiento
+## 👤 Métricas individuales
 
-Seleccioná un integrante del equipo para evaluar la evolución de su rendimiento personal y la distribución de sus tareas asignadas:
+Seleccioná un integrante del equipo para visualizar la distribución de sus tareas asignadas:
 
 <select id="selectorMiembro" style="padding: 8px; font-size: 16px; border-radius: 5px; margin-bottom: 20px; cursor: pointer;">
   <option value="axel">Axel</option>
@@ -49,6 +52,7 @@ Seleccioná un integrante del equipo para evaluar la evolución de su rendimient
 </select>
 
 ### Rendimiento e Historias del Integrante
+
 <div style="width: 100%; overflow-x: auto; border: 1px solid #eee; padding: 10px; border-radius: 5px;">
   <div style="width: 1000px; height: 300px;">
     <canvas id="chartIndividual"></canvas>

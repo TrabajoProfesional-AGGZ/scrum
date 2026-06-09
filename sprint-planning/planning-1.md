@@ -196,6 +196,8 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 * Prioridad: Urgente.
 * Esfuerzo: Medio (3 puntos).
 
+</details>
+
 <details markdown="1">
 <summary><strong>scrum #3</strong>: Crear la página web documental de 'Scrum' y 'Hoja de ruta' - <em>Responsable: Felipe</em></summary>
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Métricas Globales
+title: Métricas globales
 parent: Métricas
 nav_order: 2
 ---

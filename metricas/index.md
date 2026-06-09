@@ -12,5 +12,5 @@ En esta sección documentamos los gráficos y el análisis de rendimiento de nue
 
 ## Historial de Métricas
 
-* [Métricas Globales](globales.html)
-* [Métricas del Primer MVP (Sprint 1 a 10: 07/06/2026 al 13/08/2026)](mvp1.html)
+* [Métricas globales](globales.html)
+* [Métricas del primer MVP (Sprint 1 a 10: 07/06/2026 al 13/08/2026)](mvp1.html)
