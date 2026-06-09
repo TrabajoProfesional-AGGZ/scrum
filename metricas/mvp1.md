@@ -14,6 +14,7 @@ nav_order: 2
 ## 📊 Métricas Grupales
 
 ### 1. Sprint Burndown Histórico (Evolución sobre el Total)
+
 Muestra cuántos puntos de historia van quedando pendientes sobre el total planificado para el MVP a lo largo de los 10 sprints.
 
 <div>
@@ -21,6 +22,7 @@ Muestra cuántos puntos de historia van quedando pendientes sobre el total plani
 </div>
 
 ### 2. Release Burnup Chart
+
 Muestra la acumulación de puntos completados frente al alcance total trazado para este MVP.
 
 <div>
@@ -28,6 +30,7 @@ Muestra la acumulación de puntos completados frente al alcance total trazado pa
 </div>
 
 ### 3. Velocity Chart (Con desplazamiento lateral)
+
 Compara los puntos comprometidos vs. completados en cada iteración. Deslizá horizontalmente para ver el historial completo.
 
 <div style="width: 100%; overflow-x: auto; border: 1px solid #eee; padding: 10px; border-radius: 5px;">
@@ -45,6 +48,7 @@ Seleccioná un integrante del equipo para evaluar la evolución de su rendimient
   <option value="lautaro">Lautaro</option>
   <option value="martin">Martín</option>
   <option value="felipe">Felipe</option>
+  <option value="equipo">Equipo Conjunto</option>
 </select>
 
 ### Rendimiento e Historias del Integrante
@@ -55,58 +59,98 @@ Seleccioná un integrante del equipo para evaluar la evolución de su rendimient
 </div>
 
 <script>
-  // ---- 1. CONFIGURACIÓN DE GRÁFICOS GRUPALES (MOCK DATA EJEMPLO) ----
-  const labelsSprints = ['Sprint 1', 'Sprint 2', 'Sprint 3', 'Sprint 4', 'Sprint 5', 'Sprint 6', 'Sprint 7', 'Sprint 8', 'Sprint 9', 'Sprint 10'];
+  // 1. OBTENCIÓN DINÁMICA DE DATOS DESDE YAML (Vía Jekyll Liquid)
+  const tareasData = {{ site.data.mvp1 | jsonify }};
+  const NUM_SPRINTS = 10;
+  const labelsSprints = Array.from({length: NUM_SPRINTS}, (_, i) => `Sprint ${i + 1}`);
 
-  // Burndown total del MVP
+  // 2. ESTRUCTURAS DE PROCESAMIENTO
+  let alcanceTotal = 0;
+  let grupales = {
+    comprometidos: Array(NUM_SPRINTS).fill(0),
+    completados: Array(NUM_SPRINTS).fill(0)
+  };
+
+  const datosIndividuales = {
+    axel: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
+    lautaro: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
+    martin: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
+    felipe: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
+    equipo: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) }
+  };
+
+  // 3. MOTOR DE CÁLCULO
+  tareasData.forEach(tarea => {
+    alcanceTotal += tarea.puntos;
+    let r = tarea.responsable ? tarea.responsable.toLowerCase() : '';
+
+    // Asignar puntos comprometidos
+    if (tarea.sprint_planificado && tarea.sprint_planificado <= NUM_SPRINTS) {
+      let indiceS = tarea.sprint_planificado - 1;
+      grupales.comprometidos[indiceS] += tarea.puntos;
+      if (datosIndividuales[r]) {
+        datosIndividuales[r].comprometidos[indiceS] += tarea.puntos;
+      }
+    }
+
+    // Asignar puntos completados
+    if (tarea.sprint_completado && tarea.sprint_completado <= NUM_SPRINTS) {
+      let indiceC = tarea.sprint_completado - 1;
+      grupales.completados[indiceC] += tarea.puntos;
+      if (datosIndividuales[r]) {
+        datosIndividuales[r].completados[indiceC] += tarea.puntos;
+      }
+    }
+  });
+
+  // Cálculo de Burnup y Burndown
+  let burnupData = [];
+  let burndownData = [];
+  let scopeAcumulado = Array(NUM_SPRINTS).fill(alcanceTotal); // Linea plana del tope
+  let puntosAcumulados = 0;
+
+  for (let i = 0; i < NUM_SPRINTS; i++) {
+    puntosAcumulados += grupales.completados[i];
+    burnupData.push(puntosAcumulados);
+    burndownData.push(alcanceTotal - puntosAcumulados);
+  }
+
+  // 4. RENDERIZADO DE GRÁFICOS
   new Chart(document.getElementById('grupalesBurndown'), {
     type: 'line',
     data: {
       labels: labelsSprints,
-      datasets: [{ label: 'Puntos Restantes Real', data: [120, 105, 90, 78, 60, 45, 30, 22, 10, 0], borderColor: '#ff4d4d', tension: 0.1 }]
+      datasets: [{ label: 'Puntos Pendientes (Burndown)', data: burndownData, borderColor: '#ff4d4d', tension: 0.1 }]
     }
   });
 
-  // Burnup total del MVP
   new Chart(document.getElementById('grupalesBurnup'), {
     type: 'line',
     data: {
       labels: labelsSprints,
       datasets: [
-        { label: 'Puntos Completados', data: [0, 15, 30, 42, 60, 75, 90, 98, 110, 120], borderColor: '#2ecc71', fill: false },
-        { label: 'Alcance Total (Scope)', data: [120, 120, 120, 120, 120, 120, 120, 120, 120, 120], borderColor: '#34495e', borderDash: [5, 5] }
+        { label: 'Puntos Completados Acumulados', data: burnupData, borderColor: '#2ecc71', fill: false },
+        { label: 'Alcance Total (Scope)', data: scopeAcumulado, borderColor: '#34495e', borderDash: [5, 5] }
       ]
     }
   });
 
-  // Velocity con Scroll Lateral (20 columnas totales)
   new Chart(document.getElementById('grupalesVelocity'), {
     type: 'bar',
     data: {
       labels: labelsSprints,
       datasets: [
-        { label: 'Puntos Comprometidos', data: [15, 18, 12, 15, 20, 14, 16, 12, 15, 10], backgroundColor: '#3498db' },
-        { label: 'Puntos Completados', data: [12, 15, 12, 12, 18, 14, 15, 10, 15, 10], backgroundColor: '#2ecc71' }
+        { label: 'Puntos Comprometidos', data: grupales.comprometidos, backgroundColor: '#3498db' },
+        { label: 'Puntos Completados', data: grupales.completados, backgroundColor: '#2ecc71' }
       ]
     },
     options: { responsive: true, maintainAspectRatio: false }
   });
 
-
-  // ---- 2. LÓGICA DE MÉTRICAS INDIVIDUALES DINÁMICAS ----
-  const datosIndividuales = {
-    axel: { comprometidos: [5, 6, 4, 5, 6, 5, 6, 4, 5, 3], completados: [4, 5, 4, 4, 5, 5, 5, 4, 5, 3] },
-    lautaro: { comprometidos: [5, 6, 4, 5, 7, 4, 5, 4, 5, 3], completados: [4, 5, 4, 4, 6, 4, 5, 3, 5, 3] },
-    martin: { comprometidos: [5, 6, 4, 5, 7, 5, 5, 4, 5, 4], completados: [4, 5, 4, 4, 7, 5, 5, 3, 5, 4] },
-    felipe: { comprometidos: [3, 3, 3, 3, 4, 3, 4, 3, 3, 2], completados: [3, 3, 3, 3, 4, 3, 4, 3, 3, 2] } // Documentación / Tareas estables
-  };
-
-  let chartInd; // Variable global para controlar la instancia del gráfico individual
-
+  // 5. CONTROLADOR DEL GRÁFICO INDIVIDUAL
+  let chartInd;
   function renderizarGraficoIndividual(miembro) {
     const ctx = document.getElementById('chartIndividual').getContext('2d');
-    
-    // Si ya existe un gráfico previo renderizado, lo destruimos para que no se superpongan los datos antiguos
     if (chartInd) { chartInd.destroy(); }
 
     chartInd = new Chart(ctx, {
@@ -115,18 +159,16 @@ Seleccioná un integrante del equipo para evaluar la evolución de su rendimient
         labels: labelsSprints,
         datasets: [
           { label: 'Puntos Asignados', data: datosIndividuales[miembro].comprometidos, backgroundColor: '#9b59b6' },
-          { label: 'Puntos Resolvidos con Éxito', data: datosIndividuales[miembro].completados, backgroundColor: '#1abc9c' }
+          { label: 'Puntos Completados', data: datosIndividuales[miembro].completados, backgroundColor: '#1abc9c' }
         ]
       },
       options: { responsive: true, maintainAspectRatio: false }
     });
   }
 
-  // Escuchamos los cambios del selector
   document.getElementById('selectorMiembro').addEventListener('change', (e) => {
     renderizarGraficoIndividual(e.target.value);
   });
 
-  // Render inicial por defecto con Axel
-  renderizarGraficoIndividual('axel');
+  renderizarGraficoIndividual('axel'); // Iniciar con Axel
 </script>

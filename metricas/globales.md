@@ -42,9 +42,9 @@ Seleccioná un integrante del equipo para evaluar la evolución de su rendimient
 
 <select id="selectorMiembro" style="padding: 8px; font-size: 16px; border-radius: 5px; margin-bottom: 20px; cursor: pointer;">
   <option value="axel">Axel</option>
+  <option value="felipe">Felipe</option>
   <option value="lautaro">Lautaro</option>
   <option value="martin">Martín</option>
-  <option value="felipe">Felipe</option>
 </select>
 
 ### Rendimiento e Historias del Integrante

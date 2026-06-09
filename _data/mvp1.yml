@@ -1,0 +1,167 @@
+- id: "plataforma-web#1"
+  titulo: "HU-1.1 Login de Usuario Administrativo (Vista)"
+  responsable: "axel"
+  puntos: 1
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "gateway#1"
+  titulo: "HU-1.1 Login de Usuario Administrativ (Gateway)"
+  responsable: "lautaro"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "microservicio-autenticacion#1"
+  titulo: "HU-1.1 Login de Usuario Administrativ (Auth)"
+  responsable: "martin"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "plataforma-web#4"
+  titulo: "HU-1.2 Gestión de Roles y Permisos (Vista)"
+  responsable: "axel"
+  puntos: 1
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "gateway#4"
+  titulo: "HU-1.2 Gestión de Roles y Permisos (Gateway)"
+  responsable: "lautaro"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "microservicio-autenticacion#4"
+  titulo: "HU-1.2 Gestión de Roles y Permisos (Auth)"
+  responsable: "martin"
+  puntos: 1
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "microservicio-club#2"
+  titulo: "HU-1.2 Gestión de Roles y Permisos (Core)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "plataforma-web#2"
+  titulo: "HU-1.3 ABM de Usuarios Administrativos (Vista)"
+  responsable: "axel"
+  puntos: 1
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "gateway#2"
+  titulo: "HU-1.3 ABM de Usuarios Administrativos (Gateway)"
+  responsable: "lautaro"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "microservicio-autenticacion#2"
+  titulo: "HU-1.3 ABM de Usuarios Administrativos (Auth)"
+  responsable: "martin"
+  puntos: 1
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "microservicio-club#1"
+  titulo: "HU-1.3 ABM de Usuarios Administrativos (Core)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "plataforma-web#3"
+  titulo: "HU-2.1 ABM de Socios (Vista)"
+  responsable: "axel"
+  puntos: 1
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "gateway#3"
+  titulo: "HU-2.1 ABM de Socios (Gateway)"
+  responsable: "lautaro"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "microservicio-autenticacion#3"
+  titulo: "HU-2.1 ABM de Socios (Auth)"
+  responsable: "martin"
+  puntos: 1
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "microservicio-club#4"
+  titulo: "HU-2.1 ABM de Socios (Core)"
+  responsable: "axel"
+  puntos: 1
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "plataforma-web#5"
+  titulo: "HU-2.2 Consulta 360 del Socio (Vista)"
+  responsable: "axel"
+  puntos: 1
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "gateway#5"
+  titulo: "HU-2.2 Consulta 360 del Socio (Gateway)"
+  responsable: "lautaro"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "microservicio-autenticacion#5"
+  titulo: "HU-2.2 Consulta 360 del Socio (Auth)"
+  responsable: "martin"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "microservicio-club#3"
+  titulo: "HU-2.2 Consulta 360 del Socio (Core)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "doc#36"
+  titulo: "Redactar múltiples variantes de la presentación breve de 'SocioUnido'"
+  responsable: "felipe"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "doc#37"
+  titulo: "Crear primera versión de la presentación para la entrega intermedia"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "scrum#1"
+  titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°1"
+  responsable: "felipe"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "scrum#2"
+  titulo: "Definir la primer hoja de ruta para el MVP inicial"
+  responsable: "equipo"
+  puntos: 3
+  sprint_planificado: 1
+  sprint_completado: null
+
+- id: "bitacora#2"
+  titulo: "Hacer la bitácora de la semana 13"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 1
+  sprint_completado: null
