@@ -39,30 +39,65 @@ Compara los puntos comprometidos contra los puntos completados en cada iteració
   </div>
 </div>
 
-## 👤 Métricas individuales
+## 👤 Métricas individuales y Backlog de tareas
 
-Seleccioná un integrante del equipo para visualizar la distribución de sus tareas asignadas:
+Seleccioná un integrante (o el backlog sin asignar) para visualizar la distribución de sus tareas:
 
-<select id="selectorMiembro" style="padding: 8px; font-size: 16px; border-radius: 5px; margin-bottom: 20px; cursor: pointer;">
-  <option value="axel">Axel</option>
-  <option value="lautaro">Lautaro</option>
-  <option value="martin">Martín</option>
-  <option value="felipe">Felipe</option>
-  <option value="equipo">Equipo Conjunto</option>
-</select>
+*Nota: La opción **"Equipo conjunto"** permite visualizar las tareas que fueron realizadas explícitamente en forma coordinada por los 4 integrantes del equipo.*
 
-### Rendimiento e Historias del Integrante
+<div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
+  <select id="selectorMiembro" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+    <option value="axel">Axel</option>
+    <option value="lautaro">Lautaro</option>
+    <option value="martin">Martín</option>
+    <option value="felipe">Felipe</option>
+    <option value="equipo">Equipo conjunto</option>
+    <option value="a designar">A designar</option>
+  </select>
+</div>
 
-<div style="width: 100%; overflow-x: auto; border: 1px solid #eee; padding: 10px; border-radius: 5px;">
+### Rendimiento General del Integrante
+
+<div style="width: 100%; overflow-x: auto; border: 1px solid #eee; padding: 10px; border-radius: 5px; margin-bottom: 30px;">
   <div style="width: 1000px; height: 300px;">
     <canvas id="chartIndividual"></canvas>
   </div>
 </div>
 
+### Detalle de Tareas por Sprint
+
+Seleccioná un Sprint específico para ver qué tareas se le planificaron a este integrante y cuál es su estado actual:
+
+<div style="margin-bottom: 15px;">
+  <select id="selectorSprint" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+    <option value="1">Sprint 1</option>
+    <option value="2">Sprint 2</option>
+    <option value="3">Sprint 3</option>
+    <option value="4">Sprint 4</option>
+    <option value="5">Sprint 5</option>
+    <option value="6">Sprint 6</option>
+    <option value="7">Sprint 7</option>
+    <option value="8">Sprint 8</option>
+    <option value="9">Sprint 9</option>
+    <option value="10">Sprint 10</option>
+  </select>
+</div>
+
+<div id="listaTareasContenedor" style="background-color: #f8f9fa; border-left: 4px solid #7253ed; padding: 15px; border-radius: 4px;"></div>
+
+<script type="application/json" id="backlog-data">
+{% if site.data.backlog %}{{ site.data.backlog | jsonify }}{% else %}[]{% endif %}
+</script>
+
 <script markdown="0">
   (function() {
-    const rawData = {{ site.data.mvp1 | jsonify }};
-    const tareasData = rawData || [];
+    let tareasData = [];
+    try {
+      const jsonText = document.getElementById('backlog-data').textContent;
+      tareasData = JSON.parse(jsonText) || [];
+    } catch(e) {
+      console.error("Error cargando los datos de Jekyll:", e);
+    }
     const NUM_SPRINTS = 10;
     const labelsSprints = [];
     for (let i = 1; i <= NUM_SPRINTS; i++) {
@@ -78,25 +113,23 @@ Seleccioná un integrante del equipo para visualizar la distribución de sus tar
       lautaro: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
       martin: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
       felipe: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
-      equipo: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) }
+      equipo: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
+      "a designar": { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) }
     };
     if (tareasData.length > 0) {
       tareasData.forEach(function(tarea) {
         alcanceTotal += tarea.puntos;
-        let r = tarea.responsable ? tarea.responsable.toLowerCase() : '';
+        let r = tarea.responsable ? tarea.responsable.toLowerCase() : 'a designar';
+        if (!datosIndividuales[r]) r = 'a designar';
         if (tarea.sprint_planificado && tarea.sprint_planificado <= NUM_SPRINTS) {
           let indiceS = tarea.sprint_planificado - 1;
           grupales.comprometidos[indiceS] += tarea.puntos;
-          if (datosIndividuales[r]) {
-            datosIndividuales[r].comprometidos[indiceS] += tarea.puntos;
-          }
+          datosIndividuales[r].comprometidos[indiceS] += tarea.puntos;
         }
         if (tarea.sprint_completado && tarea.sprint_completado <= NUM_SPRINTS) {
           let indiceC = tarea.sprint_completado - 1;
           grupales.completados[indiceC] += tarea.puntos;
-          if (datosIndividuales[r]) {
-            datosIndividuales[r].completados[indiceC] += tarea.puntos;
-          }
+          datosIndividuales[r].completados[indiceC] += tarea.puntos;
         }
       });
     }
@@ -150,12 +183,40 @@ Seleccioná un integrante del equipo para visualizar la distribución de sus tar
             { label: 'Puntos Completados', data: datosIndividuales[miembro].completados, backgroundColor: '#1abc9c' }
           ]
         },
-        options: { responsive: true, maintainAspectRatio: false }
+        options: { responsive: true, maintainAspectRatio: false, scales: { y: { beginAtZero: true } } }
       });
+    }
+    function actualizarListaTareas() {
+      const miembro = document.getElementById('selectorMiembro').value;
+      const sprintActual = parseInt(document.getElementById('selectorSprint').value);
+      const contenedor = document.getElementById('listaTareasContenedor');
+      const tareasDelSprint = tareasData.filter(function(t) {
+        let resp = t.responsable ? t.responsable.toLowerCase() : 'a designar';
+        if (!datosIndividuales[resp]) resp = 'a designar';
+        return resp === miembro && t.sprint_planificado === sprintActual;
+      });
+      if (tareasDelSprint.length === 0) {
+        contenedor.innerHTML = '<p style="margin:0; color:#555;">No hay tareas asignadas para este integrante en el Sprint seleccionado.</p>';
+        return;
+      }
+      let html = '<ul style="margin: 0; padding-left: 20px;">';
+      tareasDelSprint.forEach(function(t) {
+        const estaCompletada = (t.sprint_completado !== null);
+        const icono = estaCompletada ? '✅' : '⏳';
+        let detalleEstado = estaCompletada ? `<span style="color: #2ecc71; font-weight: bold;">(Completada en Sprint ${t.sprint_completado})</span>` : `<span style="color: #e67e22; font-weight: bold;">(Pendiente)</span>`;
+        html += `<li style="margin-bottom: 8px;"><strong>${icono} ${t.titulo}</strong> <br><span style="font-size: 0.9em; color: #666;">ID: <code>${t.id}</code> | Esfuerzo: <strong>${t.puntos} pts</strong> | Estado: ${detalleEstado}</span></li>`;
+      });
+      html += '</ul>';
+      contenedor.innerHTML = html;
     }
     document.getElementById('selectorMiembro').addEventListener('change', function(e) {
       renderizarGraficoIndividual(e.target.value);
+      actualizarListaTareas();
+    });
+    document.getElementById('selectorSprint').addEventListener('change', function() {
+      actualizarListaTareas();
     });
     renderizarGraficoIndividual('axel');
+    actualizarListaTareas();
   })();
 </script>
