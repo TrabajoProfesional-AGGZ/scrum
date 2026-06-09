@@ -1,0 +1,11 @@
+# Directorio de compilación de Jekyll
+_site/
+
+# Cachés de Jekyll
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Dependencias de Ruby (si en algún momento se instalan localmente en el repo)
+vendor/
+.bundle/
