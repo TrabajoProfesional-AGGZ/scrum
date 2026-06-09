@@ -41,7 +41,7 @@ Compara los puntos comprometidos contra los puntos completados en cada iteració
 
 ## 👤 Métricas individuales y Backlog de tareas
 
-Seleccioná un integrante (o el backlog sin asignar) para visualizar la distribución de sus tareas:
+Seleccioná un integrante para visualizar la distribución de sus tareas:
 
 *Nota: La opción **"Equipo conjunto"** permite visualizar las tareas que fueron realizadas explícitamente en forma coordinada por los 4 integrantes del equipo.*
 
@@ -52,7 +52,6 @@ Seleccioná un integrante (o el backlog sin asignar) para visualizar la distribu
     <option value="martin">Martín</option>
     <option value="felipe">Felipe</option>
     <option value="equipo">Equipo conjunto</option>
-    <option value="a designar">A designar</option>
   </select>
 </div>
 
