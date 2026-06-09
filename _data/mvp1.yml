@@ -159,6 +159,13 @@
   sprint_planificado: 1
   sprint_completado: null
 
+- id: "scrum#3"
+  titulo: "Crear la página web documental de 'Scrum' y 'Hoja de ruta'"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 1
+  sprint_completado: null
+
 - id: "bitacora#2"
   titulo: "Hacer la bitácora de la semana 13"
   responsable: "felipe"

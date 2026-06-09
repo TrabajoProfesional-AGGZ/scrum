@@ -36,7 +36,7 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 <summary><strong>Épica 1: Accesos y Seguridad</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
 <details markdown="1">
-<summary><strong>HU-1.1 Login de Usuario Administrativo #6</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
+<summary><strong>HU-1.1 Login de Usuario Administrativo `documentacion#6`</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
 **Criterios de aceptación:**
 
@@ -58,7 +58,7 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 </details>
 
 <details markdown="1">
-<summary><strong>HU-1.2 Gestión de Roles y Permisos #7</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
+<summary><strong>HU-1.2 Gestión de Roles y Permisos `documentacion#7`</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
 **Criterios de aceptación:**
 
@@ -83,7 +83,7 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 </details>
 
 <details markdown="1">
-<summary><strong>HU-1.3 ABM de Usuarios Administrativos #8</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
+<summary><strong>HU-1.3 ABM de Usuarios Administrativos `documentacion#8`</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
 **Criterios de aceptación:**
 
@@ -113,7 +113,7 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 <summary><strong>Épica 2: Gestión Societaria</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
 <details markdown="1">
-<summary><strong>HU-2.1 ABM de Socios #9</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
+<summary><strong>HU-2.1 ABM de Socios `documentacion#9`</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
 **Criterios de aceptación:**
 
@@ -138,7 +138,7 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 </details>
 
 <details markdown="1">
-<summary><strong>HU-2.2 Consulta 360 del Socio #10</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
+<summary><strong>HU-2.2 Consulta 360 del Socio `documentacion#10`</strong> - <em>Responsable/s: Axel, Lautaro y Martín</em></summary>
 
 **Criterios de aceptación:**
 
@@ -195,6 +195,12 @@ Se definió trabajar sobre todas las historias de usuario correspondientes a las
 
 * Prioridad: Urgente.
 * Esfuerzo: Medio (3 puntos).
+
+<details markdown="1">
+<summary><strong>scrum #3</strong>: Crear la página web documental de 'Scrum' y 'Hoja de ruta' - <em>Responsable: Felipe</em></summary>
+
+* Prioridad: Alta.
+* Esfuerzo: Alto (5 puntos).
 
 </details>
 
