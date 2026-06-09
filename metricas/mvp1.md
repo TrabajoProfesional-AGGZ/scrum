@@ -14,7 +14,6 @@ nav_order: 2
 ## 📊 Métricas Grupales
 
 ### 1. Sprint Burndown Histórico (Evolución sobre el Total)
-
 Muestra cuántos puntos de historia van quedando pendientes sobre el total planificado para el MVP a lo largo de los 10 sprints.
 
 <div>
@@ -22,7 +21,6 @@ Muestra cuántos puntos de historia van quedando pendientes sobre el total plani
 </div>
 
 ### 2. Release Burnup Chart
-
 Muestra la acumulación de puntos completados frente al alcance total trazado para este MVP.
 
 <div>
@@ -30,7 +28,6 @@ Muestra la acumulación de puntos completados frente al alcance total trazado pa
 </div>
 
 ### 3. Velocity Chart (Con desplazamiento lateral)
-
 Compara los puntos comprometidos vs. completados en cada iteración. Deslizá horizontalmente para ver el historial completo.
 
 <div style="width: 100%; overflow-x: auto; border: 1px solid #eee; padding: 10px; border-radius: 5px;">
@@ -58,117 +55,103 @@ Seleccioná un integrante del equipo para evaluar la evolución de su rendimient
   </div>
 </div>
 
-<script>
-  // 1. OBTENCIÓN DINÁMICA DE DATOS DESDE YAML (Vía Jekyll Liquid)
-  const tareasData = {{ site.data.mvp1 | jsonify }};
-  const NUM_SPRINTS = 10;
-  const labelsSprints = Array.from({length: NUM_SPRINTS}, (_, i) => `Sprint ${i + 1}`);
-
-  // 2. ESTRUCTURAS DE PROCESAMIENTO
-  let alcanceTotal = 0;
-  let grupales = {
-    comprometidos: Array(NUM_SPRINTS).fill(0),
-    completados: Array(NUM_SPRINTS).fill(0)
-  };
-
-  const datosIndividuales = {
-    axel: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
-    lautaro: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
-    martin: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
-    felipe: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
-    equipo: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) }
-  };
-
-  // 3. MOTOR DE CÁLCULO
-  tareasData.forEach(tarea => {
-    alcanceTotal += tarea.puntos;
-    let r = tarea.responsable ? tarea.responsable.toLowerCase() : '';
-
-    // Asignar puntos comprometidos
-    if (tarea.sprint_planificado && tarea.sprint_planificado <= NUM_SPRINTS) {
-      let indiceS = tarea.sprint_planificado - 1;
-      grupales.comprometidos[indiceS] += tarea.puntos;
-      if (datosIndividuales[r]) {
-        datosIndividuales[r].comprometidos[indiceS] += tarea.puntos;
+<script markdown="0">
+  (function() {
+    const rawData = {{ site.data.mvp1 | jsonify }};
+    const tareasData = rawData || [];
+    const NUM_SPRINTS = 10;
+    const labelsSprints = [];
+    for (let i = 1; i <= NUM_SPRINTS; i++) {
+      labelsSprints.push("Sprint " + i);
+    }
+    let alcanceTotal = 0;
+    let grupales = {
+      comprometidos: Array(NUM_SPRINTS).fill(0),
+      completados: Array(NUM_SPRINTS).fill(0)
+    };
+    const datosIndividuales = {
+      axel: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
+      lautaro: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
+      martin: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
+      felipe: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) },
+      equipo: { comprometidos: Array(NUM_SPRINTS).fill(0), completados: Array(NUM_SPRINTS).fill(0) }
+    };
+    if (tareasData.length > 0) {
+      tareasData.forEach(function(tarea) {
+        alcanceTotal += tarea.puntos;
+        let r = tarea.responsable ? tarea.responsable.toLowerCase() : '';
+        if (tarea.sprint_planificado && tarea.sprint_planificado <= NUM_SPRINTS) {
+          let indiceS = tarea.sprint_planificado - 1;
+          grupales.comprometidos[indiceS] += tarea.puntos;
+          if (datosIndividuales[r]) {
+            datosIndividuales[r].comprometidos[indiceS] += tarea.puntos;
+          }
+        }
+        if (tarea.sprint_completado && tarea.sprint_completado <= NUM_SPRINTS) {
+          let indiceC = tarea.sprint_completado - 1;
+          grupales.completados[indiceC] += tarea.puntos;
+          if (datosIndividuales[r]) {
+            datosIndividuales[r].completados[indiceC] += tarea.puntos;
+          }
+        }
+      });
+    }
+    let burnupData = [];
+    let burndownData = [];
+    let scopeAcumulado = Array(NUM_SPRINTS).fill(alcanceTotal);
+    let puntosAcumulados = 0;
+    for (let i = 0; i < NUM_SPRINTS; i++) {
+      puntosAcumulados += grupales.completados[i];
+      burnupData.push(puntosAcumulados);
+      burndownData.push(alcanceTotal - puntosAcumulados);
+    }
+    new Chart(document.getElementById('grupalesBurndown'), {
+      type: 'line',
+      data: {
+        labels: labelsSprints,
+        datasets: [{ label: 'Puntos Pendientes (Burndown)', data: burndownData, borderColor: '#ff4d4d', tension: 0.1 }]
       }
-    }
-
-    // Asignar puntos completados
-    if (tarea.sprint_completado && tarea.sprint_completado <= NUM_SPRINTS) {
-      let indiceC = tarea.sprint_completado - 1;
-      grupales.completados[indiceC] += tarea.puntos;
-      if (datosIndividuales[r]) {
-        datosIndividuales[r].completados[indiceC] += tarea.puntos;
+    });
+    new Chart(document.getElementById('grupalesBurnup'), {
+      type: 'line',
+      data: {
+        labels: labelsSprints,
+        datasets: [
+          { label: 'Puntos Completados Acumulados', data: burnupData, borderColor: '#2ecc71', fill: false },
+          { label: 'Alcance Total (Scope)', data: scopeAcumulado, borderColor: '#34495e', borderDash: [5, 5] }
+        ]
       }
-    }
-  });
-
-  // Cálculo de Burnup y Burndown
-  let burnupData = [];
-  let burndownData = [];
-  let scopeAcumulado = Array(NUM_SPRINTS).fill(alcanceTotal); // Linea plana del tope
-  let puntosAcumulados = 0;
-
-  for (let i = 0; i < NUM_SPRINTS; i++) {
-    puntosAcumulados += grupales.completados[i];
-    burnupData.push(puntosAcumulados);
-    burndownData.push(alcanceTotal - puntosAcumulados);
-  }
-
-  // 4. RENDERIZADO DE GRÁFICOS
-  new Chart(document.getElementById('grupalesBurndown'), {
-    type: 'line',
-    data: {
-      labels: labelsSprints,
-      datasets: [{ label: 'Puntos Pendientes (Burndown)', data: burndownData, borderColor: '#ff4d4d', tension: 0.1 }]
-    }
-  });
-
-  new Chart(document.getElementById('grupalesBurnup'), {
-    type: 'line',
-    data: {
-      labels: labelsSprints,
-      datasets: [
-        { label: 'Puntos Completados Acumulados', data: burnupData, borderColor: '#2ecc71', fill: false },
-        { label: 'Alcance Total (Scope)', data: scopeAcumulado, borderColor: '#34495e', borderDash: [5, 5] }
-      ]
-    }
-  });
-
-  new Chart(document.getElementById('grupalesVelocity'), {
-    type: 'bar',
-    data: {
-      labels: labelsSprints,
-      datasets: [
-        { label: 'Puntos Comprometidos', data: grupales.comprometidos, backgroundColor: '#3498db' },
-        { label: 'Puntos Completados', data: grupales.completados, backgroundColor: '#2ecc71' }
-      ]
-    },
-    options: { responsive: true, maintainAspectRatio: false }
-  });
-
-  // 5. CONTROLADOR DEL GRÁFICO INDIVIDUAL
-  let chartInd;
-  function renderizarGraficoIndividual(miembro) {
-    const ctx = document.getElementById('chartIndividual').getContext('2d');
-    if (chartInd) { chartInd.destroy(); }
-
-    chartInd = new Chart(ctx, {
+    });
+    new Chart(document.getElementById('grupalesVelocity'), {
       type: 'bar',
       data: {
         labels: labelsSprints,
         datasets: [
-          { label: 'Puntos Asignados', data: datosIndividuales[miembro].comprometidos, backgroundColor: '#9b59b6' },
-          { label: 'Puntos Completados', data: datosIndividuales[miembro].completados, backgroundColor: '#1abc9c' }
+          { label: 'Puntos Comprometidos', data: grupales.comprometidos, backgroundColor: '#3498db' },
+          { label: 'Puntos Completados', data: grupales.completados, backgroundColor: '#2ecc71' }
         ]
       },
       options: { responsive: true, maintainAspectRatio: false }
     });
-  }
-
-  document.getElementById('selectorMiembro').addEventListener('change', (e) => {
-    renderizarGraficoIndividual(e.target.value);
-  });
-
-  renderizarGraficoIndividual('axel'); // Iniciar con Axel
+    let chartInd;
+    function renderizarGraficoIndividual(miembro) {
+      const ctx = document.getElementById('chartIndividual').getContext('2d');
+      if (chartInd) { chartInd.destroy(); }
+      chartInd = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labelsSprints,
+          datasets: [
+            { label: 'Puntos Asignados', data: datosIndividuales[miembro].comprometidos, backgroundColor: '#9b59b6' },
+            { label: 'Puntos Completados', data: datosIndividuales[miembro].completados, backgroundColor: '#1abc9c' }
+          ]
+        },
+        options: { responsive: true, maintainAspectRatio: false }
+      });
+    }
+    document.getElementById('selectorMiembro').addEventListener('change', function(e) {
+      renderizarGraficoIndividual(e.target.value);
+    });
+    renderizarGraficoIndividual('axel');
+  })();
 </script>
