@@ -28,3 +28,4 @@ Aquí llevaremos el registro histórico de cada ciclo de desarrollo:
 * 🔍 **[Sprint Review](sprint-review/):** El resumen de lo que se logró construir, mostrar y validar al final de cada ciclo.
 * 🔄 **[Retrospectiva del Sprint](retrospectiva/):** Nuestro espacio de mejora continua, analizando qué salió bien, qué salió mal y qué acciones tomaremos para el próximo Sprint.
 * 📊 **[Métricas](metricas/):** Gráficos y análisis de rendimiento, donde documentamos la evolución de los Sprints para medir la velocidad y eficiencia del equipo.
+* 🗂️ **[Backlog](backlog/):** Inventario centralizado de Historias de Usuario y tareas del desarrollo, clasificadas por Sprint y categorizadas por Épica.
