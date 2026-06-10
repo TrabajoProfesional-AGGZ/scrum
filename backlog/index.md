@@ -6,10 +6,11 @@ has_children: true
 has_toc: false
 ---
 
-# Backlog General del Producto
+# Backlog
 
-En esta sección se encuentra la centralización absoluta de los requerimientos, Historias de Usuario y tareas técnicas planificadas para el desarrollo de la plataforma. La ventaja de este espacio es la transparencia sobre las prioridades técnicas del equipo.
+En esta sección se encuentra la centralización absoluta de los requerimientos, Épicas, Historias de Usuario, tareas técnicas y documentales planificadas para el desarrollo del producto "SocioUnido".
 
 ## Sprints y Entregas
 
+* [Backlog global](globales.html)
 * [Backlog del primer MVP (Sprint 1 a 10)](mvp1.html)

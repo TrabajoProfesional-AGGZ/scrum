@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Backlog del primer MVP
+title: Backlog global
 parent: Backlog
-nav_order: 2
+nav_order: 1
 ---
 
-# Backlog del primer MVP (Sprint 1 a 10)
+# Backlog global del proyecto
 
-A continuación se detalla el árbol de tareas planificadas para el ciclo inicial (Sprints 1 al 10), agrupadas dinámicamente según su Épica o naturaleza técnica.
+A continuación se detalla el árbol de todas las tareas e historias de usuario planificadas para el ciclo de vida completo del proyecto, agrupadas dinámicamente según su Épica o naturaleza técnica.
 
 <div id="arbolBacklogContenedor"></div>
 
@@ -25,12 +25,9 @@ A continuación se detalla el árbol de tareas planificadas para el ciclo inicia
     }
     const contenedor = document.getElementById('arbolBacklogContenedor');
     let htmlTotal = '';
-    const tareasFiltradas = tareasData.filter(function(t) {
-      return t.sprint_planificado && t.sprint_planificado >= 1 && t.sprint_planificado <= 10;
-    });
-    if (tareasFiltradas.length > 0) {
+    if (tareasData.length > 0) {
       let mapaCategorias = {};
-      tareasFiltradas.forEach(function(t) {
+      tareasData.forEach(function(t) {
         let cat = t.categoria || "Otras Tareas";
         if (!mapaCategorias[cat]) {
           mapaCategorias[cat] = [];
@@ -57,13 +54,14 @@ A continuación se detalla el árbol de tareas planificadas para el ciclo inicia
           const icono = completada ? '✅' : '⏳';
           const badge = completada ? `<span style="color:#2ecc71; font-weight:bold;">[Hecho]</span>` : `<span style="color:#e67e22; font-weight:bold;">[Pendiente]</span>`;
           let resp = tarea.responsable ? tarea.responsable.charAt(0).toUpperCase() + tarea.responsable.slice(1) : 'A definir';
-          htmlTotal += `<li style="margin-bottom:8px;">${icono} <strong>${tarea.titulo}</strong> ${badge}<br><span style="font-size:0.85em; color:#666;">ID: <code>${tarea.id}</code> | Puntos: <strong>${tarea.puntos} pts</strong> | Planificado: <strong>Sprint ${tarea.sprint_planificado}</strong> | Asignado: <em>${resp}</em></span></li>`;
+          let planificadoStr = tarea.sprint_planificado ? "Sprint " + tarea.sprint_planificado : "Sin planificar";
+          htmlTotal += `<li style="margin-bottom:8px;">${icono} <strong>${tarea.titulo}</strong> ${badge}<br><span style="font-size:0.85em; color:#666;">ID: <code>${tarea.id}</code> | Puntos: <strong>${tarea.puntos} pts</strong> | Planificado: <strong>${planificadoStr}</strong> | Asignado: <em>${resp}</em></span></li>`;
         });
         htmlTotal += `</ul></div></details>`;
       });
     }
     if (htmlTotal === '') {
-      contenedor.innerHTML = '<p>No se registran tareas cargadas para el MVP actual.</p>';
+      contenedor.innerHTML = '<p>No se registran tareas cargadas en el backlog general.</p>';
     } else {
       contenedor.innerHTML = htmlTotal;
     }
