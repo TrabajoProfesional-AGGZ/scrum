@@ -206,6 +206,14 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
+- id: "documentacion#39"
+  titulo: "Crear la página 'JustTheDocs' asociada al repositorio"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 1
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
 - id: "plataforma-web#13"
   titulo: "Deploy del frontend en Vercel"
   responsable: "axel"
