@@ -209,7 +209,7 @@
 - id: "documentacion#39"
   titulo: "Crear la página 'JustTheDocs' asociada al repositorio"
   responsable: "felipe"
-  puntos: 1
+  puntos: 3
   sprint_planificado: 1
   sprint_completado: null
   categoria: "Tareas de documentación"
