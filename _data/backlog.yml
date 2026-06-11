@@ -3,7 +3,7 @@
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "gateway#1"
@@ -11,7 +11,7 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "microservicio-autenticacion#1"
@@ -19,7 +19,7 @@
   responsable: "martin"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "plataforma-web#4"
@@ -27,7 +27,7 @@
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "gateway#4"
@@ -35,15 +35,15 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "microservicio-autenticacion#4"
   titulo: "HU-1.2 Gestión de Roles y Permisos (Auth)"
   responsable: "martin"
-  puntos: 1
+  puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "microservicio-club#2"
@@ -51,7 +51,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "plataforma-web#2"
@@ -59,7 +59,7 @@
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "gateway#2"
@@ -67,15 +67,15 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "microservicio-autenticacion#2"
   titulo: "HU-1.3 ABM de Usuarios Administrativos (Auth)"
   responsable: "martin"
-  puntos: 1
+  puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "microservicio-club#1"
@@ -83,7 +83,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "plataforma-web#3"
@@ -91,7 +91,7 @@
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "gateway#3"
@@ -99,15 +99,15 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "microservicio-autenticacion#3"
   titulo: "HU-2.1 ABM de Socios (Auth)"
   responsable: "martin"
-  puntos: 1
+  puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "microservicio-club#4"
@@ -115,7 +115,7 @@
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "plataforma-web#5"
@@ -123,7 +123,7 @@
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "gateway#5"
@@ -131,7 +131,7 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "microservicio-autenticacion#5"
@@ -139,7 +139,7 @@
   responsable: "martin"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "microservicio-club#3"
@@ -147,7 +147,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "documentacion#36"
@@ -155,7 +155,7 @@
   responsable: "felipe"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Tareas de presentación"
 
 - id: "documentacion#37"
@@ -163,7 +163,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Tareas de presentación"
 
 - id: "scrum#1"
@@ -171,7 +171,7 @@
   responsable: "felipe"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Tareas de documentación"
 
 - id: "scrum#2"
@@ -179,7 +179,7 @@
   responsable: "equipo"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Tareas de documentación"
 
 - id: "scrum#3"
@@ -187,7 +187,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Tareas de documentación"
 
 - id: "bitacora#2"
@@ -195,7 +195,7 @@
   responsable: "felipe"
   puntos: 1
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Tareas de documentación"
 
 - id: "documentacion#38"
@@ -203,7 +203,7 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Tareas de documentación"
 
 - id: "documentacion#39"
@@ -211,7 +211,7 @@
   responsable: "felipe"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Tareas de documentación"
 
 - id: "plataforma-web#13"
@@ -219,7 +219,7 @@
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Tareas de desarrollo"
 
 - id: "healthchecker#1"
@@ -227,7 +227,7 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Tareas de desarrollo"
 
 - id: "gateway#9"
@@ -235,7 +235,7 @@
   responsable: "lautaro"
   puntos: 1
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Tareas de desarrollo"
 
 - id: "gateway#10"
@@ -243,5 +243,5 @@
   responsable: "lautaro"
   puntos: 1
   sprint_planificado: 1
-  sprint_completado: null
+  sprint_completado: 1
   categoria: "Tareas de desarrollo"
