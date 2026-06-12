@@ -16,7 +16,7 @@ nav_order: 1
 
 ## 🔴 Qué podemos mejorar (Stop / Sad)
 
-* Debemos mejorar fuertemente las estimaciones iniciales, ya que el alcance se vio perjudicado por la falta de previsión de tareas relacionadas.
+* Debemos mejorar fuertemente las estimaciones iniciales, ya que si bien el alcance del sprint no fue perjudicado, el trabajo realizado resulto mucho mas grande que el pactado.
 
 ## 🟡 Ideas y Experimentos (Start / Mad)
 
@@ -24,5 +24,5 @@ nav_order: 1
 
 ## 🛠️ Action Items (Plan de Acción)
 
-* [ ] Implementar JustTheDocs en todos los microservicios restantes. (**Responsable:** Equipo)
-* [ ] Configurar pipelines de CI/CD y Code Coverage en todos los microservicios para potenciar el proceso de QA y documentación. (**Responsable:** Equipo)
+* [ ] Implementar JustTheDocs en todos los microservicios restantes. (**Responsable:** Felipe)
+* [ ] Configurar pipelines de CI/CD y Code Coverage en todos los microservicios para potenciar el proceso de QA y documentación. (**Responsables:** Axel, Laurato y Martín)

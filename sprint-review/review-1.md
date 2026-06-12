@@ -12,12 +12,12 @@ nav_order: 1
 ## 🎯 Evaluación del Sprint Goal
 
 * **Estado:** [Alcanzado ✅]
-* **Justificación:** Se logró establecer la estructura base y el equipo pudo sobreponerse a los problemas técnicos gracias al trabajo duro, a pesar de que surgieron múltiples tareas espontáneas que alteraron el alcance original del sprint.
+* **Justificación:** Se logró establecer la estructura base y el equipo pudo sobreponerse a los problemas técnicos gracias al trabajo duro, a pesar de que surgieron múltiples tareas espontáneas que alteraron el sprint.
 
 ## 🚀 Incremento del Producto (Done)
 
 * Se dejó preparada la arquitectura base para los repositorios.
-* Se implementó documentación pública utilizando JustTheDocs en todos los repositorios con resultados muy satisfactorios.
+* Se implementó documentación pública utilizando JustTheDocs en algunos repositorios con resultados muy satisfactorios.
 
 ## 🚧 Elementos no completados (Spillover)
 
