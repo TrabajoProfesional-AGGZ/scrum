@@ -48,7 +48,7 @@
 
 - id: "microservicio-club#2"
   titulo: "HU-1.2 Gestión de Roles y Permisos (Core)"
-  responsable: "lautaro"
+  responsable: "axel"
   puntos: 3
   sprint_planificado: 1
   sprint_completado: 1
@@ -80,7 +80,7 @@
 
 - id: "microservicio-club#1"
   titulo: "HU-1.3 ABM de Usuarios Administrativos (Core)"
-  responsable: "lautaro"
+  responsable: "axel"
   puntos: 3
   sprint_planificado: 1
   sprint_completado: 1
@@ -112,7 +112,7 @@
 
 - id: "microservicio-club#4"
   titulo: "HU-2.1 ABM de Socios (Core)"
-  responsable: "lautaro"
+  responsable: "axel"
   puntos: 1
   sprint_planificado: 1
   sprint_completado: 1
@@ -144,7 +144,7 @@
 
 - id: "microservicio-club#3"
   titulo: "HU-2.2 Consulta 360 del Socio (Core)"
-  responsable: "lautaro"
+  responsable: "axel"
   puntos: 3
   sprint_planificado: 1
   sprint_completado: 1
