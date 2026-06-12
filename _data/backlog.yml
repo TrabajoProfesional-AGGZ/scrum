@@ -518,6 +518,14 @@
   sprint_completado: null
   categoria: "Tareas de presentación"
 
+- id: "documentacion#43"
+  titulo: "Mejorar la presentación intermedia para la primera grabación"
+  responsable: "felipe"
+  puntos: 3
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de presentación"
+
 - id: "scrum#4"
   titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°2"
   responsable: "felipe"
