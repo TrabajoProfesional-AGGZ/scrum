@@ -294,6 +294,14 @@
   sprint_completado: null
   categoria: "Épica 3: Gestión Operativa"
 
+- id: "microservicio-club#25"
+  titulo: "Crear la estructura de la página documental"
+  responsable: "felipe"
+  puntos: 3
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
 - id: "microservicio-autenticacion#7"
   titulo: "Code Coverage"
   responsable: "martin"
@@ -333,6 +341,14 @@
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Épica 3: Gestión Operativa"
+
+- id: "microservicio-autenticacion#13"
+  titulo: "Crear la estructura de la página documental"
+  responsable: "felipe"
+  puntos: 3
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de documentación"
 
 - id: "gateway#16"
   titulo: "Gestion de reservas e instalaciones (gateway)"
@@ -374,6 +390,14 @@
   sprint_completado: null
   categoria: "Tareas de desarrollo"
 
+- id: "gateway#21"
+  titulo: "Crear la estructura de la página documental"
+  responsable: "felipe"
+  puntos: 3
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
 - id: "plataforma-web#22"
   titulo: "Code Coverage (Plataforma Web)"
   responsable: "axel"
@@ -414,6 +438,14 @@
   sprint_completado: null
   categoria: "Épica 3: Gestión Operativa"
 
+- id: "plataforma-web#32"
+  titulo: "Crear la estructura de la página documental"
+  responsable: "felipe"
+  puntos: 3
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
 - id: "healthchecker#2"
   titulo: "CI/CD"
   responsable: "felipe"
@@ -429,6 +461,54 @@
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de desarrollo"
+
+- id: "healthchecker#4"
+  titulo: "Crear la estructura de la página documental"
+  responsable: "felipe"
+  puntos: 3
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "aplicacion#1"
+  titulo: "Crear la estructura de la página documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "microservicio-analiticas#1"
+  titulo: "Crear la estructura de la página documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "microservicio-bot-conversacional#1"
+  titulo: "Crear la estructura de la página documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "microservicio-pagos#1"
+  titulo: "Crear la estructura de la página documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "microservicio-acceso#1"
+  titulo: "Crear la estructura de la página documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de documentación"
 
 - id: "documentacion#42"
   titulo: "Hacer la primera versión del video de entrega intermedia"
