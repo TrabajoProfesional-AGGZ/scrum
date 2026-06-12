@@ -7,28 +7,27 @@ nav_order: 1
 
 # Sprint Review N°1
 
-**Fecha:** Domingo 07/07/2026
+**Fecha:** Jueves 11/06/2026
 
 ## 🎯 Evaluación del Sprint Goal
 
-* **Estado:** [Alcanzado ✅ / Alcanzado Parcialmente ⚠️ / No Alcanzado ❌]
-* **Justificación:** *(Breve explicación de por qué se logró o qué factor impidió alcanzarlo).*
+* **Estado:** [Alcanzado ✅]
+* **Justificación:** Se logró establecer la estructura base y el equipo pudo sobreponerse a los problemas técnicos gracias al trabajo duro, a pesar de que surgieron múltiples tareas espontáneas que alteraron el alcance original del sprint.
 
 ## 🚀 Incremento del Producto (Done)
 
-*(Lista de las funcionalidades reales, terminadas y funcionales que se demostraron).*
-* Se implementó el login con JWT.
-* Se desplegó la base de datos en el entorno de desarrollo.
+* Se dejó preparada la arquitectura base para los repositorios.
+* Se implementó documentación pública utilizando JustTheDocs en todos los repositorios con resultados muy satisfactorios.
 
 ## 🚧 Elementos no completados (Spillover)
 
-*(Tareas del Sprint Backlog que no se terminaron. Estas vuelven al Backlog general o pasan directamente al Sprint 2).*
-* `[#15] Nombre de la tarea` - **Motivo:** Subestimación de la complejidad técnica.
+* Debido a las tareas espontáneas y los desajustes en las estimaciones iniciales, algunas subtareas específicas debieron reorganizarse, aunque el grueso del objetivo principal fue superado.
 
 ## 🗣️ Feedback Recibido
 
-*(Anotaciones de los comentarios recibidos por los tutores en la reunión semanal de la cátedra respecto a lo que se mostró).*
+* **Estimaciones:** Es necesario mejorar la estimación de las tareas relacionadas en cada sprint. Durante este ciclo surgieron muchas tareas espontáneas que deformaron el scope planificado.
+* **Tecnologías:** Hubo comentarios muy positivos sobre las herramientas seleccionadas; puntualmente, la decisión de usar JustTheDocs público en todos los repositorios fue un acierto.
 
 ## 🔄 Ajustes al Roadmap / Backlog
 
-*(Nuevos tickets o historias de usuario creadas a partir del feedback recibido o cambios en la prioridad).*
+* Aún no hay ajustes formales en el roadmap, aunque no se descartan. Prontamente tendremos la entrega intermedia y es probable que necesitemos un poco más de espacio en el calendario para llegar con todos los requisitos.

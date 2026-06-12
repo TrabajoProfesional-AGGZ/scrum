@@ -13,3 +13,4 @@ Aquí documentaremos los objetivos trazados al inicio de cada Sprint, incluyendo
 ## Historial de Plannings
 
 * [Sprint Planning N°1 (Domingo 07/06/2026)](planning-1.html)
+* [Sprint Planning N°2 (Jueves 11/06/2026)](planning-2.html)

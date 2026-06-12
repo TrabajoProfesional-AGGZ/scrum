@@ -7,29 +7,22 @@ nav_order: 1
 
 # Retrospectiva N°1
 
-**Fecha:** Domingo 07/07/2026  
-**Dinámica utilizada:** Start, Stop, Continue *(Puedes variar con Mad/Sad/Glad, etc.)*
+**Fecha:** Jueves 11/06/2026
 
 ## 🟢 Qué salió bien (Continue / Glad)
 
-*(Prácticas, dinámicas de equipo, actitudes o herramientas que funcionaron de maravilla y queremos seguir haciendo).*
-* Cumplimos con los tiempos de revisión de Pull Requests.
-* La comunicación constante por el grupo suplió perfecto la falta de Dailys.
+* Pudimos anteponernos a los problemas y bloqueos con trabajo duro y una muy buena comunicación.
+* Hubo muchísimo compañerismo entre los miembros del equipo.
 
 ## 🔴 Qué podemos mejorar (Stop / Sad)
 
-*(Cosas que nos retrasaron, causaron frustración, cuellos de botella o malos entendidos. Lo que debemos dejar de hacer).*
-* Comenzar a programar sin tener los lineamientos de UI completamente definidos.
-* Subestimar las tareas de configuración de infraestructura.
+* Debemos mejorar fuertemente las estimaciones iniciales, ya que el alcance se vio perjudicado por la falta de previsión de tareas relacionadas.
 
 ## 🟡 Ideas y Experimentos (Start / Mad)
 
-*(Nuevas prácticas que queremos probar en el próximo Sprint para intentar solucionar los problemas mencionados arriba).*
-* Hacer Pair Programming para las configuraciones iniciales de la base de datos.
-* Exigir que cada ticket tenga Criterios de Aceptación claros antes de pasarlo al Sprint.
+* Probar documentar absolutamente todos los repositorios con JustTheDocs para unificar y hacer mejores vistas, motivados por los buenos resultados que ya se vieron en este primer sprint.
 
 ## 🛠️ Action Items (Plan de Acción)
 
-*(Toda retrospectiva debe generar acciones concretas para el próximo Sprint. Tareas claras con un responsable asignado).*
-* [ ] Definir plantilla obligatoria para la creación de issues en GitHub. (**Responsable:** Axel)
-* [ ] Revisar mockups de la Fase 1 antes del próximo Planning. (**Responsable:** Felipe)
+* [ ] Implementar JustTheDocs en todos los microservicios restantes. (**Responsable:** Equipo)
+* [ ] Configurar pipelines de CI/CD y Code Coverage en todos los microservicios para potenciar el proceso de QA y documentación. (**Responsable:** Equipo)

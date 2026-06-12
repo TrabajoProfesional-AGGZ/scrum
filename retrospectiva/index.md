@@ -10,6 +10,8 @@ has_toc: false
 
 Espacio de análisis del equipo para la mejora continua. Registramos qué prácticas funcionaron, cuáles debemos dejar de hacer y qué experimentos probaremos en el siguiente Sprint.
 
+**Dinámica utilizada:** Start, Stop, Continue
+
 ## Historial de Retrospectivas
 
-* [Retrospectiva N°1 (Domingo 07/07/2026)](retro-1.html)
+* [Retrospectiva N°1 (Jueves 11/07/2026)](retro-1.html)
