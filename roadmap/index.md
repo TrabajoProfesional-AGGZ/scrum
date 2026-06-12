@@ -51,3 +51,10 @@ Integración de herramientas avanzadas para optimizar la carga de soporte del cl
   * Testeo integral (End-to-End) de toda la plataforma web y la aplicación móvil.
   * Corrección de bugs y refinamiento general de la interfaz y la experiencia de usuario (UX/UI).
   * Retrospectiva final del MVP, análisis de resultados y planificación de mejoras para futuras iteraciones.
+
+### Ideas futuras para el segundo MVP
+
+Durante el desarrollo de este primer MVP, se fueron identificando nuevas oportunidades de mejora y funcionalidades adicionales que podrían ser incorporadas en un segundo MVP, como:
+
+- Rol de profesor/entrenador dentro de la plataforma web, quien puede gestionar sus propias clases, horarios y alumnos.
+- Integración de un sistema de reservas para eventos especiales o torneos organizados por el club
