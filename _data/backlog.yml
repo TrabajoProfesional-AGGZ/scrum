@@ -462,6 +462,14 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
+- id: ".github#2"
+  titulo: "Desarrollo de la página web principal de 'SocioUnido'"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
 # ===================
 # INICIO DEL SPRINT 3
 # ===================
