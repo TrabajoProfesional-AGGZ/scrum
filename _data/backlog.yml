@@ -448,7 +448,7 @@
 
 - id: "healthchecker#2"
   titulo: "CI/CD"
-  responsable: "felipe"
+  responsable: "martin"
   puntos: 3
   sprint_planificado: 2
   sprint_completado: null
@@ -456,7 +456,7 @@
 
 - id: "healthchecker#3"
   titulo: "Code Coverage"
-  responsable: "felipe"
+  responsable: "martin"
   puntos: 5
   sprint_planificado: 2
   sprint_completado: null
