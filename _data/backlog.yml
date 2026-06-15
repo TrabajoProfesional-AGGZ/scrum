@@ -297,7 +297,7 @@
 - id: "microservicio-club#25"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
@@ -345,7 +345,7 @@
 - id: "microservicio-autenticacion#13"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
@@ -393,7 +393,7 @@
 - id: "gateway#21"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
@@ -441,7 +441,7 @@
 - id: "plataforma-web#32"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
@@ -465,7 +465,7 @@
 - id: "healthchecker#4"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
@@ -473,7 +473,7 @@
 - id: "aplicacion#1"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
-  puntos: 1
+  puntos: 3
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
@@ -481,7 +481,7 @@
 - id: "microservicio-analiticas#1"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
-  puntos: 1
+  puntos: 3
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
@@ -489,7 +489,7 @@
 - id: "microservicio-bot-conversacional#1"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
-  puntos: 1
+  puntos: 3
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
@@ -497,7 +497,7 @@
 - id: "microservicio-pagos#1"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
-  puntos: 1
+  puntos: 3
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
@@ -505,7 +505,7 @@
 - id: "microservicio-acceso#1"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
-  puntos: 1
+  puntos: 3
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
