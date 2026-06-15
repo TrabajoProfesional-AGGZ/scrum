@@ -2,7 +2,7 @@
 layout: default
 title: Inicio
 nav_order: 1
-description: "Página principal de la gestión ágil del proyecto SocioUnido."
+description: "Página principal de la gestión ágil del proyecto SocioUnido"
 ---
 
 # Gestión Ágil y Scrum - SocioUnido
