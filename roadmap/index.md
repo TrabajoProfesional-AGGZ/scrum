@@ -58,3 +58,4 @@ Durante el desarrollo de este primer MVP, se fueron identificando nuevas oportun
 
 - Rol de profesor/entrenador dentro de la plataforma web, quien puede gestionar sus propias clases, horarios y alumnos.
 - Integración de un sistema de reservas para eventos especiales o torneos organizados por el club
+- Sistema de notificaciones push.
