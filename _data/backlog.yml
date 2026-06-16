@@ -163,7 +163,7 @@
   categoria: "Tareas de presentación"
 
 - id: "documentacion#37"
-  titulo: "Crear primera versión de la presentación para la entrega intermedia"
+  titulo: "Preparar la estructura documental de la entrega intermedia"
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 1
@@ -519,8 +519,16 @@
   categoria: "Tareas de presentación"
 
 - id: "documentacion#43"
-  titulo: "Mejorar la presentación intermedia para la primera grabación"
-  responsable: "felipe"
+  titulo: "Hacer la presentación y guión para la primera grabación de la entrega intermedia"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de presentación"
+
+- id: "documentacion#44"
+  titulo: "Entregar el anteproyecto"
+  responsable: "equipo"
   puntos: 3
   sprint_planificado: 2
   sprint_completado: null
