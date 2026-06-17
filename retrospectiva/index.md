@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Retrospectiva del Sprint
+title: Retrospectiva del sprint
 nav_order: 5
 has_children: true
 has_toc: false
@@ -15,3 +15,4 @@ Espacio de análisis del equipo para la mejora continua. Registramos qué práct
 ## Historial de Retrospectivas
 
 * [Retrospectiva N°1 (Jueves 11/07/2026)](retro-1.html)
+* [Retrospectiva N°2 (Jueves 18/07/2026)](retro-2.html)

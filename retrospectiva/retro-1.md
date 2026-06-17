@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Retrospectiva N°1
-parent: Retrospectiva del Sprint
+parent: Retrospectiva del sprint
 nav_order: 1
 ---
 
@@ -18,11 +18,11 @@ nav_order: 1
 
 * Debemos mejorar fuertemente las estimaciones iniciales, ya que si bien el alcance del sprint no fue perjudicado, el trabajo realizado resulto mucho mas grande que el pactado.
 
-## 🟡 Ideas y Experimentos (Start / Mad)
+## 🟡 Ideas y experimentos (Start / Mad)
 
 * Probar documentar absolutamente todos los repositorios con JustTheDocs para unificar y hacer mejores vistas, motivados por los buenos resultados que ya se vieron en este primer sprint.
 
-## 🛠️ Action Items (Plan de Acción)
+## 🛠️ Action items (Plan de acción)
 
 * [ ] Implementar JustTheDocs en todos los microservicios restantes. (**Responsable:** Felipe)
 * [ ] Configurar pipelines de CI/CD y Code Coverage en todos los microservicios para potenciar el proceso de QA y documentación. (**Responsables:** Axel, Laurato y Martín)
