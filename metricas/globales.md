@@ -103,6 +103,8 @@ Seleccioná un Sprint específico para ver qué tareas se le planificaron a este
     for (let i = 1; i <= NUM_SPRINTS; i++) {
       labelsSprints.push("Sprint " + i);
     }
+
+    const labelsLineas = ["Sprint 0"].concat(labelsSprints);
     let alcanceTotal = 0;
     let grupales = {
       comprometidos: Array(NUM_SPRINTS).fill(0),
@@ -133,32 +135,39 @@ Seleccioná un Sprint específico para ver qué tareas se le planificaron a este
         }
       });
     }
-    let burnupData = [];
-    let burndownData = [];
-    let scopeAcumulado = Array(NUM_SPRINTS).fill(alcanceTotal);
+    
+    let burnupData = [0]; 
+    let burndownData = [alcanceTotal]; 
+    let scopeAcumulado = Array(NUM_SPRINTS + 1).fill(alcanceTotal);
     let puntosAcumulados = 0;
+    
     for (let i = 0; i < NUM_SPRINTS; i++) {
       puntosAcumulados += grupales.completados[i];
       burnupData.push(puntosAcumulados);
       burndownData.push(alcanceTotal - puntosAcumulados);
     }
+
     new Chart(document.getElementById('grupalesBurndown'), {
       type: 'line',
       data: {
-        labels: labelsSprints,
+        labels: labelsLineas,
         datasets: [{ label: 'Puntos Pendientes (Burndown)', data: burndownData, borderColor: '#ff4d4d', tension: 0.1 }]
-      }
+      },
+      options: { scales: { y: { beginAtZero: true } } }
     });
+
     new Chart(document.getElementById('grupalesBurnup'), {
       type: 'line',
       data: {
-        labels: labelsSprints,
+        labels: labelsLineas,
         datasets: [
           { label: 'Puntos Completados Acumulados', data: burnupData, borderColor: '#2ecc71', fill: false },
           { label: 'Alcance Total (Scope)', data: scopeAcumulado, borderColor: '#34495e', borderDash: [5, 5] }
         ]
-      }
+      },
+      options: { scales: { y: { beginAtZero: true } } }
     });
+
     new Chart(document.getElementById('grupalesVelocity'), {
       type: 'bar',
       data: {
@@ -170,6 +179,7 @@ Seleccioná un Sprint específico para ver qué tareas se le planificaron a este
       },
       options: { responsive: true, maintainAspectRatio: false }
     });
+
     let chartInd;
     function renderizarGraficoIndividual(miembro) {
       const ctx = document.getElementById('chartIndividual').getContext('2d');
@@ -186,6 +196,7 @@ Seleccioná un Sprint específico para ver qué tareas se le planificaron a este
         options: { responsive: true, maintainAspectRatio: false, scales: { y: { beginAtZero: true } } }
       });
     }
+
     function actualizarListaTareas() {
       const miembro = document.getElementById('selectorMiembro').value;
       const sprintActual = parseInt(document.getElementById('selectorSprint').value);
@@ -209,6 +220,7 @@ Seleccioná un Sprint específico para ver qué tareas se le planificaron a este
       html += '</ul>';
       contenedor.innerHTML = html;
     }
+
     document.getElementById('selectorMiembro').addEventListener('change', function(e) {
       renderizarGraficoIndividual(e.target.value);
       actualizarListaTareas();
@@ -216,6 +228,7 @@ Seleccioná un Sprint específico para ver qué tareas se le planificaron a este
     document.getElementById('selectorSprint').addEventListener('change', function() {
       actualizarListaTareas();
     });
+
     renderizarGraficoIndividual('axel');
     actualizarListaTareas();
   })();
