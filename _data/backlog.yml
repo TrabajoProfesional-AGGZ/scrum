@@ -302,6 +302,14 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
+- id: "microservicio-club#36"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
+
 - id: "microservicio-autenticacion#7"
   titulo: "Code Coverage"
   responsable: "martin"
@@ -349,6 +357,14 @@
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
+
+- id: "microservicio-autenticacion#18"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
 
 - id: "gateway#16"
   titulo: "Gestion de reservas e instalaciones (gateway)"
@@ -398,6 +414,14 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
+- id: "gateway#29"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
+
 - id: "plataforma-web#22"
   titulo: "Code Coverage (Plataforma Web)"
   responsable: "axel"
@@ -414,10 +438,10 @@
   sprint_completado: null
   categoria: "Épica 3: Gestión Operativa"
 
-- id: "plataforma-web#22"
-  titulo: "Code Coverage (Plataforma Web)"
+- id: "plataforma-web#24"
+  titulo: "CI/CD (vista)"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de desarrollo"
@@ -445,6 +469,14 @@
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
+
+- id: "plataforma-web#34"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
 
 - id: "healthchecker#2"
   titulo: "CI/CD"
@@ -478,6 +510,14 @@
   sprint_completado: null
   categoria: "Tareas de desarrollo"
 
+- id: "healthchecker#10"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
+
 - id: "aplicacion#1"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
@@ -485,6 +525,14 @@
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
+
+- id: "aplicacion#3"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
 
 - id: "microservicio-analiticas#1"
   titulo: "Crear la estructura de la página documental"
@@ -494,6 +542,14 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
+- id: "microservicio-analiticas#3"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
+
 - id: "microservicio-bot-conversacional#1"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
@@ -501,6 +557,14 @@
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
+
+- id: "microservicio-bot-conversacional#3"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
 
 - id: "microservicio-pagos#1"
   titulo: "Crear la estructura de la página documental"
@@ -510,6 +574,14 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
+- id: "microservicio-pagos#3"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
+
 - id: "microservicio-acceso#1"
   titulo: "Crear la estructura de la página documental"
   responsable: "felipe"
@@ -517,6 +589,14 @@
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
+
+- id: "microservicio-acceso#3"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
 
 - id: "documentacion#42"
   titulo: "Hacer la primera versión del video de entrega intermedia"
@@ -542,6 +622,14 @@
   sprint_completado: null
   categoria: "Tareas de presentación"
 
+- id: "documentacion#48"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
+
 - id: "scrum#4"
   titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°2"
   responsable: "felipe"
@@ -558,6 +646,14 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
+- id: "scrum#8"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
+
 - id: "bitacora#3"
   titulo: "Bitácora de la semana 14"
   responsable: "felipe"
@@ -565,6 +661,14 @@
   sprint_planificado: 2
   sprint_completado: null
   categoria: "Tareas de documentación"
+
+- id: "bitacora#4"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
 
 - id: ".github#2"
   titulo: "Desarrollo de la página web principal de 'SocioUnido'"
@@ -574,7 +678,22 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
+- id: ".github#3"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
+
+- id: "ideas-productos#2"
+  titulo: "Agregar licencia y dependabot"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
+
 # ===================
 # INICIO DEL SPRINT 3
 # ===================
-
