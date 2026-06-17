@@ -686,6 +686,14 @@
   sprint_completado: null
   categoria: "Tareas de desarrollo"
 
+- id: ".github#4"
+  titulo: "Crear y configurar el centro principal de monitoreo del producto"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 2
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
 - id: "ideas-productos#2"
   titulo: "Agregar licencia y dependabot"
   responsable: "felipe"
