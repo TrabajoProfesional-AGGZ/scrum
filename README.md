@@ -4,18 +4,16 @@ Registro semanal de las ceremonias de Scrum y hoja de ruta definida de "SocioUni
 
 📖 **[Ver la documentación online](https://trabajoprofesional-aggz.github.io/scrum/)**
 
-## Sobre este repositorio
+## Licencia ⚖️
 
-En este espacio centralizamos todo el seguimiento del ciclo de vida del desarrollo de **SocioUnido** mediante el marco de trabajo Scrum.
+Este proyecto está licenciado bajo la **PolyForm Noncommercial License 1.0.0**.
 
-El propósito de este espacio es mantener la transparencia, la trazabilidad y el orden a lo largo de las iteraciones del Trabajo Profesional, facilitando la revisión del progreso continuo tanto para el equipo de desarrollo como para los tutores y la cátedra.
+El código fuente está disponible para su revisión, estudio y modificación con fines estrictamente académicos o personales.
 
-### En este repositorio se documentan las siguientes áreas clave:
+Queda totalmente prohibido su uso, distribución o modificación con cualquier tipo de fin comercial o de lucro sin el consentimiento expreso y por escrito de los autores.
 
-* **Roadmap:** La planificación estratégica a corto, mediano y largo plazo, desglosando las fases de desarrollo hacia nuestro Producto Mínimo Viable (MVP).
-* **Sprint Planning:** Los objetivos definidos al inicio de cada iteración y el alcance de los mismos.
-* **Sprint Review:** Los resultados obtenidos, las funcionalidades terminadas y el incremento del producto alcanzado al cierre de cada ciclo.
-* **Retrospectiva del Sprint:** El análisis interno del equipo para identificar puntos de mejora continua en nuestras prácticas y dinámicas de trabajo.
-* **Backlog:** Inventario centralizado de los requerimientos e Historias de Usuario agrupados dinámicamente según su ciclo de planificación.
+Para más detalles, revisar el archivo `LICENSE` incluido en este repositorio.
 
-Desarrollado con [Just the Docs](https://just-the-docs.com/).
+## Página documental
+
+Desarrollada con [Just the Docs](https://just-the-docs.com/).
