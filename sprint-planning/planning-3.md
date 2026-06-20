@@ -1,24 +1,24 @@
 ---
 layout: default
-title: Sprint planning N°2
+title: Sprint planning N°3
 parent: Sprint planning
-nav_order: 2
+nav_order: 3
 ---
 
-# Sprint planning N°2
+# Sprint planning N°3
 
-**Fecha:** Jueves 11/06/2026  
-**Duración del sprint:** 1 semana
+**Fecha:** Jueves 18/06/2026  
+**Duración del Sprint:** 1 semana
 
 ## 🎯 Objetivo del sprint
 
-Terminar de preparar la arquitectura del sistema, configurar los flujos de CI/CD junto con Code Coverage en todos los microservicios, y obtener más métricas de rendimiento para asegurar un feedback continuo sobre nuestra metodología de trabajo.
+El enfoque principal de esta semana es saldar deudas técnicas, terminar de configurar todas las herramientas de seguimiento y métricas profundas para ya tener todo el entorno de desarrollo terminado y listo para escalar la cantidad de historias de usuario por sprint.
 
 ## ⏱️ Capacidad del equipo y acuerdos de trabajo
 
-* **Duración:** Se aumenta el tiempo del sprint a **1 semana completa** para mitigar riesgos y absorber mejor el volumen de tareas.
-* **Ajuste de capacidad:** Se va a disminuir intencionalmente el rendimiento enfocado en el desarrollo de nuevas features para poder enfocarnos en terminar la entrega del anteproyecto y armar la primera versión de la entrega intermedia.
-* **Foco técnico:** Se invertirá una gran cantidad de tiempo de este ciclo en el CI/CD, validación integral de la arquitectura y despliegues funcionales.
+* **Duración:** Se mantiene la ventana del sprint en **1 semana**.
+* **Ajuste de capacidad:** Al ser la semana final del cuatrimestre, se decidió disminuir intencionalmente la cantidad de tareas generales para asimilar el cierre del período académico sin sobrecargar al equipo.
+* **Foco técnico:** Concentrar los esfuerzos en afianzar las herramientas de infraestructura que se necesitarán más adelante (monitorización y calidad de código), además de completar la documentación gráfica restante y las correcciones de la entrega intermedia.
 
 ## 📦 Sprint Backlog (Tareas Comprometidas)
 
@@ -39,8 +39,8 @@ Terminar de preparar la arquitectura del sistema, configurar los flujos de CI/CD
 
 ## ⚠️ Riesgos y dependencias
 
-* **Disminución de riesgos:** Al aumentar la ventana del sprint a una semana y relajar un poco la carga neta de desarrollo de features, se espera que los riesgos generales disminuyan.
-* **Lecciones aprendidas sobre estimaciones:** Se aplicarán los conocimientos del sprint pasado para evitar que la aparición de tareas espontáneas vuelva a deformar el scope, optimizando la distribución inicial de tickets.
+* **Evaluación de riesgos:** No se identifican riesgos críticos para este ciclo debido a la reducción planificada en el volumen de tareas pendientes.
+* **Mitigación y estabilidad:** La estrategia de moderar la carga de trabajo permite garantizar la estabilidad de las herramientas base implementadas y un cierre ordenado del cuatrimestre.
 
 <script type="application/json" id="backlog-data">
 {% if site.data.backlog %}{{ site.data.backlog | jsonify }}{% else %}[]{% endif %}
@@ -55,7 +55,7 @@ Terminar de preparar la arquitectura del sistema, configurar los flujos de CI/CD
     } catch(e) {
       console.error("Error decodificando la base de datos de tareas:", e);
     }
-    const SPRINT_ACTUAL = 2;
+    const SPRINT_ACTUAL = 3;
     const tareasDelSprint = tareasData.filter(function(t) {
       return t.sprint_planificado === SPRINT_ACTUAL;
     });
@@ -69,7 +69,7 @@ Terminar de preparar la arquitectura del sistema, configurar los flujos de CI/CD
         return resp === miembroFiltrado;
       });
       if (tareasAMostrar.length === 0) {
-        contenedor.innerHTML = '<p style="margin:0; color:#555;">No se registran tareas asignadas a este criterio dentro del Sprint Planning N°2.</p>';
+        contenedor.innerHTML = '<p style="margin:0; color:#555;">No se registran tareas asignadas a este criterio dentro del Sprint Planning N°3.</p>';
         return;
       }
       let html = '<ul style="margin: 0; padding-left: 20px;">';

@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Sprint Planning N°1
-parent: Sprint Planning
+title: Sprint planning N°1
+parent: Sprint planning
 nav_order: 1
 ---
 
 # Sprint Planning N°1
 
 **Fecha:** Domingo 07/06/2026  
-**Duración del Sprint:** 4 días
+**Duración del sprint:** 4 días
 
-## 🎯 Objetivo del Sprint
+## 🎯 Objetivo del sprint
 
 Crear la estructura base de los microservicios y la plataforma web, establecer el funcionamiento empírico del sistema de estimaciones por puntos, y afianzar la dinámica de trabajo en equipo durante esta primera iteración.
 
