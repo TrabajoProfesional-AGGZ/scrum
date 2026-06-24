@@ -711,7 +711,7 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "microservicio-club#38"
@@ -719,7 +719,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "microservicio-club#39"
@@ -727,7 +727,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "microservicio-club#41"
@@ -735,7 +735,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "microservicio-club#42"
@@ -743,7 +743,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "microservicio-club#43"
@@ -751,7 +751,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "plataforma-web#47"
@@ -759,7 +759,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "plataforma-web#48"
@@ -767,7 +767,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "gateway#31"
@@ -775,7 +775,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "gateway#32"
@@ -783,7 +783,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "gateway#33"
@@ -791,7 +791,7 @@
   responsable: "axel"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "healthchecker#5"
@@ -799,7 +799,7 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Tareas de desarrollo"
 
 - id: "documentacion#49"
@@ -807,7 +807,7 @@
   responsable: "martin"
   puntos: 5
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Tareas de desarrollo"
 
 - id: "documentacion#50"
@@ -815,7 +815,7 @@
   responsable: "lautaro"
   puntos: 5
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Tareas de documentación"
 
 - id: "documentacion#51"
@@ -823,7 +823,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Tareas de presentación"
 
 - id: "documentacion#52"
@@ -831,7 +831,7 @@
   responsable: "equipo"
   puntos: 5
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Tareas de presentación"
 
 - id: "bitacora#5"
@@ -839,7 +839,7 @@
   responsable: "felipe"
   puntos: 1
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Tareas de documentación"
 
 - id: "scrum#9"
@@ -847,7 +847,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Tareas de documentación"
 
 - id: ".github#6"
@@ -855,7 +855,7 @@
   responsable: "felipe"
   puntos: 3
   sprint_planificado: 3
-  sprint_completado: null
+  sprint_completado: 3
   categoria: "Tareas de desarrollo"
 
 # ===================
