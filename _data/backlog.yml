@@ -826,6 +826,14 @@
   sprint_completado: 3
   categoria: "Tareas de presentación"
 
+- id: "documentacion#52"
+  titulo: "Grabar la segunda versión de la entrega intermedia"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 3
+  sprint_completado: 3
+  categoria: "Tareas de presentación"
+
 - id: "documentacion#56"
   titulo: "Creación de la presentación en formato 'html'"
   responsable: "axel"
@@ -850,8 +858,8 @@
   sprint_completado: 3
   categoria: "Tareas de presentación"
 
-- id: "documentacion#52"
-  titulo: "Grabar la segunda versión de la entrega intermedia"
+- id: "documentacion#59"
+  titulo: "Grabar la tercera versión de la entrega intermedia"
   responsable: "equipo"
   puntos: 5
   sprint_planificado: 3
