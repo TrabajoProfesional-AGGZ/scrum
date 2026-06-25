@@ -826,6 +826,30 @@
   sprint_completado: 3
   categoria: "Tareas de presentación"
 
+- id: "documentacion#56"
+  titulo: "Creación de la presentación en formato 'html'"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 3
+  sprint_completado: 3
+  categoria: "Tareas de presentación"
+
+- id: "documentacion#57"
+  titulo: "Arreglos del guión para la tercera entrega del video intermedio"
+  responsable: "axel"
+  puntos: 1
+  sprint_planificado: 3
+  sprint_completado: 3
+  categoria: "Tareas de presentación"
+
+- id: "documentacion#58"
+  titulo: "Arreglos en la presentación formato 'html' para la tercera versión de la entrega intermedia"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 3
+  sprint_completado: 3
+  categoria: "Tareas de presentación"
+
 - id: "documentacion#52"
   titulo: "Grabar la segunda versión de la entrega intermedia"
   responsable: "equipo"
