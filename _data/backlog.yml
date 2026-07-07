@@ -1018,7 +1018,61 @@
 # INICIO DEL SPRINT 5
 # ===================
 
+- id: "plataforma-web#71"
+  titulo: "Testeo & Refinamiento del microservicio - Fin ciclo web"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 5
+  sprint_completado: 5
+  categoria: "Tareas de desarrollo"
 
+- id: "microservicio-club#56"
+  titulo: "Testeo & Refinamiento del microservicio - Fin ciclo web"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 5
+  sprint_completado: 5
+  categoria: "Tareas de desarrollo"
+
+- id: "healthchecker#12"
+  titulo: "Testeo & Refinamiento del microservicio - Fin ciclo web"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 5
+  sprint_completado: 5
+  categoria: "Tareas de desarrollo"
+
+- id: "microservicio-autenticacion#21"
+  titulo: "Testeo & Refinamiento del microservicio - Fin ciclo web"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 5
+  sprint_completado: 5
+  categoria: "Tareas de desarrollo"
+
+- id: "microservicio-analiticas#11"
+  titulo: "Testeo & Refinamiento del microservicio - Fin ciclo web"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 5
+  sprint_completado: 5
+  categoria: "Tareas de desarrollo"
+
+- id: "scrum#12"
+  titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°5"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 5
+  sprint_completado: 5
+  categoria: "Tareas de documentación"
+
+- id: "bitacora#8"
+  titulo: "Bitácora de la semana 16"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 5
+  sprint_completado: 5
+  categoria: "Tareas de documentación"
 
 # ===================
 # INICIO DEL SPRINT 6
