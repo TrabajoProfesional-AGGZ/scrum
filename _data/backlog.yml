@@ -918,6 +918,14 @@
   sprint_completado: 4
   categoria: "Épica 5: Dashboard Analítico"
 
+- id: "gateway#43"
+  titulo: "Testeo & Refinamiento del microservicio - Fin ciclo web"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Tareas de desarrollo"
+
 - id: "microservicio-club#47"
   titulo: "HU-4.1 Publicar Noticias (core)"
   responsable: "axel"
