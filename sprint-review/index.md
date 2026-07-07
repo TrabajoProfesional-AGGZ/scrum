@@ -12,6 +12,7 @@ Documentación de las demostraciones al final de cada iteración. Evaluamos el i
 
 ## Historial de Reviews
 
-* [Sprint review N°1 (Jueves 11/07/2026)](review-1.html)
-* [Sprint review N°2 (Jueves 18/07/2026)](review-2.html)
-* [Sprint review N°3 (Jueves 25/07/2026)](review-3.html)
+* [Sprint review N°1 (Jueves 11/06/2026)](review-1.html)
+* [Sprint review N°2 (Jueves 18/06/2026)](review-2.html)
+* [Sprint review N°3 (Jueves 25/06/2026)](review-3.html)
+* [Sprint review N°4 (Jueves 02/07/2026)](review-4.html)

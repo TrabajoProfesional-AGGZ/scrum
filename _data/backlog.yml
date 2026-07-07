@@ -894,11 +894,124 @@
 # INICIO DEL SPRINT 4
 # ===================
 
+- id: "gateway#34"
+  titulo: "HU-4.1 Publicar Noticias (gateway)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Épica 4: Comunicación y Retención"
+
+- id: "gateway#35"
+  titulo: "HU-4.2 Configurar y Enviar Alertas (gateway)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Épica 4: Comunicación y Retención"
+
+- id: "gateway#37"
+  titulo: "HU-5.2 Métricas de Accesos y Uso de Espacios (gateway)"
+  responsable: "martin"
+  puntos: 3
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Épica 5: Dashboard Analítico"
+
+- id: "microservicio-club#47"
+  titulo: "HU-4.1 Publicar Noticias (core)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Épica 4: Comunicación y Retención"
+
+- id: "microservicio-club#48"
+  titulo: "HU-4.2 Configurar y Enviar Alertas (core)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Épica 4: Comunicación y Retención"
+
+- id: "plataforma-web#50"
+  titulo: "HU-5.2 Métricas de Accesos y Uso de Espacios (core)"
+  responsable: "martin"
+  puntos: 3
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Épica 5: Dashboard Analítico"
+
+- id: "plataforma-web#54"
+  titulo: "HU-4.1 Publicar Noticias (vista)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Épica 4: Comunicación y Retención"
+
+- id: "plataforma-web#55"
+  titulo: "HU-4.2 Configurar y Enviar Alertas (vista)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Épica 4: Comunicación y Retención"
+
+- id: "plataforma-web#57"
+  titulo: "HU-5.2 Métricas de Accesos y Uso de Espacios (vista)"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Épica 5: Dashboard Analítico"
+
+- id: "plataforma-web#59"
+  titulo: "Diseño reactive de la plataforma web"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Tareas de desarrollo"
+
+- id: "microservicio-analiticas#6"
+  titulo: "HU-5.2 Métricas de Accesos y Uso de Espacios (analíticas)"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Épica 5: Dashboard Analítico"
+
 - id: "documentacion#55"
   titulo: "Documentar la implementación y uso de 'Datadog'"
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 4
-  sprint_completado: null
+  sprint_completado: 4
   categoria: "Tareas de documentación"
-  
+
+- id: "scrum#11"
+  titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°4"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Tareas de documentación"
+
+- id: "bitacora#7"
+  titulo: "Bitácora de la semana 16"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Tareas de documentación"
+
+# ===================
+# INICIO DEL SPRINT 5
+# ===================
+
+
+
+# ===================
+# INICIO DEL SPRINT 6
+# ===================
