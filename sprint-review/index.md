@@ -16,3 +16,5 @@ Documentación de las demostraciones al final de cada iteración. Evaluamos el i
 * [Sprint review N°2 (Jueves 18/06/2026)](review-2.html)
 * [Sprint review N°3 (Jueves 25/06/2026)](review-3.html)
 * [Sprint review N°4 (Jueves 02/07/2026)](review-4.html)
+* [Sprint review N°5 (Jueves 09/07/2026)](review-5.html)
+
