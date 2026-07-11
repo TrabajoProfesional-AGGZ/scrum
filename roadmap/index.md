@@ -33,7 +33,7 @@ El objetivo inicial es establecer los cimientos de la arquitectura (microservici
   * Corrección de bugs y refinamiento general de la interfaz y la experiencia de usuario (UX/UI).
   * Retrospectiva final del panel web, análisis de resultados y planificación de mejoras para futuras iteraciones.
 
-### Fase 2: Aplicación móvil (Socios y empleados)
+### Fase 2: Aplicación móvil (Socios y empleados) e Inteligencia Artificial
 
 Una vez estabilizado el panel web, el enfoque se traslada a la interfaz de usuario final, permitiendo la autogestión de los socios y herramientas de control para los empleados en campo.
 
@@ -47,11 +47,7 @@ Una vez estabilizado el panel web, el enfoque se traslada a la interfaz de usuar
   * Testeo integral (End-to-End) de toda la aplicación móvil.
   * Retrospectiva de la app móvil y refinamiento del ecosistema.
 
-### Fase 3: Inteligencia artificial, automatización y testeo integral
-
-Integración de herramientas avanzadas para optimizar la carga de soporte del club y mejorar la experiencia del usuario.
-
-* **Sprints 9 y 10: Canal conversacional**
+* **Sprints 9 y 10: Canal conversacional y testeo integral**
   * Desarrollo, entrenamiento del modelo e integración final con el resto de los microservicios.
   * **Épica 11 (Canal Conversacional):** Bot para responder consultas frecuentes de los usuarios de forma automática y envío de alertas/noticias proactivas.
   * Testeo integral (End-to-End) de toda la plataforma web y la aplicación móvil.
