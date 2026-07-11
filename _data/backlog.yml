@@ -1141,3 +1141,19 @@
 # ===================
 # INICIO DEL SPRINT 6
 # ===================
+
+- id: "scrum#13"
+  titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°6"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "bitacora#9"
+  titulo: "Bitácora de la semana 17"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 6
+  sprint_completado: null
+  categoria: "Tareas de documentación"
