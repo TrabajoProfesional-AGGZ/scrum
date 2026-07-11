@@ -44,8 +44,6 @@ Una vez estabilizado el panel web, el enfoque se traslada a la interfaz de usuar
   * **Épica 8 (Pagos):** Pasarela para abono de cuotas, reservas, disciplinas y entradas.
   * **Épica 9 (Novedades):** Feed de noticias del club e interacción con la tienda de productos.
   * **Épica 10 (Rol Empleado):** Login específico para personal, manejo de perfil y escaneo de códigos QR para control de accesos.
-  * Testeo integral (End-to-End) de toda la aplicación móvil.
-  * Retrospectiva de la app móvil y refinamiento del ecosistema.
 
 * **Sprints 9 y 10: Canal conversacional y testeo integral**
   * Desarrollo, entrenamiento del modelo e integración final con el resto de los microservicios.
