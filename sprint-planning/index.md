@@ -18,3 +18,4 @@ Aquí documentaremos los objetivos trazados al inicio de cada Sprint, incluyendo
 * [Sprint planning N°4 (Jueves 25/06/2026)](planning-4.html)
 * [Sprint planning N°5 (Jueves 02/07/2026)](planning-5.html)
 * [Sprint planning N°6 (Jueves 09/07/2026)](planning-6.html)
+* [Sprint planning N°7 (Jueves 16/07/2026)](planning-7.html)

@@ -1302,6 +1302,14 @@
   sprint_completado: 6
   categoria: "Tareas de documentación"
 
+- id: "bitacora#10"
+  titulo: "Bitácora de la semana 18"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Tareas de documentación"
+
 - id: "documentacion#61"
   titulo: "Leer Trabajos Profesionales previos"
   responsable: "felipe"
@@ -1322,8 +1330,8 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
-- id: "bitacora#10"
-  titulo: "Bitácora de la semana 18"
+- id: "bitacora#11"
+  titulo: "Bitácora de la semana 19"
   responsable: "felipe"
   puntos: 1
   sprint_planificado: 7
