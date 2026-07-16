@@ -1327,7 +1327,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 7
-  sprint_completado: null
+  sprint_completado: 7
   categoria: "Tareas de documentación"
 
 - id: "bitacora#11"
@@ -1335,7 +1335,7 @@
   responsable: "felipe"
   puntos: 1
   sprint_planificado: 7
-  sprint_completado: null
+  sprint_completado: 7
   categoria: "Tareas de documentación"
 
 - id: "documentacion#62"
@@ -1343,7 +1343,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 7
-  sprint_completado: null
+  sprint_completado: 7
   categoria: "Tareas de documentación"
 
 - id: "documentacion#63"
@@ -1351,7 +1351,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 7
-  sprint_completado: null
+  sprint_completado: 7
   categoria: "Tareas de documentación"
 
 - id: "documentacion#64"
@@ -1359,7 +1359,7 @@
   responsable: "felipe"
   puntos: 3
   sprint_planificado: 7
-  sprint_completado: null
+  sprint_completado: 7
   categoria: "Tareas de documentación"
 
 - id: "documentacion#65"
@@ -1367,7 +1367,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 7
-  sprint_completado: null
+  sprint_completado: 7
   categoria: "Tareas de documentación"
 
 - id: "documentacion#66"
@@ -1375,5 +1375,13 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 7
-  sprint_completado: null
+  sprint_completado: 7
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#67"
+  titulo: "Anexo - Métricas SaaS"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 7
+  sprint_completado: 7
   categoria: "Tareas de documentación"
