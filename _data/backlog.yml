@@ -1147,7 +1147,143 @@
   responsable: "axel"
   puntos: 5
   sprint_planificado: 6
-  sprint_completado: null
+  sprint_completado: 6
+  categoria: "Tareas de desarrollo"
+
+- id: "plataforma-web#82"
+  titulo: "Modo Oscuro"
+  responsable: "axel"
+  puntos: 1
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Tareas de desarrollo"
+
+- id: "gateway#49"
+  titulo: "HU-6.2 Consulta de Estado Financiero e Historial de Pagos (gateway)"
+  responsable: "lautaro"
+  puntos: 1
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Épica 6: Perfil y Autogestión"
+
+- id: "gateway#52"
+  titulo: "HU-6.3 Presentación Digital de Formularios y Trámites (gateway)"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Épica 6: Perfil y Autogestión"
+
+- id: "aplicacion#5"
+  titulo: "HU-6.1 Autogestión de Perfil y Recuperación de Contraseña (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Épica 6: Perfil y Autogestión"
+
+- id: "aplicacion#6"
+  titulo: "HU-6.1 Autogestión de Perfil y Recuperación de Contraseña (Firebase)"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Épica 6: Perfil y Autogestión"
+
+- id: "aplicacion#7"
+  titulo: "HU-6.2 Consulta de Estado Financiero e Historial de Pagos (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Épica 6: Perfil y Autogestión"
+
+- id: "aplicacion#10"
+  titulo: "Implementación de la arquitectura y conexiones base de la aplicación PWA"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Tareas de desarrollo"
+
+- id: "aplicacion#17"
+  titulo: "Creación de las primeras vistas de la aplicación"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Tareas de desarrollo"
+
+- id: "aplicacion#19"
+  titulo: "Subir fotos de socios (PWA)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Tareas de desarrollo"
+
+- id: "aplicacion#21"
+  titulo: "HU-6.3 Presentación Digital de Formularios y Trámites (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Épica 6: Perfil y Autogestión"
+
+- id: "microservicio-club#57"
+  titulo: "HU-6.2 Consulta de Estado Financiero e Historial de Pagos (club)"
+  responsable: "lautaro"
+  puntos: 3
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Épica 6: Perfil y Autogestión"
+
+- id: "microservicio-club#68"
+  titulo: "Subir fotos de socios (core)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Tareas de desarrollo"
+
+- id: "microservicio-club#69"
+  titulo: "HU-8.1 Pago de cuotas (club)"
+  responsable: "lautaro"
+  puntos: 3
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Épica 8: Pagos"
+
+- id: "microservicio-club#70"
+  titulo: "HU-6.3 Presentación Digital de Formularios y Trámites (club)"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Épica 6: Perfil y Autogestión"
+
+- id: "microservicio-pagos#6"
+  titulo: "HU-8.1 Pago de cuotas (Pagos)"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Épica 8: Pagos"
+
+- id: "microservicio-pagos#9"
+  titulo: "HU-6.2 Consulta de Estado Financiero e Historial de Pagos (Pagos)"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Épica 6: Perfil y Autogestión"
+
+- id: "microservicio-bot-conversacional#5"
+  titulo: "Implementación de la arquitectura y conexiones base del canal conversacional"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: 6
   categoria: "Tareas de desarrollo"
 
 - id: "scrum#13"
@@ -1155,7 +1291,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 6
-  sprint_completado: null
+  sprint_completado: 6
   categoria: "Tareas de documentación"
 
 - id: "bitacora#9"
@@ -1163,13 +1299,33 @@
   responsable: "felipe"
   puntos: 1
   sprint_planificado: 6
-  sprint_completado: null
+  sprint_completado: 6
   categoria: "Tareas de documentación"
 
-- id: "scrum#13"
-  titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°6"
+- id: "documentacion#61"
+  titulo: "Leer Trabajos Profesionales previos"
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Tareas de documentación"
+
+# ===================
+# INICIO DEL SPRINT 7
+# ===================
+
+- id: "scrum#14"
+  titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°7"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 7
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "bitacora#10"
+  titulo: "Bitácora de la semana 18"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 7
   sprint_completado: null
   categoria: "Tareas de documentación"
