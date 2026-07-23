@@ -20,3 +20,4 @@ Espacio de análisis del equipo para la mejora continua. Registramos qué práct
 * [Retrospectiva N°4 (Jueves 02/07/2026)](retro-4.html)
 * [Retrospectiva N°5 (Jueves 09/07/2026)](retro-5.html)
 * [Retrospectiva N°6 (Jueves 16/07/2026)](retro-6.html)
+* [Retrospectiva N°7 (Jueves 23/07/2026)](retro-7.html)

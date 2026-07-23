@@ -7,7 +7,7 @@ nav_order: 2
 
 # Métricas del primer MVP (Sprint 1 a 10)
 
-**Período:** 07/06/2026 al 13/08/2026
+**Período:** 07/06/2026 al 12/08/2026
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
