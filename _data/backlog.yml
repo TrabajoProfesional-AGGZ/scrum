@@ -1542,6 +1542,22 @@
 # INICIO DEL SPRINT 8
 # ===================
 
+- id: "aplicacion#47"
+  titulo: "Definir que club vamos a utilizar para las demos"
+  responsable: "equipo"
+  puntos: 1
+  sprint_planificado: 8
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
+
+- id: "plataforma-web#112"
+  titulo: "Definir que club vamos a utilizar para las demos"
+  responsable: "equipo"
+  puntos: 1
+  sprint_planificado: 8
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
+
 - id: "scrum#15"
   titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°8"
   responsable: "felipe"
