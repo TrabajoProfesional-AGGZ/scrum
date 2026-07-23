@@ -186,6 +186,14 @@
   sprint_completado: 1
   categoria: "Tareas de documentación"
 
+- id: "scrum#16"
+  titulo: "Realizar las ceremonias de Scrum de la iteración N°1"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 1
+  sprint_completado: 1
+  categoria: "Tareas de desarrollo"
+
 - id: "scrum#3"
   titulo: "Crear la página web documental de 'Scrum' y 'Hoja de ruta'"
   responsable: "felipe"
@@ -654,6 +662,14 @@
   sprint_completado: 2
   categoria: "Tareas de desarrollo"
 
+- id: "scrum#17"
+  titulo: "Realizar las ceremonias de Scrum de la iteración N°2"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 2
+  sprint_completado: 2
+  categoria: "Tareas de desarrollo"
+
 - id: "bitacora#3"
   titulo: "Bitácora de la semana 14"
   responsable: "felipe"
@@ -882,6 +898,14 @@
   sprint_completado: 3
   categoria: "Tareas de documentación"
 
+- id: "scrum#18"
+  titulo: "Realizar las ceremonias de Scrum de la iteración N°3"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 3
+  sprint_completado: 3
+  categoria: "Tareas de desarrollo"
+
 - id: ".github#6"
   titulo: "Terminar de configurar el SonarCloud"
   responsable: "felipe"
@@ -1006,6 +1030,14 @@
   sprint_completado: 4
   categoria: "Tareas de documentación"
 
+- id: "scrum#19"
+  titulo: "Realizar las ceremonias de Scrum de la iteración N°4"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 4
+  sprint_completado: 4
+  categoria: "Tareas de desarrollo"
+
 - id: "bitacora#7"
   titulo: "Bitácora de la semana 16"
   responsable: "felipe"
@@ -1129,6 +1161,14 @@
   sprint_planificado: 5
   sprint_completado: 5
   categoria: "Tareas de documentación"
+
+- id: "scrum#20"
+  titulo: "Realizar las ceremonias de Scrum de la iteración N°5"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 5
+  sprint_completado: 5
+  categoria: "Tareas de desarrollo"
 
 - id: "bitacora#8"
   titulo: "Bitácora de la semana 16"
@@ -1294,6 +1334,14 @@
   sprint_completado: 6
   categoria: "Tareas de documentación"
 
+- id: "scrum#21"
+  titulo: "Realizar las ceremonias de Scrum de la iteración N°6"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 6
+  sprint_completado: 6
+  categoria: "Tareas de desarrollo"
+
 - id: "bitacora#9"
   titulo: "Bitácora de la semana 17"
   responsable: "felipe"
@@ -1426,6 +1474,14 @@
   sprint_completado: 7
   categoria: "Tareas de documentación"
 
+- id: "scrum#22"
+  titulo: "Realizar las ceremonias de Scrum de la iteración N°7"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Tareas de desarrollo"
+
 - id: "bitacora#11"
   titulo: "Bitácora de la semana 19"
   responsable: "felipe"
@@ -1493,6 +1549,14 @@
   sprint_planificado: 8
   sprint_completado: null
   categoria: "Tareas de documentación"
+
+- id: "scrum#23"
+  titulo: "Realizar las ceremonias de Scrum de la iteración N°8"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 8
+  sprint_completado: null
+  categoria: "Tareas de desarrollo"
 
 - id: "bitacora#12"
   titulo: "Bitácora de la semana 20"
