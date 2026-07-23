@@ -1322,6 +1322,102 @@
 # INICIO DEL SPRINT 7
 # ===================
 
+- id: "aplicacion#8"
+  titulo: "HU-8.1 Pago de cuotas (PWA)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Épica 8: Pagos"
+
+- id: "aplicacion#24"
+  titulo: "HU-7.2 Exploración de Grilla de Disciplinas Deportivas (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Épica 7: Reservas y Deportes"
+
+- id: "aplicacion#25"
+  titulo: "HU-7.3 Inscripción a Disciplinas Deportivas y Lista de Espera (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Épica 7: Reservas y Deportes"
+
+- id: "aplicacion#27"
+  titulo: "HU-8.2 Pago de reservas (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Épica 8: Pagos"
+
+- id: "aplicacion#29"
+  titulo: "HU-7.1 Gestión Autónoma de Reservas de Instalaciones (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Épica 7: Reservas y Deportes"
+
+- id: "aplicacion#35"
+  titulo: "Acceso con biometria desde el celular"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Tareas de desarrollo"
+
+- id: "aplicacion#38"
+  titulo: "HU-8.2 pago de disciplinas (PWA)"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Épica 8: Pagos"
+
+- id: "microservicio-club#90"
+  titulo: "HU-8.2 Pago de reservas y disciplinas (core)"
+  responsable: "lautaro"
+  puntos: 3
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Épica 8: Pagos"
+
+- id: "microservicio-club#91"
+  titulo: "HU-7.3 Lista de espera disciplinas (core)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Épica 7: Reservas y Deportes"
+
+- id: "microservicio-club#109"
+  titulo: "HU-7.3 Lista de espera (webadmin)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Épica 7: Reservas y Deportes"
+
+- id: "microservicio-pagos#17"
+  titulo: "HU-8.2 Pago de reservas y disciplinas (pagos)"
+  responsable: "lautaro"
+  puntos: 3
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Épica 8: Pagos"
+
+- id: "gateway#56"
+  titulo: "HU-7.3 Lista de espera (gateway)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 7
+  sprint_completado: 7
+  categoria: "Épica 7: Reservas y Deportes"
+
 - id: "scrum#14"
   titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°7"
   responsable: "felipe"
@@ -1364,7 +1460,7 @@
 
 - id: "documentacion#65"
   titulo: "Anexo - Uso de conocimientos adquiridos"
-  responsable: "felipe"
+  responsable: "martin"
   puntos: 5
   sprint_planificado: 7
   sprint_completado: 7
@@ -1372,7 +1468,7 @@
 
 - id: "documentacion#66"
   titulo: "Anexo - Innovación"
-  responsable: "felipe"
+  responsable: "martin"
   puntos: 5
   sprint_planificado: 7
   sprint_completado: 7
@@ -1384,4 +1480,24 @@
   puntos: 5
   sprint_planificado: 7
   sprint_completado: 7
+  categoria: "Tareas de documentación"
+
+# ===================
+# INICIO DEL SPRINT 8
+# ===================
+
+- id: "scrum#15"
+  titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°8"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 8
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "bitacora#12"
+  titulo: "Bitácora de la semana 20"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 8
+  sprint_completado: null
   categoria: "Tareas de documentación"
