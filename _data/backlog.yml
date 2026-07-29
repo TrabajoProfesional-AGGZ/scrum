@@ -1672,7 +1672,7 @@
 
 - id: "documentacion#75"
   titulo: "Conseguir y hablar con contactos en clubes para preguntar acerca de utilidad del producto"
-  responsable: "equipo"
+  responsable: "lautaro"
   puntos: 5
   sprint_planificado: 8
   sprint_completado: 8
