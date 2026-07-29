@@ -59,3 +59,5 @@ Durante el desarrollo de este primer MVP, se fueron identificando nuevas oportun
 - Rol de profesor/entrenador dentro de la plataforma web, quien puede gestionar sus propias clases, horarios y alumnos.
 - Integración de un sistema de reservas para eventos especiales o torneos organizados por el club
 - Sistema de notificaciones push.
+- Hacer que la aplicación esté disponible en Play Store.
+- Interacciones con el correo para que el usuario tenga notificaciones por cumpleaños, anualidades de socio, etc.
