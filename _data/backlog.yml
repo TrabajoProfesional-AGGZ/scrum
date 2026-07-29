@@ -1730,14 +1730,6 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
-- id: "documentacion#71"
-  titulo: "Conseguir beta testers del primer MVP para pruebas en vivo"
-  responsable: "equipo"
-  puntos: 5
-  sprint_planificado: 9
-  sprint_completado: null
-  categoria: "Tareas de presentación"
-
 - id: "documentacion#72"
   titulo: "Armar temario para las pruebas en vivo"
   responsable: "felipe"
