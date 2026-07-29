@@ -1542,28 +1542,108 @@
 # INICIO DEL SPRINT 8
 # ===================
 
+- id: "aplicacion#26"
+  titulo: "HU-7.4 Consulta de Disponibilidad de Espacios Compartidos (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Épica 7: Reservas y Deportes"
+
+- id: "aplicacion#28"
+  titulo: "HU-8.3 Pago de entradas (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Épica 8: Pagos"
+
 - id: "aplicacion#47"
   titulo: "Definir que club vamos a utilizar para las demos"
   responsable: "equipo"
   puntos: 1
   sprint_planificado: 8
-  sprint_completado: null
+  sprint_completado: 8
   categoria: "Tareas de desarrollo"
+
+- id: "aplicacion#54"
+  titulo: "HU-9.2 Tienda (PWA)"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Épica 9: Novedades"
+
+- id: "aplicacion#55"
+  titulo: "HU-9.1 Noticias del club (PWA)"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Épica 9: Novedades"
+
+- id: "plataforma-web#111"
+  titulo: "HU-8.3 Creacion de eventos (front)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Épica 8: Pagos"
 
 - id: "plataforma-web#112"
   titulo: "Definir que club vamos a utilizar para las demos"
   responsable: "equipo"
   puntos: 1
   sprint_planificado: 8
-  sprint_completado: null
+  sprint_completado: 8
   categoria: "Tareas de desarrollo"
+
+- id: "microservicio-pagos#19"
+  titulo: "HU-8.3 Pago de entradas (pagos)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Épica 8: Pagos"
+
+- id: "microservicio-club#93"
+  titulo: "HU-8.3 Pago de entradas (core)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Épica 8: Pagos"
+
+- id: "microservicio-club#96"
+  titulo: "HU-9.2 Tienda (core)"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Épica 9: Novedades"
+
+- id: "gateway#58"
+  titulo: "HU-8.3 Pago de entradas (gateway)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Épica 8: Pagos"
+
+- id: "gateway#61"
+  titulo: "HU-9.2 Tienda (gateway)"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Épica 9: Novedades"
 
 - id: "scrum#15"
   titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°8"
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 8
-  sprint_completado: null
+  sprint_completado: 8
   categoria: "Tareas de documentación"
 
 - id: "scrum#23"
@@ -1571,7 +1651,7 @@
   responsable: "equipo"
   puntos: 5
   sprint_planificado: 8
-  sprint_completado: null
+  sprint_completado: 8
   categoria: "Tareas de desarrollo"
 
 - id: "bitacora#12"
@@ -1579,5 +1659,65 @@
   responsable: "felipe"
   puntos: 1
   sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#73"
+  titulo: "Crear la página documental sobre el feedback de los beta testers"
+  responsable: "felipe"
+  puntos: 3
+  sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#75"
+  titulo: "Conseguir y hablar con contactos en clubes para preguntar acerca de utilidad del producto"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 8
+  sprint_completado: 8
+  categoria: "Tareas de presentación"
+
+# ===================
+# INICIO DEL SPRINT 9
+# ===================
+
+- id: "scrum#24"
+  titulo: "Realizar las ceremonias de Scrum de la iteración N°9"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Tareas de desarrollo"
+
+- id: "scrum#25"
+  titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°9"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 9
   sprint_completado: null
   categoria: "Tareas de documentación"
+
+- id: "bitacora#12"
+  titulo: "Bitácora de la semana 21"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 9
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#71"
+  titulo: "Conseguir beta testers del primer MVP para pruebas en vivo"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 9
+  sprint_completado: null
+  categoria: "Tareas de presentación"
+
+- id: "documentacion#72"
+  titulo: "Armar temario para las pruebas en vivo"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 9
+  sprint_completado: null
+  categoria: "Tareas de presentación"
