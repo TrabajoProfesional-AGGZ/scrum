@@ -1714,14 +1714,6 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
-- id: "scrum#25"
-  titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°9"
-  responsable: "felipe"
-  puntos: 5
-  sprint_planificado: 9
-  sprint_completado: null
-  categoria: "Tareas de documentación"
-
 - id: "bitacora#12"
   titulo: "Bitácora de la semana 21"
   responsable: "felipe"
