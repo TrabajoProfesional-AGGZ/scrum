@@ -57,7 +57,6 @@ Una vez estabilizado el panel web, el enfoque se traslada a la interfaz de usuar
 Durante el desarrollo de este primer MVP, se fueron identificando nuevas oportunidades de mejora y funcionalidades adicionales que podrían ser incorporadas en un segundo MVP, como:
 
 - Rol de profesor/entrenador dentro de la plataforma web, quien puede gestionar sus propias clases, horarios y alumnos.
-- Integración de un sistema de reservas para eventos especiales o torneos organizados por el club
-- Sistema de notificaciones push.
+- Integración de un sistema de reservas para eventos especiales o torneos organizados por el club.
 - Hacer que la aplicación esté disponible en Play Store.
 - Interacciones con el correo para que el usuario tenga notificaciones por cumpleaños, anualidades de socio, etc.
