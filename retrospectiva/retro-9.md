@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Retrospectiva N°9
-parent: Retrospectiva del Sprint
+parent: Retrospectiva del sprint
 nav_order: 9
 ---
 
