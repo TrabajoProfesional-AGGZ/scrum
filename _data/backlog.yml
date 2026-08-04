@@ -1807,7 +1807,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 9
-  sprint_completado: null
+  sprint_completado: 9
   categoria: "Tareas de documentación"
 
 - id: "bitacora#12"
