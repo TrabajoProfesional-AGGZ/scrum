@@ -1698,6 +1698,102 @@
 # INICIO DEL SPRINT 9
 # ===================
 
+- id: "plataforma-web#113"
+  titulo: "HU-9.2 Tienda (vista)"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Épica 9: Novedades"
+
+- id: "aplicacion#57"
+  titulo: "HU-10.1 Registro y Autogestión del perfil de Empleados del club (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Épica 10: Rol empleado"
+
+- id: "aplicacion#58"
+  titulo: "HU-10.2 Control de Acceso (PWA)"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Épica 10: Rol empleado"
+
+- id: "control-de-accesos#2"
+  titulo: "HU-10.2 Control de Acceso (pwa empleado)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Épica 10: Rol empleado"
+
+- id: "control-de-accesos#3"
+  titulo: "Agregado de la licencia, monitoreo y automatizaciones del repositorio"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Tareas de desarrollo"
+
+- id: "control-de-accesos#4"
+  titulo: "Inicialización de la página documental"
+  responsable: "felipe"
+  puntos: 3
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Tareas de documentación"
+
+- id: "microservicio-bot-conversacional#6"
+  titulo: "HU-11.1 Responder consultas de usuarios (Bot)"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Épica 11: Canal conversacional"
+
+- id: "microservicio-bot-conversacional#7"
+  titulo: "HU-11.2 Enviar Alertas y Noticias (Bot)"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Épica 11: Canal conversacional"
+
+- id: "microservicio-acceso#7"
+  titulo: "HU-10.2 Control de Acceso (ms acceso)"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Épica 10: Rol empleado"
+
+- id: "microservicio-club#98"
+  titulo: "HU-10.1 Registro y Autogestión del perfil de Empleados del club (core)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Épica 10: Rol empleado"
+
+- id: "gateway#62"
+  titulo: "HU-10.1 Registro y Autogestión del perfil de Empleados del club (gateway)"
+  responsable: "axel"
+  puntos: 3
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Épica 10: Rol empleado"
+
+- id: "openclaw#1"
+  titulo: "Desarrollo del agente de QA"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Tareas de desarrollo"
+
 - id: "scrum#24"
   titulo: "Realizar las ceremonias de Scrum de la iteración N°9"
   responsable: "equipo"
@@ -1719,13 +1815,10 @@
   responsable: "felipe"
   puntos: 1
   sprint_planificado: 9
-  sprint_completado: null
+  sprint_completado: 9
   categoria: "Tareas de documentación"
 
-- id: "documentacion#72"
-  titulo: "Armar temario para las pruebas en vivo"
-  responsable: "felipe"
-  puntos: 5
-  sprint_planificado: 9
-  sprint_completado: null
-  categoria: "Tareas de presentación"
+# ====================
+# INICIO DEL SPRINT 10
+# ====================
+
