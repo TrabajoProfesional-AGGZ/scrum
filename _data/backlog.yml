@@ -1786,6 +1786,14 @@
   sprint_completado: 9
   categoria: "Épica 10: Rol empleado"
 
+- id: "gateway#69"
+  titulo: "Revisión seguridad (Gateway)"
+  responsable: "lautaro"
+  puntos: 3
+  sprint_planificado: 9
+  sprint_completado: 9
+  categoria: "Tareas de desarrollo"
+
 - id: "openclaw#1"
   titulo: "Desarrollo del agente de QA"
   responsable: "felipe"
