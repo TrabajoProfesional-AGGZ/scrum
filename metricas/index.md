@@ -6,11 +6,231 @@ has_children: true
 has_toc: false
 ---
 
-# Registro de Métricas de Rendimiento
+# Registro de métricas de rendimiento
 
 En esta sección documentamos los gráficos y el análisis de rendimiento de nuestro equipo a lo largo de los diferentes Sprints. El objetivo es tener un registro visual y medible de nuestra velocidad de desarrollo para mejorar nuestras estimaciones de manera empírica.
 
-## Historial de Métricas
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-* [Métricas globales](globales.html)
-* [Métricas del primer MVP (Sprint 1 a 10: 07/06/2026 al 13/08/2026)](mvp1.html)
+## 📊 Métricas grupales
+
+### Release Burndown Chart
+
+Muestra cuántos puntos de historia van quedando pendientes sobre el total planificado para todo el producto a lo largo de todas sus iteraciones.
+
+<div>
+  <canvas id="grupalesBurndown" height="100"></canvas>
+</div>
+
+### Release Burnup Chart
+
+Muestra la acumulación de puntos completados frente al alcance total trazado para el producto completo.
+
+<div>
+  <canvas id="grupalesBurnup" height="100"></canvas>
+</div>
+
+### Release Velocity Chart
+
+Compara los puntos comprometidos contra los puntos completados en cada iteración.
+
+<div style="width: 100%; overflow-x: auto; border: 1px solid #eee; padding: 10px; border-radius: 5px;">
+  <div style="width: 1000px; height: 350px;">
+    <canvas id="grupalesVelocity"></canvas>
+  </div>
+</div>
+
+## 👤 Métricas individuales y Backlog de tareas
+
+Seleccioná un integrante para visualizar la distribución de sus tareas:
+
+*Nota: La opción **"Equipo conjunto"** permite visualizar las tareas que fueron realizadas explícitamente en forma coordinada por los 4 integrantes del equipo.*
+
+<div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
+  <select id="selectorMiembro" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+    <option value="axel">Axel</option>
+    <option value="lautaro">Lautaro</option>
+    <option value="martin">Martín</option>
+    <option value="felipe">Felipe</option>
+    <option value="equipo">Equipo conjunto</option>
+  </select>
+</div>
+
+### Rendimiento General del Integrante
+
+<div style="width: 100%; overflow-x: auto; border: 1px solid #eee; padding: 10px; border-radius: 5px; margin-bottom: 30px;">
+  <div style="width: 1000px; height: 300px;">
+    <canvas id="chartIndividual"></canvas>
+  </div>
+</div>
+
+### Detalle de tareas por sprint
+
+Seleccioná un Sprint específico para ver qué tareas se le planificaron a este integrante y cuál es su estado actual.
+
+<div style="margin-bottom: 15px;">
+  <select id="selectorSprint" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+  </select>
+</div>
+
+<div id="listaTareasContenedor" style="background-color: #f8f9fa; border-left: 4px solid #7253ed; padding: 15px; border-radius: 4px;"></div>
+
+<script type="application/json" id="backlog-data">
+{% if site.data.backlog %}{{ site.data.backlog | jsonify }}{% else %}[]{% endif %}
+</script>
+
+<script markdown="0">
+  (function() {
+    let tareasData = [];
+    try {
+      const jsonText = document.getElementById('backlog-data').textContent;
+      tareasData = JSON.parse(jsonText) || [];
+    } catch(e) {
+      console.error("Error cargando los datos de Jekyll:", e);
+    }
+    let maxSprints = 1;
+    if (tareasData.length > 0) {
+      tareasData.forEach(function(t) {
+        if (!t || typeof t !== 'object') return;
+        if (t.sprint_planificado && t.sprint_planificado > maxSprints) {
+          maxSprints = t.sprint_planificado;
+        }
+        if (t.sprint_completado && t.sprint_completado > maxSprints) {
+          maxSprints = t.sprint_completado;
+        }
+      });
+    }
+    const selectorSprint = document.getElementById('selectorSprint');
+    for (let i = 1; i <= maxSprints; i++) {
+      let option = document.createElement('option');
+      option.value = i;
+      option.textContent = "Sprint " + i;
+      selectorSprint.appendChild(option);
+    }
+    const labelsSprints = [];
+    for (let i = 1; i <= maxSprints; i++) {
+      labelsSprints.push("Sprint " + i);
+    }
+    const labelsLineas = ["Sprint 0"].concat(labelsSprints);
+    let alcanceTotal = 0;
+    let grupales = {
+      comprometidos: Array(maxSprints).fill(0),
+      completados: Array(maxSprints).fill(0)
+    };
+    const datosIndividuales = {
+      axel: { comprometidos: Array(maxSprints).fill(0), completados: Array(maxSprints).fill(0) },
+      lautaro: { comprometidos: Array(maxSprints).fill(0), completados: Array(maxSprints).fill(0) },
+      martin: { comprometidos: Array(maxSprints).fill(0), completados: Array(maxSprints).fill(0) },
+      felipe: { comprometidos: Array(maxSprints).fill(0), completados: Array(maxSprints).fill(0) },
+      equipo: { comprometidos: Array(maxSprints).fill(0), completados: Array(maxSprints).fill(0) },
+      "a designar": { comprometidos: Array(maxSprints).fill(0), completados: Array(maxSprints).fill(0) }
+    };
+    if (tareasData.length > 0) {
+      tareasData.forEach(function(tarea) {
+        if (!tarea || typeof tarea !== 'object') return;
+        alcanceTotal += tarea.puntos;
+        let r = tarea.responsable ? tarea.responsable.toLowerCase() : 'a designar';
+        if (!datosIndividuales[r]) r = 'a designar';
+        if (tarea.sprint_planificado && tarea.sprint_planificado <= maxSprints) {
+          let indiceS = tarea.sprint_planificado - 1;
+          grupales.comprometidos[indiceS] += tarea.puntos;
+          datosIndividuales[r].comprometidos[indiceS] += tarea.puntos;
+        }
+        if (tarea.sprint_completado && tarea.sprint_completado <= maxSprints) {
+          let indiceC = tarea.sprint_completado - 1;
+          grupales.completados[indiceC] += tarea.puntos;
+          datosIndividuales[r].completados[indiceC] += tarea.puntos;
+        }
+      });
+    }
+    let burnupData = [0]; 
+    let burndownData = [alcanceTotal]; 
+    let scopeAcumulado = Array(maxSprints + 1).fill(alcanceTotal);
+    let puntosAcumulados = 0;
+    for (let i = 0; i < maxSprints; i++) {
+      puntosAcumulados += grupales.completados[i];
+      burnupData.push(puntosAcumulados);
+      burndownData.push(alcanceTotal - puntosAcumulados);
+    }
+    new Chart(document.getElementById('grupalesBurndown'), {
+      type: 'line',
+      data: {
+        labels: labelsLineas,
+        datasets: [{ label: 'Puntos Pendientes (Burndown)', data: burndownData, borderColor: '#ff4d4d', tension: 0.1 }]
+      },
+      options: { scales: { y: { beginAtZero: true } } }
+    });
+    new Chart(document.getElementById('grupalesBurnup'), {
+      type: 'line',
+      data: {
+        labels: labelsLineas,
+        datasets: [
+          { label: 'Puntos Completados Acumulados', data: burnupData, borderColor: '#2ecc71', fill: false },
+          { label: 'Alcance Total (Scope)', data: scopeAcumulado, borderColor: '#34495e', borderDash: [5, 5] }
+        ]
+      },
+      options: { scales: { y: { beginAtZero: true } } }
+    });
+    new Chart(document.getElementById('grupalesVelocity'), {
+      type: 'bar',
+      data: {
+        labels: labelsSprints,
+        datasets: [
+          { label: 'Puntos Comprometidos', data: grupales.comprometidos, backgroundColor: '#3498db' },
+          { label: 'Puntos Completados', data: grupales.completados, backgroundColor: '#2ecc71' }
+        ]
+      },
+      options: { responsive: true, maintainAspectRatio: false }
+    });
+    let chartInd;
+    function renderizarGraficoIndividual(miembro) {
+      const ctx = document.getElementById('chartIndividual').getContext('2d');
+      if (chartInd) { chartInd.destroy(); }
+      chartInd = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labelsSprints,
+          datasets: [
+            { label: 'Puntos Asignados', data: datosIndividuales[miembro].comprometidos, backgroundColor: '#9b59b6' },
+            { label: 'Puntos Completados', data: datosIndividuales[miembro].completados, backgroundColor: '#1abc9c' }
+          ]
+        },
+        options: { responsive: true, maintainAspectRatio: false, scales: { y: { beginAtZero: true } } }
+      });
+    }
+    function actualizarListaTareas() {
+      const miembro = document.getElementById('selectorMiembro').value;
+      const selectorElement = document.getElementById('selectorSprint');
+      const sprintActual = selectorElement.value ? parseInt(selectorElement.value) : 1;
+      const contenedor = document.getElementById('listaTareasContenedor');
+      const tareasDelSprint = tareasData.filter(function(t) {
+        if (!t || typeof t !== 'object') return false;
+        let resp = t.responsable ? t.responsable.toLowerCase() : 'a designar';
+        if (!datosIndividuales[resp]) resp = 'a designar';
+        return resp === miembro && t.sprint_planificado === sprintActual;
+      });
+      if (tareasDelSprint.length === 0) {
+        contenedor.innerHTML = '<p style="margin:0; color:#555;">No hay tareas asignadas para este integrante en el Sprint seleccionado.</p>';
+        return;
+      }
+      let html = '<ul style="margin: 0; padding-left: 20px;">';
+      tareasDelSprint.forEach(function(t) {
+        const estaCompletada = (t.sprint_completado !== null);
+        const icono = estaCompletada ? '✅' : '⏳';
+        let detalleEstado = estaCompletada ? `<span style="color: #2ecc71; font-weight: bold;">(Completada en Sprint ${t.sprint_completado})</span>` : `<span style="color: #e67e22; font-weight: bold;">(Pendiente)</span>`;
+        html += `<li style="margin-bottom: 8px;"><strong>${icono} ${t.titulo}</strong> <br><span style="font-size: 0.9em; color: #666;">ID: <code>${t.id}</code> | Esfuerzo: <strong>${t.puntos} pts</strong> | Estado: ${detalleEstado}</span></li>`;
+      });
+      html += '</ul>';
+      contenedor.innerHTML = html;
+    }
+    document.getElementById('selectorMiembro').addEventListener('change', function(e) {
+      renderizarGraficoIndividual(e.target.value);
+      actualizarListaTareas();
+    });
+    document.getElementById('selectorSprint').addEventListener('change', function() {
+      actualizarListaTareas();
+    });
+    renderizarGraficoIndividual('axel');
+    actualizarListaTareas();
+  })();
+</script>
