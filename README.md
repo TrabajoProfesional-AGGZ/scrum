@@ -1,6 +1,6 @@
-# Scrum & Roadmap
+# Scrum & Hoja de ruta
 
-Registro semanal de las ceremonias de Scrum y hoja de ruta definida de "SocioUnido"
+Registro semanal de las ceremonias de Scrum y hoja de ruta definida de "SocioUnido".
 
 📖 **[Ver la documentación online](https://trabajoprofesional-aggz.github.io/scrum/)**
 
