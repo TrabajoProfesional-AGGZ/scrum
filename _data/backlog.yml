@@ -1830,3 +1830,186 @@
 # INICIO DEL SPRINT 10
 # ====================
 
+- id: "aplicacion#69"
+  titulo: "Testeo integral de la aplicación"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "aplicacion#70"
+  titulo: "Marcar cuotas como pagadas desde admin (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "aplicacion#71"
+  titulo: "Sacar el tiempo de cerrado de sesion automatico (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "aplicacion#72"
+  titulo: "Implementar la compra en la tienda del club (PWA)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "aplicacion#73"
+  titulo: "Mensaje de feliz cumpleaños para el socio"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "control-de-accesos#6"
+  titulo: "Testeo integral de la aplicación"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "control-de-accesos#7"
+  titulo: "Sacar el tiempo de cerrado de sesion automatico (PWA empleados)"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "plataforma-web#116"
+  titulo: "Testeo integral de la plataforma"
+  responsable: "axel"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "microservicio-pagos#20"
+  titulo: "Testeo integral del microservicio"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "gateway#67"
+  titulo: "Testeo integral del gateway"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "microservicio-acceso#10"
+  titulo: "Testeo integral del microservicio"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "healthchecker#14"
+  titulo: "Testeo integral del microservicio"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "microservicio-club#101"
+  titulo: "Testeo integral del microservicio"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "microservicio-analiticas#25"
+  titulo: "Testeo integral del microservicio"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "microservicio-autenticacion#23"
+  titulo: "Testeo integral del microservicio"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "microservicio-bot-conversacional#8"
+  titulo: "Testeo integral del microservicio"
+  responsable: "martin"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "scrum#26"
+  titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°10"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de documentación"
+
+- id: "scrum#27"
+  titulo: "Realizar las ceremonias de Scrum de la iteración N°10"
+  responsable: "equipo"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#82"
+  titulo: "Crear la página para el control de gastos y ganancias de transacciones de los clubes"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "documentacion#83"
+  titulo: "Creación de página principal publicitaria / contacto de SocioUnido"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "documentacion#84"
+  titulo: "Realizar análisis de mercado inicial para primeras ventas del producto"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "documentacion#85"
+  titulo: "Anexo - Openclaw & Sonarcloud"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de documentación"
+
+- id: "bitacora#14"
+  titulo: "Bitácora de la semana 22"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de documentación"
