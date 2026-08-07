@@ -9,12 +9,12 @@ nav_order: 3
 
 **Fecha:** Jueves 25/06/2026
 
-## 🎯 Evaluación del Sprint Goal
+## 🎯 Evaluación del sprint goal
 
 * **Estado:** [Alcanzado ✅]
 * **Justificación:** Las metas del sprint fueron completadas con éxito. Se logró solucionar la acumulación de bugs existente, avanzar con las implementaciones previstas en las historias de usuario y configurar nuevas herramientas de monitoreo e inspección de código.
 
-## 🚀 Incremento del Producto (Done)
+## 🚀 Incremento del producto (Done)
 
 * Se solucionó satisfactoriamente la masa acumulada de bugs.
 * Se implementaron los nuevos features identificados dentro de las historias de usuario definidas para este ciclo.
@@ -24,10 +24,10 @@ nav_order: 3
 
 * Ninguno. No hubo elementos pendientes en la planificación.
 
-## 🗣️ Feedback Recibido
+## 🗣️ Feedback recibido
 
-* **Entrega Intermedia:** El feedback recibido sobre la primera versión de la entrega intermedia fue positivo. Se lograron recopilar varias mejoras que se aplicaron en una segunda versión, la cual ya fue entregada y se encuentra a la espera de nuevos comentarios.
+* **Entrega intermedia:** El feedback recibido sobre la primera versión de la entrega intermedia fue positivo. Se lograron recopilar varias mejoras que se aplicaron en una segunda versión, la cual ya fue entregada y se encuentra a la espera de nuevos comentarios.
 
-## 🔄 Ajustes al Roadmap / Backlog
+## 🔄 Ajustes al roadmap / Backlog
 
 * No hubo ajustes formales en el roadmap ni en el backlog durante este sprint.

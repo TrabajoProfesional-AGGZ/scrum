@@ -28,6 +28,6 @@ nav_order: 1
 * **Estimaciones:** Es necesario mejorar la estimación de las tareas relacionadas en cada sprint. Durante este ciclo surgieron muchas tareas espontáneas que deformaron el scope planificado.
 * **Tecnologías:** Hubo comentarios muy positivos sobre las herramientas seleccionadas; puntualmente, la decisión de usar JustTheDocs público en todos los repositorios fue un acierto.
 
-## 🔄 Ajustes al roadmap / backlog
+## 🔄 Ajustes al roadmap / Backlog
 
 * Aún no hay ajustes formales en el roadmap, aunque no se descartan. Prontamente tendremos la entrega intermedia y es probable que necesitemos un poco más de espacio en el calendario para llegar con todos los requisitos.

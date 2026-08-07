@@ -28,6 +28,6 @@ nav_order: 2
 * **Anteproyecto:** La devolución de los tutores fue muy satisfactoria, otorgando el "OK" final necesario para proceder con la entrega definitiva.
 * **Presentación intermedia:** Se entregó la primera versión y actualmente se está a la espera de recibir el feedback correspondiente por parte de los tutores.
 
-## 🔄 Ajustes al roadmap / backlog
+## 🔄 Ajustes al roadmap / Backlog
 
 * No hubo ajustes formales en el roadmap durante esta iteración.

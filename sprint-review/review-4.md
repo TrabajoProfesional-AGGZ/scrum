@@ -9,12 +9,12 @@ nav_order: 4
 
 **Fecha:** Jueves 02/07/2026
 
-## 🎯 Evaluación del Sprint Goal
+## 🎯 Evaluación del sprint goal
 
 * **Estado:** [Alcanzado ✅]
 * **Justificación:** Se cumplieron los objetivos con éxito. El equipo logró cerrar las historias de usuario pendientes de la Épica 4, comenzar con la Épica 5 y realizar la entrega definitiva de la presentación intermedia.
 
-## 🚀 Incremento del Producto (Done)
+## 🚀 Incremento del producto (Done)
 
 * Se finalizaron todas las historias de usuario restantes correspondientes a la Épica 4.
 * Se comenzó con la implementación de las primeras funcionalidades de la Épica 5.
@@ -24,10 +24,10 @@ nav_order: 4
 
 * Ninguno. Se cumplió con el scope planificado para la semana.
 
-## 🗣️ Feedback Recibido
+## 🗣️ Feedback recibido
 
-* **Entrega Intermedia:** La versión final fue enviada con éxito, capitalizando todo el feedback recibido en las revisiones previas por parte de los tutores.
+* **Entrega intermedia:** La versión final fue enviada con éxito, capitalizando todo el feedback recibido en las revisiones previas por parte de los tutores.
 
-## 🔄 Ajustes al Roadmap / Backlog
+## 🔄 Ajustes al roadmap / Backlog
 
 * El roadmap se mantiene estable. El inicio adelantado de la Épica 5 nos da un buen margen para la próxima iteración.

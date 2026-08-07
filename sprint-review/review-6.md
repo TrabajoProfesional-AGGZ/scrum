@@ -9,12 +9,12 @@ nav_order: 6
 
 **Fecha:** Jueves 16/07/2026
 
-## 🎯 Evaluación del Sprint Goal
+## 🎯 Evaluación del sprint goal
 
 * **Estado:** [Alcanzado ✅]
 * **Justificación:** Se logró una excelente transición hacia el desarrollo de la PWA. Se cumplió con el 100% de las tareas planificadas, logrando no solo finalizar la Épica 6, sino también adelantar trabajo crítico de la Épica 8 (pagos) y las bases del canal de WhatsApp.
 
-## 🚀 Incremento del Producto (Done)
+## 🚀 Incremento del producto (Done)
 
 * Se completaron todas las historias de usuario correspondientes a la Épica 6, estableciendo la estructura fundamental de la PWA.
 * Se avanzó significativamente con la Épica 8, logrando conectar la PWA con los microservicios preexistentes y con el nuevo microservicio de pagos.
@@ -25,10 +25,10 @@ nav_order: 6
 
 * Ninguno. El alcance planificado fue superado con creces.
 
-## 🗣️ Feedback Recibido
+## 🗣️ Feedback recibido
 
 * **Arquitectura:** La integración entre la nueva PWA y los microservicios fluyó mejor de lo esperado.
 
-## 🔄 Ajustes al Roadmap / Backlog
+## 🔄 Ajustes al roadmap / Backlog
 
 * El adelanto considerable en la Épica 8 (Pagos) nos proporciona un margen muy favorable para las próximas iteraciones. El roadmap se mantiene firme, pero con menos presión sobre el módulo de transacciones.
