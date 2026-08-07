@@ -5,7 +5,7 @@ parent: Sprint planning
 nav_order: 1
 ---
 
-# Sprint Planning N°1
+# Sprint planning N°1
 
 **Fecha:** Domingo 07/06/2026  
 **Duración del sprint:** 4 días
@@ -26,7 +26,7 @@ Crear la estructura base de los microservicios y la plataforma web, establecer e
 * **Lineamientos técnicos:** * Se creará toda la estructura base de la plataforma web. Queda estrictamente definido que no se pasará a la fase de desarrollo de la app móvil hasta no finalizar esta etapa del desarrollo.
   * Se utilizarán *Sub-issues* en cada ticket para identificar claramente todos los repositorios involucrados en el funcionamiento de una tarea particular (ej. Vista, gateway, microservicios, etc).
 
-## 📦 Sprint Backlog (Tareas Comprometidas)
+## 📦 Sprint Backlog (Tareas comprometidas)
 
 Se definió trabajar sobre todas las historias de usuario correspondientes a las **Épicas 1 y 2** planificadas para este ciclo.
 
@@ -36,7 +36,7 @@ Filtrar el backlog comprometido por integrante del equipo:
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
   <select id="selectorMiembroBacklog" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
-    <option value="todos">Vista General</option>
+    <option value="todos">Vista general</option>
     <option value="axel">Axel</option>
     <option value="lautaro">Lautaro</option>
     <option value="martin">Martín</option>

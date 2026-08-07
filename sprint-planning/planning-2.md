@@ -20,13 +20,13 @@ Terminar de preparar la arquitectura del sistema, configurar los flujos de CI/CD
 * **Ajuste de capacidad:** Se va a disminuir intencionalmente el rendimiento enfocado en el desarrollo de nuevas features para poder enfocarnos en terminar la entrega del anteproyecto y armar la primera versión de la entrega intermedia.
 * **Foco técnico:** Se invertirá una gran cantidad de tiempo de este ciclo en el CI/CD, validación integral de la arquitectura y despliegues funcionales.
 
-## 📦 Sprint Backlog (Tareas Comprometidas)
+## 📦 Sprint Backlog (Tareas comprometidas)
 
 *(Las tareas específicas se listan a continuación, filtradas por miembro del equipo).*
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
   <select id="selectorMiembroBacklog" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
-    <option value="todos">Vista General</option>
+    <option value="todos">Vista general</option>
     <option value="axel">Axel</option>
     <option value="lautaro">Lautaro</option>
     <option value="martin">Martín</option>

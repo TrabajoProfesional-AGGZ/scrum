@@ -20,13 +20,13 @@ El objetivo principal de esta iteración es finalizar completamente el desarroll
 * **Foco técnico:** La prioridad al inicio de la semana será destrabar y finalizar cualquier pendiente crítico del microservicio de pagos (Épica 8) para asegurar su correcto funcionamiento. Posteriormente, el equipo se enfocará de lleno en las nuevas historias de la Épica 7.
 * **Organización:** Se buscará un trabajo en paralelo donde los responsables de la Épica 8 puedan realizar el cierre de la misma mientras el resto del equipo va sentando las bases de la Épica 7, optimizando los tiempos del ciclo.
 
-## 📦 Sprint Backlog (Tareas Comprometidas)
+## 📦 Sprint Backlog (Tareas comprometidas)
 
 *(Las tareas específicas se listan a continuación, filtradas por miembro del equipo).*
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
   <select id="selectorMiembroBacklog" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
-    <option value="todos">Vista General</option>
+    <option value="todos">Vista general</option>
     <option value="axel">Axel</option>
     <option value="lautaro">Lautaro</option>
     <option value="martin">Martín</option>

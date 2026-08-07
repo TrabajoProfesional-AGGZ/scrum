@@ -23,13 +23,13 @@ Asimismo, concretar la entrevista de validación con Martín Fernando Rubino (Cl
 * **Semana de colchón:** Todo el trabajo de desarrollo comprometido en este ciclo debe finalizar en tiempo y forma para habilitar que el siguiente sprint funcione íntegramente como una semana de *testing*, *bugfixing* y estabilización general antes de las presentaciones.
 * **Foco de validación y negocio:** Se llevará a cabo la reunión con Martín Fernando Rubino, aprovechando su experiencia y visión dentro del Club Atlético Talleres (Remedios de Escalada) para validar el enfoque del producto con un actor real del sector.
 
-## 📦 Sprint Backlog (Tareas Comprometidas)
+## 📦 Sprint Backlog (Tareas comprometidas)
 
 *(Las tareas específicas se listan a continuación, filtradas por miembro del equipo).*
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
   <select id="selectorMiembroBacklog" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
-    <option value="todos">Vista General</option>
+    <option value="todos">Vista general</option>
     <option value="axel">Axel</option>
     <option value="lautaro">Lautaro</option>
     <option value="martin">Martín</option>

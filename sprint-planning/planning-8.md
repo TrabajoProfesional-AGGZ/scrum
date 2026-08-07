@@ -21,13 +21,13 @@ Cerrar definitivamente las historias de usuario que quedaron pendientes de la É
 * **Foco comercial y de negocio:** Se destinará una parte importante del esfuerzo en buscar y concretar contactos en distintos clubes. Esto nos permitirá validar de primera mano la utilidad de la plataforma y entender exactamente en qué puntos de dolor debemos focalizarnos.
 * **Elección estratégica:** La definición del club con el que se harán las demos se tomará con especial cuidado. El objetivo es elegir una institución que nos permita simpatizar con el resto del mercado y generar una excelente recepción por parte de futuros clientes.
 
-## 📦 Sprint Backlog (Tareas Comprometidas)
+## 📦 Sprint Backlog (Tareas comprometidas)
 
 *(Las tareas específicas se listan a continuación, filtradas por miembro del equipo).*
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
   <select id="selectorMiembroBacklog" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
-    <option value="todos">Vista General</option>
+    <option value="todos">Vista general</option>
     <option value="axel">Axel</option>
     <option value="lautaro">Lautaro</option>
     <option value="martin">Martín</option>

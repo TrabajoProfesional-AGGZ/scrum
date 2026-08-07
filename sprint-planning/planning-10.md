@@ -22,13 +22,13 @@ Cerrar por completo el MVP diseñado para SocioUnido. Para lograrlo, el enfoque 
 * **Pivote de canal conversacional:** Se finalizará la migración y el despliegue del bot hacia la nueva plataforma elegida (Telegram), adaptando las integraciones necesarias.
 * **Monitoreo de producto:** Se destinará capacidad del equipo a la creación de un panel de monitoreo multi-club para tener control integral del sistema.
 
-## 📦 Sprint Backlog (Tareas Comprometidas)
+## 📦 Sprint Backlog (Tareas comprometidas)
 
 *(Las tareas específicas se listan a continuación, filtradas por miembro del equipo).*
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
   <select id="selectorMiembroBacklog" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
-    <option value="todos">Vista General</option>
+    <option value="todos">Vista general</option>
     <option value="axel">Axel</option>
     <option value="lautaro">Lautaro</option>
     <option value="martin">Martín</option>

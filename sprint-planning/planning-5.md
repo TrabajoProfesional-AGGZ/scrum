@@ -21,13 +21,13 @@ Finalizar en su totalidad las historias de usuario de la Épica 5, ejecutar un t
 * **Resolución ágil:** Cualquier bug menor de interfaz o de validación que surja durante el testeo integral deberá ser corregido en el acto para no comprometer los tiempos de entrega.
 * **Preparación para la transición:** Se acuerda que, al finalizar este sprint, toda la documentación de los repositorios web debe quedar consolidada para preparar el terreno lógico de cara al inminente pivote hacia el desarrollo de la aplicación móvil.
 
-## 📦 Sprint Backlog (Tareas Comprometidas)
+## 📦 Sprint Backlog (Tareas comprometidas)
 
 *(Las tareas específicas se listan a continuación, filtradas por miembro del equipo).*
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
   <select id="selectorMiembroBacklog" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
-    <option value="todos">Vista General</option>
+    <option value="todos">Vista general</option>
     <option value="axel">Axel</option>
     <option value="lautaro">Lautaro</option>
     <option value="martin">Martín</option>

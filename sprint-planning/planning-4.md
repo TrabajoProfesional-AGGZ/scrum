@@ -20,13 +20,13 @@ Iniciar con el desarrollo de las épicas 4 y 5, asumiendo el compromiso de termi
 * **Ajuste de capacidad y flexibilidad:** Dado que el equipo se encuentra en época de exámenes finales en FIUBA, se acordó una modalidad de trabajo más flexible. Cada integrante distribuirá sus tiempos y tareas a lo largo de estas dos semanas como le resulte más conveniente, evitando frenar el desarrollo pero sin descuidar las evaluaciones universitarias.
 * **Foco técnico:** El objetivo técnico de esta iteración es terminar definitivamente con todas las features de la plataforma web. Esto permitirá que dentro de dos semanas el equipo pueda cambiar el enfoque y comenzar a trabajar íntegramente sobre la aplicación móvil.
 
-## 📦 Sprint Backlog (Tareas Comprometidas)
+## 📦 Sprint Backlog (Tareas comprometidas)
 
 *(Las tareas específicas se listan a continuación, filtradas por miembro del equipo).*
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
   <select id="selectorMiembroBacklog" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
-    <option value="todos">Vista General</option>
+    <option value="todos">Vista general</option>
     <option value="axel">Axel</option>
     <option value="lautaro">Lautaro</option>
     <option value="martin">Martín</option>

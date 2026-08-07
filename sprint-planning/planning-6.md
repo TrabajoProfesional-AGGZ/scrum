@@ -23,13 +23,13 @@ El foco estará en abordar las historias de usuario de la Épica 6, sentar las b
 * **Investigación y análisis:** Se asignará parte de la capacidad del equipo a la lectura y análisis de Trabajos Profesionales anteriores. Esto funcionará como una etapa de descubrimiento para inspirar nuevas funcionalidades o mejorar el enfoque actual.
 * **Transición de entorno:** Tras haber cerrado la fase estrictamente web, el equipo se adaptará a las nuevas herramientas requeridas para la PWA y las integraciones de microservicios.
 
-## 📦 Sprint Backlog (Tareas Comprometidas)
+## 📦 Sprint Backlog (Tareas comprometidas)
 
 *(Las tareas específicas se listan a continuación, filtradas por miembro del equipo).*
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
   <select id="selectorMiembroBacklog" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
-    <option value="todos">Vista General</option>
+    <option value="todos">Vista general</option>
     <option value="axel">Axel</option>
     <option value="lautaro">Lautaro</option>
     <option value="martin">Martín</option>

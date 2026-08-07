@@ -20,13 +20,13 @@ El enfoque principal de esta semana es saldar deudas técnicas, terminar de conf
 * **Ajuste de capacidad:** Al ser la semana final del cuatrimestre, se decidió disminuir intencionalmente la cantidad de tareas generales para asimilar el cierre del período académico sin sobrecargar al equipo.
 * **Foco técnico:** Concentrar los esfuerzos en afianzar las herramientas de infraestructura que se necesitarán más adelante (monitorización y calidad de código), además de completar la documentación gráfica restante y las correcciones de la entrega intermedia.
 
-## 📦 Sprint Backlog (Tareas Comprometidas)
+## 📦 Sprint Backlog (Tareas comprometidas)
 
 *(Las tareas específicas se listan a continuación, filtradas por miembro del equipo).*
 
 <div style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
   <select id="selectorMiembroBacklog" style="padding: 8px; font-size: 16px; border-radius: 5px; cursor: pointer;">
-    <option value="todos">Vista General</option>
+    <option value="todos">Vista general</option>
     <option value="axel">Axel</option>
     <option value="lautaro">Lautaro</option>
     <option value="martin">Martín</option>
