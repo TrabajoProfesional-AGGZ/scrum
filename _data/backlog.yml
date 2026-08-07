@@ -1371,7 +1371,7 @@
 # ===================
 
 - id: "aplicacion#8"
-  titulo: "HU-8.1 Pago de cuotas "
+  titulo: "HU-8.1 Pago de cuotas"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 7
@@ -1379,7 +1379,7 @@
   categoria: "Épica 8: Pagos"
 
 - id: "aplicacion#24"
-  titulo: "HU-7.2 Exploración de Grilla de Disciplinas Deportivas "
+  titulo: "HU-7.2 Exploración de Grilla de Disciplinas Deportivas"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 7
@@ -1387,7 +1387,7 @@
   categoria: "Épica 7: Reservas y Deportes"
 
 - id: "aplicacion#25"
-  titulo: "HU-7.3 Inscripción a Disciplinas Deportivas y Lista de Espera "
+  titulo: "HU-7.3 Inscripción a Disciplinas Deportivas y Lista de Espera"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 7
@@ -1395,7 +1395,7 @@
   categoria: "Épica 7: Reservas y Deportes"
 
 - id: "aplicacion#27"
-  titulo: "HU-8.2 Pago de reservas "
+  titulo: "HU-8.2 Pago de reservas"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 7
@@ -1403,7 +1403,7 @@
   categoria: "Épica 8: Pagos"
 
 - id: "aplicacion#29"
-  titulo: "HU-7.1 Gestión Autónoma de Reservas de Instalaciones "
+  titulo: "HU-7.1 Gestión Autónoma de Reservas de Instalaciones"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 7
@@ -1419,7 +1419,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "aplicacion#38"
-  titulo: "HU-8.2 pago de disciplinas "
+  titulo: "HU-8.2 pago de disciplinas"
   responsable: "lautaro"
   puntos: 5
   sprint_planificado: 7
@@ -1427,7 +1427,7 @@
   categoria: "Épica 8: Pagos"
 
 - id: "microservicio-club#90"
-  titulo: "HU-8.2 Pago de reservas y disciplinas "
+  titulo: "HU-8.2 Pago de reservas y disciplinas"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 7
@@ -1435,7 +1435,7 @@
   categoria: "Épica 8: Pagos"
 
 - id: "microservicio-club#91"
-  titulo: "HU-7.3 Lista de espera disciplinas "
+  titulo: "HU-7.3 Lista de espera disciplinas"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 7
@@ -1443,7 +1443,7 @@
   categoria: "Épica 7: Reservas y Deportes"
 
 - id: "microservicio-club#109"
-  titulo: "HU-7.3 Lista de espera (webadmin)"
+  titulo: "HU-7.3 Lista de espera"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 7
@@ -1451,7 +1451,7 @@
   categoria: "Épica 7: Reservas y Deportes"
 
 - id: "microservicio-pagos#17"
-  titulo: "HU-8.2 Pago de reservas y disciplinas "
+  titulo: "HU-8.2 Pago de reservas y disciplinas"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 7
@@ -1459,7 +1459,7 @@
   categoria: "Épica 8: Pagos"
 
 - id: "gateway#56"
-  titulo: "HU-7.3 Lista de espera "
+  titulo: "HU-7.3 Lista de espera"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 7
@@ -1543,7 +1543,7 @@
 # ===================
 
 - id: "aplicacion#28"
-  titulo: "HU-8.3 Pago de entradas "
+  titulo: "HU-8.3 Pago de entradas"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 8
@@ -1559,7 +1559,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "aplicacion#54"
-  titulo: "HU-9.2 Tienda "
+  titulo: "HU-9.2 Tienda"
   responsable: "martin"
   puntos: 5
   sprint_planificado: 8
@@ -1567,7 +1567,7 @@
   categoria: "Épica 9: Novedades"
 
 - id: "aplicacion#55"
-  titulo: "HU-9.1 Noticias del club "
+  titulo: "HU-9.1 Noticias del club"
   responsable: "martin"
   puntos: 5
   sprint_planificado: 8
@@ -1575,7 +1575,7 @@
   categoria: "Épica 9: Novedades"
 
 - id: "aplicacion#56"
-  titulo: "Notificaciones push "
+  titulo: "Notificaciones push"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 8
@@ -1583,7 +1583,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "plataforma-web#111"
-  titulo: "HU-8.3 Creación de eventos (front)"
+  titulo: "HU-8.3 Creación de eventos"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 8
@@ -1599,7 +1599,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "plataforma-web#113"
-  titulo: "HU-9.2 Tienda "
+  titulo: "HU-9.2 Tienda"
   responsable: "martin"
   puntos: 5
   sprint_planificado: 8
@@ -1607,7 +1607,7 @@
   categoria: "Épica 9: Novedades"
 
 - id: "microservicio-pagos#19"
-  titulo: "HU-8.3 Pago de entradas "
+  titulo: "HU-8.3 Pago de entradas"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 8
@@ -1615,7 +1615,7 @@
   categoria: "Épica 8: Pagos"
 
 - id: "microservicio-club#93"
-  titulo: "HU-8.3 Pago de entradas "
+  titulo: "HU-8.3 Pago de entradas"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 8
@@ -1631,7 +1631,7 @@
   categoria: "Épica 9: Novedades"
 
 - id: "microservicio-club#97"
-  titulo: "Notificaciones push "
+  titulo: "Notificaciones push"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 8
@@ -1639,7 +1639,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "gateway#58"
-  titulo: "HU-8.3 Pago de entradas "
+  titulo: "HU-8.3 Pago de entradas"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 8
@@ -1647,7 +1647,7 @@
   categoria: "Épica 8: Pagos"
 
 - id: "gateway#61"
-  titulo: "HU-9.2 Tienda "
+  titulo: "HU-9.2 Tienda"
   responsable: "martin"
   puntos: 5
   sprint_planificado: 8
@@ -1679,7 +1679,7 @@
   categoria: "Tareas de documentación"
 
 - id: "documentacion#73"
-  titulo: "Crear la página documental sobre el feedback de los beta testers"
+  titulo: "Crear la página documental sobre el feedback de los trabajadores de los clubes"
   responsable: "felipe"
   puntos: 3
   sprint_planificado: 8
@@ -1699,7 +1699,7 @@
 # ===================
 
 - id: "plataforma-web#113"
-  titulo: "HU-9.2 Tienda "
+  titulo: "HU-9.2 Tienda"
   responsable: "martin"
   puntos: 5
   sprint_planificado: 9
@@ -1707,7 +1707,7 @@
   categoria: "Épica 9: Novedades"
 
 - id: "aplicacion#57"
-  titulo: "HU-10.1 Registro y Autogestión del perfil de Empleados del club "
+  titulo: "HU-10.1 Registro y Autogestión del perfil de Empleados del club"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 9
@@ -1715,7 +1715,7 @@
   categoria: "Épica 10: Rol empleado"
 
 - id: "aplicacion#58"
-  titulo: "HU-10.2 Control de Acceso "
+  titulo: "HU-10.2 Control de Acceso"
   responsable: "lautaro"
   puntos: 5
   sprint_planificado: 9
@@ -1723,7 +1723,7 @@
   categoria: "Épica 10: Rol empleado"
 
 - id: "control-de-accesos#2"
-  titulo: "HU-10.2 Control de Acceso (pwa empleado)"
+  titulo: "HU-10.2 Control de Acceso"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 9
@@ -1747,7 +1747,7 @@
   categoria: "Tareas de documentación"
 
 - id: "microservicio-bot-conversacional#6"
-  titulo: "HU-11.1 Responder consultas de usuarios (Bot)"
+  titulo: "HU-11.1 Responder consultas de usuarios"
   responsable: "martin"
   puntos: 5
   sprint_planificado: 9
@@ -1755,7 +1755,7 @@
   categoria: "Épica 11: Canal conversacional"
 
 - id: "microservicio-bot-conversacional#7"
-  titulo: "HU-11.2 Enviar Alertas y Noticias (Bot)"
+  titulo: "HU-11.2 Enviar Alertas y Noticias"
   responsable: "martin"
   puntos: 5
   sprint_planificado: 9
@@ -1763,7 +1763,7 @@
   categoria: "Épica 11: Canal conversacional"
 
 - id: "microservicio-acceso#7"
-  titulo: "HU-10.2 Control de Acceso (ms acceso)"
+  titulo: "HU-10.2 Control de Acceso"
   responsable: "lautaro"
   puntos: 5
   sprint_planificado: 9
@@ -1771,7 +1771,7 @@
   categoria: "Épica 10: Rol empleado"
 
 - id: "microservicio-club#98"
-  titulo: "HU-10.1 Registro y Autogestión del perfil de Empleados del club "
+  titulo: "HU-10.1 Registro y Autogestión del perfil de Empleados del club"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 9
@@ -1779,7 +1779,7 @@
   categoria: "Épica 10: Rol empleado"
 
 - id: "gateway#62"
-  titulo: "HU-10.1 Registro y Autogestión del perfil de Empleados del club "
+  titulo: "HU-10.1 Registro y Autogestión del perfil de Empleados del club"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 9
@@ -1787,7 +1787,7 @@
   categoria: "Épica 10: Rol empleado"
 
 - id: "gateway#69"
-  titulo: "Revisión seguridad "
+  titulo: "Revisión seguridad"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 9
@@ -1839,7 +1839,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "aplicacion#70"
-  titulo: "Marcar cuotas como pagadas desde admin "
+  titulo: "Marcar cuotas como pagadas desde admin"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 10
@@ -1847,7 +1847,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "aplicacion#71"
-  titulo: "Sacar el tiempo de cerrado de sesion automatico "
+  titulo: "Sacar el tiempo de cerrado de sesion automático"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 10
@@ -1855,7 +1855,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "aplicacion#72"
-  titulo: "Implementar la compra en la tienda del club "
+  titulo: "Implementar la compra en la tienda del club"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 10
@@ -1879,7 +1879,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "control-de-accesos#7"
-  titulo: "Sacar el tiempo de cerrado de sesion automatico (PWA empleados)"
+  titulo: "Sacar el tiempo de cerrado de sesion automático"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 10
@@ -1991,7 +1991,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "documentacion#85"
-  titulo: "Anexo - Openclaw & Sonarcloud"
+  titulo: "Anexo - OpenClaw & Sonarcloud"
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 10
