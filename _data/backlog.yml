@@ -3,7 +3,7 @@
 # ===================
 
 - id: "plataforma-web#1"
-  titulo: "HU-1.1 Login de Usuario Administrativo (Vista)"
+  titulo: "HU-1.1 Login de Usuario Administrativo"
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
@@ -11,7 +11,7 @@
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "gateway#1"
-  titulo: "HU-1.1 Login de Usuario Administrativ (Gateway)"
+  titulo: "HU-1.1 Login de Usuario Administrativo"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
@@ -19,7 +19,7 @@
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "microservicio-autenticacion#1"
-  titulo: "HU-1.1 Login de Usuario Administrativ (Auth)"
+  titulo: "HU-1.1 Login de Usuario Administrativo"
   responsable: "martin"
   puntos: 3
   sprint_planificado: 1
@@ -27,7 +27,7 @@
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "plataforma-web#4"
-  titulo: "HU-1.2 Gestión de Roles y Permisos (Vista)"
+  titulo: "HU-1.2 Gestión de Roles y Permisos"
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
@@ -35,7 +35,7 @@
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "gateway#4"
-  titulo: "HU-1.2 Gestión de Roles y Permisos (Gateway)"
+  titulo: "HU-1.2 Gestión de Roles y Permisos"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
@@ -43,7 +43,7 @@
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "microservicio-autenticacion#4"
-  titulo: "HU-1.2 Gestión de Roles y Permisos (Auth)"
+  titulo: "HU-1.2 Gestión de Roles y Permisos"
   responsable: "martin"
   puntos: 3
   sprint_planificado: 1
@@ -51,7 +51,7 @@
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "microservicio-club#2"
-  titulo: "HU-1.2 Gestión de Roles y Permisos (Core)"
+  titulo: "HU-1.2 Gestión de Roles y Permisos"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 1
@@ -59,7 +59,7 @@
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "plataforma-web#2"
-  titulo: "HU-1.3 ABM de Usuarios Administrativos (Vista)"
+  titulo: "HU-1.3 ABM de Usuarios Administrativos"
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
@@ -67,7 +67,7 @@
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "gateway#2"
-  titulo: "HU-1.3 ABM de Usuarios Administrativos (Gateway)"
+  titulo: "HU-1.3 ABM de Usuarios Administrativos"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
@@ -75,7 +75,7 @@
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "microservicio-autenticacion#2"
-  titulo: "HU-1.3 ABM de Usuarios Administrativos (Auth)"
+  titulo: "HU-1.3 ABM de Usuarios Administrativos"
   responsable: "martin"
   puntos: 3
   sprint_planificado: 1
@@ -83,7 +83,7 @@
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "microservicio-club#1"
-  titulo: "HU-1.3 ABM de Usuarios Administrativos (Core)"
+  titulo: "HU-1.3 ABM de Usuarios Administrativos"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 1
@@ -91,7 +91,7 @@
   categoria: "Épica 1: Accesos y Seguridad"
 
 - id: "plataforma-web#3"
-  titulo: "HU-2.1 ABM de Socios (Vista)"
+  titulo: "HU-2.1 ABM de Socios"
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
@@ -99,7 +99,7 @@
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "gateway#3"
-  titulo: "HU-2.1 ABM de Socios (Gateway)"
+  titulo: "HU-2.1 ABM de Socios"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
@@ -107,7 +107,7 @@
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "microservicio-autenticacion#3"
-  titulo: "HU-2.1 ABM de Socios (Auth)"
+  titulo: "HU-2.1 ABM de Socios"
   responsable: "martin"
   puntos: 3
   sprint_planificado: 1
@@ -115,7 +115,7 @@
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "microservicio-club#4"
-  titulo: "HU-2.1 ABM de Socios (Core)"
+  titulo: "HU-2.1 ABM de Socios"
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
@@ -123,7 +123,7 @@
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "plataforma-web#5"
-  titulo: "HU-2.2 Consulta 360 del Socio (Vista)"
+  titulo: "HU-2.2 Consulta 360 del Socio"
   responsable: "axel"
   puntos: 1
   sprint_planificado: 1
@@ -131,7 +131,7 @@
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "gateway#5"
-  titulo: "HU-2.2 Consulta 360 del Socio (Gateway)"
+  titulo: "HU-2.2 Consulta 360 del Socio"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
@@ -139,7 +139,7 @@
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "microservicio-autenticacion#5"
-  titulo: "HU-2.2 Consulta 360 del Socio (Auth)"
+  titulo: "HU-2.2 Consulta 360 del Socio"
   responsable: "martin"
   puntos: 3
   sprint_planificado: 1
@@ -147,7 +147,7 @@
   categoria: "Épica 2: Gestión Societaria"
 
 - id: "microservicio-club#3"
-  titulo: "HU-2.2 Consulta 360 del Socio (Core)"
+  titulo: "HU-2.2 Consulta 360 del Socio"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 1
@@ -211,7 +211,7 @@
   categoria: "Tareas de documentación"
 
 - id: "documentacion#38"
-  titulo: "Definición inicial de los 'DER' (Diagrama Entidad-Relación)"
+  titulo: "Definición inicial de los 'DER'"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
@@ -235,7 +235,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "healthchecker#1"
-  titulo: "Implementar la lógica del 'Healthchecker'"
+  titulo: "Implementar la lógica del 'Healthchecking'"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 1
@@ -263,7 +263,7 @@
 # ===================
 
 - id: "microservicio-club#16"
-  titulo: "HU-3.2 ABM disciplinas (core)"
+  titulo: "HU-3.2 ABM disciplinas"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 2
@@ -271,7 +271,7 @@
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "microservicio-club#17"
-  titulo: "HU-3.3 Consulta inscriptos disciplinas (core)"
+  titulo: "HU-3.3 Consulta inscriptos disciplinas"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 2
@@ -279,7 +279,7 @@
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "microservicio-club#18"
-  titulo: "Code Coverage ms club"
+  titulo: "Code Coverage"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 2
@@ -287,7 +287,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "microservicio-club#19"
-  titulo: "CI/CD ms club"
+  titulo: "CI/CD"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 2
@@ -295,7 +295,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "microservicio-club#22"
-  titulo: "HU-3.1 Gestion de reservas e instalaciones (core)"
+  titulo: "HU-3.1 Gestión de reservas e instalaciones"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 2
@@ -327,7 +327,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "microservicio-autenticacion#8"
-  titulo: "HU-3.1 Gestion de reservas e instalaciones (auth)"
+  titulo: "HU-3.1 Gestión de reservas e instalaciones"
   responsable: "martin"
   puntos: 3
   sprint_planificado: 2
@@ -343,7 +343,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "microservicio-autenticacion#10"
-  titulo: "HU-3.2 ABM disciplinas (auth)"
+  titulo: "HU-3.2 ABM disciplinas"
   responsable: "martin"
   puntos: 3
   sprint_planificado: 2
@@ -351,7 +351,7 @@
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "microservicio-autenticacion#11"
-  titulo: "HU-3.3 Consulta inscriptos disciplinas (auth)"
+  titulo: "HU-3.3 Consulta inscriptos disciplinas"
   responsable: "martin"
   puntos: 3
   sprint_planificado: 2
@@ -375,7 +375,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "gateway#16"
-  titulo: "HU-3.1 Gestion de reservas e instalaciones (gateway)"
+  titulo: "HU-3.1 Gestión de reservas e instalaciones"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 2
@@ -383,7 +383,7 @@
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "gateway#17"
-  titulo: "HU-3.2 ABM disciplinas (gateway)"
+  titulo: "HU-3.2 ABM disciplinas"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 2
@@ -391,7 +391,7 @@
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "gateway#18"
-  titulo: "HU-3.3 Consulta inscriptos disciplinas (gateway)"
+  titulo: "HU-3.3 Consulta inscriptos disciplinas"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 2
@@ -399,7 +399,7 @@
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "gateway#19"
-  titulo: "CI/CD gateway"
+  titulo: "CI/CD"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 2
@@ -431,7 +431,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "plataforma-web#22"
-  titulo: "Code Coverage (Plataforma Web)"
+  titulo: "Code Coverage"
   responsable: "axel"
   puntos: 5
   sprint_planificado: 2
@@ -439,7 +439,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "plataforma-web#23"
-  titulo: "HU-3.1 Gestion de reservas e instalaciones (vista)"
+  titulo: "HU-3.1 Gestión de reservas e instalaciones"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 2
@@ -447,7 +447,7 @@
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "plataforma-web#24"
-  titulo: "CI/CD (vista)"
+  titulo: "CI/CD"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 2
@@ -455,7 +455,7 @@
   categoria: "Tareas de desarrollo"
 
 - id: "plataforma-web#25"
-  titulo: "HU-3.2 ABM disciplinas (vista)"
+  titulo: "HU-3.2 ABM disciplinas"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 2
@@ -463,7 +463,7 @@
   categoria: "Épica 3: Gestión Operativa"
 
 - id: "plataforma-web#26"
-  titulo: "HU-3.3 Consulta inscriptos disciplinas (vista)"
+  titulo: "HU-3.3 Consulta inscriptos disciplinas"
   responsable: "axel"
   puntos: 3
   sprint_planificado: 2
@@ -511,7 +511,7 @@
   categoria: "Tareas de documentación"
 
 - id: "healthchecker#5"
-  titulo: "agregar front y ms auth al healthchecker"
+  titulo: "Agregar frontend y MS auth al healthchecker"
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 2
@@ -1976,14 +1976,6 @@
 
 - id: "documentacion#82"
   titulo: "Crear la página para el control de gastos y ganancias de transacciones de los clubes"
-  responsable: "felipe"
-  puntos: 5
-  sprint_planificado: 10
-  sprint_completado: 10
-  categoria: "Tareas de desarrollo"
-
-- id: "documentacion#83"
-  titulo: "Creación de página principal publicitaria / contacto de SocioUnido"
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 10
