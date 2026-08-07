@@ -7,11 +7,11 @@ has_children: true
 
 # Hoja de ruta estratégica
 
-En esta sección detallamos la hoja de ruta del proyecto, estructurando el desarrollo en fases claras e iterativas.
+En esta sección detallamos la hoja de ruta del proyecto, estructurando el desarrollo del MVP en sus primeras 10 semanas (Sprints 1 al 10), luego la redacción de la documentación entregable y la preparación para la defensa final.
 
-## Planificación del primer MVP (Sprints 1 al 10)
+## Desarrollo del MVP (Sprints 1 al 10)
 
-El desarrollo de este MVP está segmentado en cuatro grandes fases, garantizando entregas de valor continuo, testeo temprano y un margen de tiempo seguro para imprevistos.
+El desarrollo de este "MVP" está segmentado en grandes fases, garantizando entregas de valor continuo, testeo temprano y un margen de tiempo seguro para imprevistos.
 
 ### Fase 1: Estructura base y plataforma Web de gestión
 
@@ -19,45 +19,62 @@ El objetivo inicial es establecer los cimientos de la arquitectura (microservici
 
 * **Sprint 1: Iniciación y seguridad**
   * Creación de la estructura web e interconexiones iniciales entre microservicios.
-  * **Épica 1 (Accesos y Seguridad):** Login, registro, baja de usuarios administrativos y gestión de roles.
-  * **Épica 2 (Gestión Societaria):** Consulta integral del socio (cuotas, reservas, último login).
+  * **Épica 1 (Accesos y seguridad):** Login, registro, baja de usuarios administrativos y gestión de roles.
+  * **Épica 2 (Gestión societaria):** Consulta integral del socio (cuotas, reservas, último login).
 
 * **Sprints 2, 3 y 4: Operaciones y dashboard**
-  * **Épica 3 (Gestión Operativa):** ABM de reservas; administración de disciplinas y consulta de socios inscriptos.
-  * **Épica 4 (Comunicación y Retención):** Configuración y envío de alertas a socios; publicación de noticias.
-  * **Épica 5 (Dashboard Analítico):** Métricas (recaudación, morosidad, accesos, uso de espacios, etc.); ABM de socios y métricas predictivas de fidelización.
-  * Retrospectiva de la plataforma web, refinamiento de la UI y ajuste de microservicios.
+  * **Épica 3 (Gestión operativa):** ABM de reservas, administración de disciplinas y consulta de socios inscriptos.
+  * **Épica 4 (Comunicación y retención):** Configuración/Envío de alertas a socios y publicación de noticias.
+  * **Épica 5 (Dashboard analítico):** Métricas (Recaudación, morosidad, accesos, uso de espacios, etc.). ABM de socios y métricas predictivas de fidelización.
+  * Retrospectiva de la plataforma web, refinamiento de la UX/UI y ajuste de microservicios.
 
-* **Sprints 5: Testeo y refinamiento**
+* **Sprint 5: Testeo y refinamiento**
   * Testeo integral (End-to-End) de toda la plataforma web.
-  * Corrección de bugs y refinamiento general de la interfaz y la experiencia de usuario (UX/UI).
+  * Corrección de bugs y refinamiento general de la interfaz y la experiencia de usuario.
   * Retrospectiva final del panel web, análisis de resultados y planificación de mejoras para futuras iteraciones.
 
 ### Fase 2: Aplicación móvil (Socios y empleados) e Inteligencia Artificial
 
 Una vez estabilizado el panel web, el enfoque se traslada a la interfaz de usuario final, permitiendo la autogestión de los socios y herramientas de control para los empleados en campo.
 
-* **Sprint 6, 7 y 8: Iniciación móvil y autogestión**
+* **Sprints 6, 7 y 8: Iniciación móvil y autogestión**
   * Creación de la aplicación móvil y sus primeras interconexiones.
-  * **Épica 6 (Perfil y Autogestión):** Login de socios, cambio de contraseña, manejo de perfil, ABM de reservas propias y consulta de estado de deuda.
-  * **Épica 7 (Reservas y Deportes):** Consulta e inscripción a disciplinas; vista de espacios compartidos y formularios del club.
+  * **Épica 6 (Perfil y autogestión):** Login de socios, cambio de contraseña, manejo de perfil, ABM de reservas propias y consulta de estado de deuda.
+  * **Épica 7 (Reservas y deportes):** Consulta e inscripción a disciplinas, vista de espacios compartidos y formularios del club.
   * **Épica 8 (Pagos):** Pasarela para abono de cuotas, reservas, disciplinas y entradas.
   * **Épica 9 (Novedades):** Feed de noticias del club e interacción con la tienda de productos.
-  * **Épica 10 (Rol Empleado):** Login específico para personal, manejo de perfil y escaneo de códigos QR para control de accesos.
+  * **Épica 10 (Rol empleado):** Login específico para personal, manejo de perfil y escaneo de códigos QR para control de accesos.
 
 * **Sprints 9 y 10: Canal conversacional y testeo integral**
   * Desarrollo, entrenamiento del modelo e integración final con el resto de los microservicios.
-  * **Épica 11 (Canal Conversacional):** Bot para responder consultas frecuentes de los usuarios de forma automática y envío de alertas/noticias proactivas.
+  * **Épica 11 (Canal conversacional):** Bot para responder consultas frecuentes de los usuarios de forma automática y envío de alertas/noticias proactivas.
   * Testeo integral (End-to-End) de toda la plataforma web y la aplicación móvil.
   * Corrección de bugs y refinamiento general de la interfaz y la experiencia de usuario (UX/UI).
   * Retrospectiva final del MVP, análisis de resultados y planificación de mejoras para futuras iteraciones.
 
-### Ideas futuras para el segundo MVP
+## Consolidación y documentación final (Semanas 11 a 13)
 
-Durante el desarrollo de este primer MVP, se fueron identificando nuevas oportunidades de mejora y funcionalidades adicionales que podrían ser incorporadas en un segundo MVP, como:
+Tras concluir el desarrollo central del código, el enfoque principal del equipo se traslada a la formalización del proyecto.
+
+* **Sprints 11, 12 y 13:** 
+  * Redacción, revisión y finalización de toda la documentación entregable (Técnica, funcional y de gestión).
+  * Consolidación de manuales de usuario y métricas finales del ciclo de vida del producto.
+
+## Pulido final y preparación de la defensa (Semana 14 en adelante)
+
+El tiempo restante del calendario se destinará exclusivamente a asegurar la máxima calidad del entregable y garantizar una presentación exitosa.
+
+* **Refinamiento continuo:** Pulir detalles de "UX/UI" para asegurar que tanto la plataforma web como la app móvil ofrezcan una experiencia impecable.
+* **Agregado de valor rápido:** Incorporar pequeñas funcionalidades o ajustes detectados durante el uso que aporten valor sin poner en riesgo la estabilidad del sistema.
+* **Defensa final:** Preparación del discurso, armado de material visual, ensayos de la presentación y puesta a punto de los entornos de demostración para el jurado.
+
+## Futuras funcionalidades ideadas para próximas posibles iteraciones del producto
+
+Durante el desarrollo de esta primera versión funcional, se fueron identificando nuevas oportunidades de mejora y características adicionales de gran valor que quedan documentadas para futuras expansiones del sistema:
 
 - Rol de profesor/entrenador dentro de la plataforma web, quien puede gestionar sus propias clases, horarios y alumnos.
-- Integración de un sistema de reservas para eventos especiales o torneos organizados por el club.
 - Hacer que la aplicación esté disponible en Play Store.
+- Integración con pasarelas de pago externas, permitiendo a los clubes ofrecer mayor variedad de métodos de pago.
+- Integración con molinetes y sistemas de control de acceso.
 - Interacciones con el correo para que el usuario tenga notificaciones por cumpleaños, anualidades de socio, etc.
 - Capacidad de aceptar múltiples cuentas destino para pagos, permitiendo a los clubes tener múltiples fondos de recaudación.

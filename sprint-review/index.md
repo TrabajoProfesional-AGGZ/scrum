@@ -6,11 +6,11 @@ has_children: true
 has_toc: false
 ---
 
-# Registro de sprint reviews
+# Sprint reviews
 
 Documentación de las demostraciones al final de cada iteración. Evaluamos el incremento del producto generado y qué funcionalidades están listas para usar.
 
-## Historial de Reviews
+## Historial de reviews
 
 * [Sprint review N°1 (Jueves 11/06/2026)](review-1.html)
 * [Sprint review N°2 (Jueves 18/06/2026)](review-2.html)
