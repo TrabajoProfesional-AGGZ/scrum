@@ -1998,6 +1998,14 @@
   sprint_completado: 10
   categoria: "Tareas de documentación"
 
+- id: "documentacion#95"
+  titulo: "Anexo - Políticas de producto"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de documentación"
+
 - id: "bitacora#14"
   titulo: "Bitácora de la semana 22"
   responsable: "felipe"
