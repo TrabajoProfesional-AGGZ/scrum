@@ -12,7 +12,7 @@ nav_order: 10
 
 ## 🎯 Objetivo del sprint
 
-Cerrar por completo el MVP diseñado para SocioUnido. Para lograrlo, el enfoque principal será ejecutar un testing intensivo de toda la arquitectura (microservicios, gateway, aplicaciones y plataforma web) y pulir la seguridad, confiabilidad y claridad del código utilizando OpenClaw y SonarCloud. Además, se incluye el despliegue final del bot conversacional en Telegram, la creación de la página de monitoreo, y la implementación de funcionalidades pequeñas de alto valor.
+Cerrar por completo el MVP diseñado para SocioUnido. Para lograrlo, el enfoque principal será ejecutar un testing intensivo de toda la arquitectura (microservicios, gateway, aplicaciones y plataforma web) y pulir la seguridad, confiabilidad y claridad del código utilizando OpenClaw y SonarCloud. Además, se incluye el despliegue final del bot conversacional en Telegram, y la implementación de funcionalidades pequeñas de alto valor.
 
 ## ⏱️ Capacidad del equipo y acuerdos de trabajo
 
@@ -20,7 +20,6 @@ Cerrar por completo el MVP diseñado para SocioUnido. Para lograrlo, el enfoque 
 * **Foco técnico (Testing y Calidad):** La prioridad absoluta es la estabilidad del producto. Se auditará el código con herramientas automatizadas (SonarCloud y OpenClaw) y se redactará un anexo formal basado en los reportes obtenidos.
 * **Funcionalidades "Quick Wins":** Se acordó incorporar únicamente aquellas pequeñas funcionalidades que representen un bajo costo de desarrollo/implementación pero que aporten un alto valor percibido al MVP.
 * **Pivote de canal conversacional:** Se finalizará la migración y el despliegue del bot hacia la nueva plataforma elegida (Telegram), adaptando las integraciones necesarias.
-* **Monitoreo de producto:** Se destinará capacidad del equipo a la creación de un panel de monitoreo multi-club para tener control integral del sistema.
 
 ## 📦 Sprint Backlog (Tareas comprometidas)
 

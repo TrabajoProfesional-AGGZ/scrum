@@ -19,7 +19,6 @@ nav_order: 10
 * Testing intensivo superado en toda la arquitectura (microservicios, gateway, aplicaciones y plataforma web).
 * Auditoría de seguridad y calidad de código finalizada utilizando SonarCloud y OpenClaw.
 * Migración, configuración y despliegue final del bot conversacional en Telegram completado con éxito.
-* Panel de monitoreo multi-club creado e integrado.
 * Implementación de diversas funcionalidades "Quick wins" de alto impacto para el usuario.
 
 ## 🚧 Elementos no completados (Spillover)
@@ -32,4 +31,4 @@ nav_order: 10
 
 ## 🔄 Ajustes al roadmap / Backlog
 
-* **Cambio drástico de etapa:** Se congela por completo el desarrollo de nuevas características. Los próximos sprints estarán 100% dedicados a la redacción del informe final, anexos y documentación técnica. Una vez terminada esa fase, se abandonará la metodología de sprints formales para pasar a un esquema flexible enfocado únicamente en ensayar la presentación final, mejorar UX/UI según feedback y realizar correcciones menores (*bugfixing*).
+* **Cambio drástico de etapa:** Se congela casi por completo el desarrollo de nuevas características. Los próximos sprints estarán 100% dedicados a la redacción del informe final, anexos y documentación técnica. Una vez terminada esa fase, se abandonará la metodología de sprints formales para pasar a un esquema flexible enfocado únicamente en ensayar la presentación final, mejorar UX/UI según feedback y realizar correcciones menores (*bugfixing*).
