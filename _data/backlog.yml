@@ -1974,14 +1974,6 @@
   sprint_completado: 10
   categoria: "Tareas de documentación"
 
-- id: "documentacion#82"
-  titulo: "Crear la página para el control de gastos y ganancias de transacciones de los clubes"
-  responsable: "felipe"
-  puntos: 5
-  sprint_planificado: 10
-  sprint_completado: 10
-  categoria: "Tareas de desarrollo"
-
 - id: "documentacion#84"
   titulo: "Realizar análisis de mercado inicial para primeras ventas del producto"
   responsable: "felipe"
@@ -2000,6 +1992,14 @@
 
 - id: "documentacion#95"
   titulo: "Anexo - Políticas de producto"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#96"
+  titulo: "Actualizar el anexo del Healthchecker con los nuevos monitoreos"
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 10
