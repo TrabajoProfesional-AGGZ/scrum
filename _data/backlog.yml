@@ -1974,14 +1974,6 @@
   sprint_completado: 10
   categoria: "Tareas de documentación"
 
-- id: "documentacion#84"
-  titulo: "Realizar análisis de mercado inicial para primeras ventas del producto"
-  responsable: "felipe"
-  puntos: 5
-  sprint_planificado: 10
-  sprint_completado: 10
-  categoria: "Tareas de desarrollo"
-
 - id: "documentacion#85"
   titulo: "Anexo - OpenClaw & Sonarcloud"
   responsable: "felipe"
@@ -2013,3 +2005,19 @@
   sprint_planificado: 10
   sprint_completado: 10
   categoria: "Tareas de documentación"
+
+- id: "toolkit-financiero#1"
+  titulo: "Realizar análisis de mercado inicial para primeras ventas del producto"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
+
+- id: "toolkit-financiero#2"
+  titulo: "Creación de la página base de las herramientas financieras"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 10
+  sprint_completado: 10
+  categoria: "Tareas de desarrollo"
