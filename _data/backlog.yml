@@ -2265,3 +2265,67 @@
   sprint_planificado: 11
   sprint_completado: null
   categoria: "Tareas de documentación"
+
+- id: "documentacion#101"
+  titulo: "Anexo - Documentación web de los microservicios"
+  responsable: "felipé"
+  puntos: 5
+  sprint_planificado: 11
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#102"
+  titulo: "Anexo - APIs de terceros"
+  responsable: "felipé"
+  puntos: 3
+  sprint_planificado: 11
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#103"
+  titulo: "Anexo - Atributos de calidad"
+  responsable: "felipé"
+  puntos: 3
+  sprint_planificado: 11
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#104"
+  titulo: "Anexo - Épicas de usuario"
+  responsable: "felipé"
+  puntos: 5
+  sprint_planificado: 11
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#105"
+  titulo: "Anexo - División de responsabilidades"
+  responsable: "felipé"
+  puntos: 5
+  sprint_planificado: 11
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#106"
+  titulo: "Anexo - Lecciones aprendidas & Errores cometido"
+  responsable: "felipé"
+  puntos: 3
+  sprint_planificado: 11
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#107"
+  titulo: "Anexo - Bugs encontrados y solucionados"
+  responsable: "felipé"
+  puntos: 5
+  sprint_planificado: 11
+  sprint_completado: null
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#108"
+  titulo: "Anexo - Definición de scope para futuras versiones"
+  responsable: "felipé"
+  puntos: 3
+  sprint_planificado: 11
+  sprint_completado: null
+  categoria: "Tareas de documentación"
