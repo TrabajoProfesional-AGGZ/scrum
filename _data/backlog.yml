@@ -2031,7 +2031,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "microservicio-analiticas#27"
@@ -2039,7 +2039,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "microservicio-acceso#13"
@@ -2047,7 +2047,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "microservicio-pagos#22"
@@ -2055,7 +2055,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "gateway#71"
@@ -2063,7 +2063,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "microservicio-club#105"
@@ -2071,7 +2071,7 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de desarrollo"
 
 - id: "microservicio-club#106"
@@ -2079,7 +2079,7 @@
   responsable: "axel"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de desarrollo"
 
 - id: "microservicio-club#107"
@@ -2087,7 +2087,7 @@
   responsable: "axel"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de desarrollo"
 
 - id: "microservicio-club#108"
@@ -2095,7 +2095,7 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de desarrollo"
 
 - id: "microservicio-club#109"
@@ -2103,7 +2103,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "microservicio-bot-conversacional#12"
@@ -2111,7 +2111,7 @@
   responsable: "martin"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de desarrollo"
 
 - id: "microservicio-bot-conversacional#13"
@@ -2119,7 +2119,7 @@
   responsable: "martin"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de desarrollo"
 
 - id: "microservicio-bot-conversacional#14"
@@ -2127,7 +2127,7 @@
   responsable: "martin"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de desarrollo"
 
 - id: "microservicio-bot-conversacional#15"
@@ -2135,7 +2135,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "plataforma-web#124"
@@ -2143,7 +2143,7 @@
   responsable: "axel"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de desarrollo"
 
 - id: "plataforma-web#125"
@@ -2151,7 +2151,7 @@
   responsable: "axel"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de desarrollo"
 
 - id: "plataforma-web#128"
@@ -2159,7 +2159,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "control-de-accesos#11"
@@ -2167,7 +2167,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "aplicacion#77"
@@ -2175,7 +2175,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "healthchecker#17"
@@ -2183,7 +2183,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "scrum#29"
@@ -2191,7 +2191,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "scrum#30"
@@ -2199,7 +2199,7 @@
   responsable: "equipo"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "bitacora#16"
@@ -2207,7 +2207,7 @@
   responsable: "felipe"
   puntos: 1
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#86"
@@ -2215,7 +2215,7 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#87"
@@ -2223,7 +2223,7 @@
   responsable: "lautaro"
   puntos: 3
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#88"
@@ -2231,15 +2231,7 @@
   responsable: "lautaro"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
-  categoria: "Tareas de documentación"
-
-- id: "documentacion#89"
-  titulo: "Actualizar los diagramas C4 Model - C4"
-  responsable: "lautaro"
-  puntos: 5
-  sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#90"
@@ -2247,7 +2239,7 @@
   responsable: "lautaro"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#98"
@@ -2255,7 +2247,7 @@
   responsable: "axel"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#100"
@@ -2263,7 +2255,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#102"
@@ -2271,7 +2263,7 @@
   responsable: "felipe"
   puntos: 3
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#103"
@@ -2279,7 +2271,7 @@
   responsable: "felipe"
   puntos: 3
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#104"
@@ -2287,7 +2279,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#105"
@@ -2295,7 +2287,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#106"
@@ -2303,7 +2295,7 @@
   responsable: "felipe"
   puntos: 3
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#107"
@@ -2311,7 +2303,7 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#108"
@@ -2319,7 +2311,7 @@
   responsable: "felipe"
   puntos: 3
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
   categoria: "Tareas de documentación"
 
 - id: "documentacion#114"
@@ -2327,5 +2319,21 @@
   responsable: "felipe"
   puntos: 5
   sprint_planificado: 11
-  sprint_completado: null
+  sprint_completado: 11
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#115"
+  titulo: "Crear canal de YouTube, migrar los videos y actualizar las referencias"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de documentación"
+
+- id: "documentacion#116"
+  titulo: "Anexo - Vistas e interfaces"
+  responsable: "felipe"
+  puntos: 5
+  sprint_planificado: 11
+  sprint_completado: 11
   categoria: "Tareas de documentación"
