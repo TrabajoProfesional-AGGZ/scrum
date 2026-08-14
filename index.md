@@ -27,5 +27,6 @@ Aquí llevaremos el registro histórico de cada ciclo de desarrollo:
 * 🎯 **[Sprint planning](sprint-planning/):** Los objetivos definidos al inicio de cada iteración y las tareas comprometidas por el equipo.
 * 🔍 **[Sprint review](sprint-review/):** El resumen de lo que se logró construir, mostrar y validar al final de cada ciclo.
 * 🔄 **[Retrospectiva del sprint](retrospectiva/):** Nuestro espacio de mejora continua, analizando qué salió bien, qué salió mal y qué acciones tomaremos para el próximo Sprint.
-* 📊 **[Métricas](metricas/):** Gráficos y análisis de rendimiento, donde documentamos la evolución de los Sprints para medir la velocidad y eficiencia del equipo.
+* 📈 **[Métricas](metricas/):** Gráficos y análisis de rendimiento, donde documentamos la evolución de los Sprints para medir la velocidad y eficiencia del equipo.
 * 🗂️ **[Backlog](backlog/):** Inventario centralizado de historias de usuario y tareas del desarrollo, clasificadas por Sprint y categorizadas por Épica o naturaleza.
+* 📊 **[Métricas de la implementación](metricas_repo.html):** Estadísticas del desarrollo, cantidad de commits, Pull Requests y distribución del trabajo en el equipo.

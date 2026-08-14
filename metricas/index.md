@@ -6,13 +6,13 @@ has_children: true
 has_toc: false
 ---
 
-# Registro de métricas de rendimiento
+# 📈 Registro de métricas de rendimiento
 
 En esta sección documentamos los gráficos y el análisis de rendimiento de nuestro equipo a lo largo de los diferentes Sprints. El objetivo es tener un registro visual y medible de nuestra velocidad de desarrollo para mejorar nuestras estimaciones de manera empírica.
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-## 📊 Métricas grupales
+## Métricas grupales
 
 ### Release Burndown Chart
 
