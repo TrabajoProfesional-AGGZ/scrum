@@ -2034,6 +2034,14 @@
   sprint_completado: 11
   categoria: "Tareas de documentación"
 
+- id: "microservicio-autenticacion#26"
+  titulo: "Convertir repositorio a privado"
+  responsable: "martin"
+  puntos: 1
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
+
 - id: "microservicio-analiticas#27"
   titulo: "Hacer la página documental final del microservicio"
   responsable: "felipe"
@@ -2041,6 +2049,14 @@
   sprint_planificado: 11
   sprint_completado: 11
   categoria: "Tareas de documentación"
+
+- id: "microservicio-analiticas#30"
+  titulo: "Convertir repositorio a privado"
+  responsable: "martin"
+  puntos: 1
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
 
 - id: "microservicio-acceso#13"
   titulo: "Hacer la página documental final del microservicio"
@@ -2050,6 +2066,14 @@
   sprint_completado: 11
   categoria: "Tareas de documentación"
 
+- id: "microservicio-acceso#14"
+  titulo: "Convertir repositorio a privado"
+  responsable: "lautaro"
+  puntos: 1
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
+
 - id: "microservicio-pagos#22"
   titulo: "Hacer la página documental final del microservicio"
   responsable: "felipe"
@@ -2058,6 +2082,14 @@
   sprint_completado: 11
   categoria: "Tareas de documentación"
 
+- id: "microservicio-pagos#23"
+  titulo: "Convertir repositorio a privado"
+  responsable: "lautaro"
+  puntos: 1
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
+
 - id: "gateway#71"
   titulo: "Hacer la página documental final del gateway"
   responsable: "felipe"
@@ -2065,6 +2097,14 @@
   sprint_planificado: 11
   sprint_completado: 11
   categoria: "Tareas de documentación"
+
+- id: "gateway#73"
+  titulo: "Convertir repositorio a privado"
+  responsable: "lautaro"
+  puntos: 1
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
 
 - id: "microservicio-club#105"
   titulo: "Crear las cuotas de todos los Socios del club maqueta"
@@ -2106,6 +2146,14 @@
   sprint_completado: 11
   categoria: "Tareas de documentación"
 
+- id: "microservicio-club#111"
+  titulo: "Convertir repositorio a privado"
+  responsable: "lautaro"
+  puntos: 1
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
+
 - id: "microservicio-bot-conversacional#12"
   titulo: "Pulir interacción total e imagen de 'Botín'"
   responsable: "martin"
@@ -2138,6 +2186,14 @@
   sprint_completado: 11
   categoria: "Tareas de documentación"
 
+- id: "microservicio-bot-conversacional#16"
+  titulo: "Convertir repositorio a privado"
+  responsable: "martin"
+  puntos: 1
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
+
 - id: "plataforma-web#124"
   titulo: "Agregar tienda a métricas del club"
   responsable: "axel"
@@ -2162,6 +2218,14 @@
   sprint_completado: 11
   categoria: "Tareas de documentación"
 
+- id: "plataforma-web#136"
+  titulo: "Convertir repositorio a privado"
+  responsable: "axel"
+  puntos: 1
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
+
 - id: "control-de-accesos#11"
   titulo: "Hacer la página documental final de la aplicación"
   responsable: "felipe"
@@ -2169,6 +2233,14 @@
   sprint_planificado: 11
   sprint_completado: 11
   categoria: "Tareas de documentación"
+
+- id: "control-de-accesos#12"
+  titulo: "Convertir repositorio a privado"
+  responsable: "axel"
+  puntos: 1
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
 
 - id: "aplicacion#77"
   titulo: "Hacer la página documental final de la aplicación"
@@ -2178,6 +2250,14 @@
   sprint_completado: 11
   categoria: "Tareas de documentación"
 
+- id: "aplicacion#79"
+  titulo: "Convertir repositorio a privado"
+  responsable: "lautaro"
+  puntos: 1
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
+
 - id: "healthchecker#17"
   titulo: "Hacer la página documental final del healthchecker"
   responsable: "felipe"
@@ -2185,6 +2265,14 @@
   sprint_planificado: 11
   sprint_completado: 11
   categoria: "Tareas de documentación"
+
+- id: "healthchecker#18"
+  titulo: "Convertir repositorio a privado"
+  responsable: "lautaro"
+  puntos: 1
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
 
 - id: "scrum#29"
   titulo: "Documentar ceremonias de Scrum y métricas de la iteración N°11"
