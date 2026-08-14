@@ -2266,14 +2266,6 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
-- id: "documentacion#101"
-  titulo: "Anexo - Documentación web de los microservicios"
-  responsable: "felipe"
-  puntos: 5
-  sprint_planificado: 11
-  sprint_completado: null
-  categoria: "Tareas de documentación"
-
 - id: "documentacion#102"
   titulo: "Anexo - APIs de terceros"
   responsable: "felipe"
@@ -2330,10 +2322,10 @@
   sprint_completado: null
   categoria: "Tareas de documentación"
 
-- id: "documentacion#109"
-  titulo: "Anexo - Botín"
+- id: "documentacion#114"
+  titulo: "Anexo - Horas PPS"
   responsable: "felipe"
-  puntos: 3
+  puntos: 5
   sprint_planificado: 11
   sprint_completado: null
   categoria: "Tareas de documentación"
