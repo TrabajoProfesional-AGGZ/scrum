@@ -2409,7 +2409,7 @@
 - id: "documentacion#118"
   titulo: "Grabación - Manual/Tutorial (Aplicación socios) - Apartado de actividades y entradas"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2417,7 +2417,7 @@
 - id: "documentacion#119"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación socios) - Apartado de actividades y entradas"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2425,7 +2425,7 @@
 - id: "documentacion#120"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación socios) - Apartado de actividades y entradas"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2433,7 +2433,7 @@
 - id: "documentacion#122"
   titulo: "Grabación - Manual/Tutorial (Aplicación socios) - Apartado de carnet"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2441,7 +2441,7 @@
 - id: "documentacion#123"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación socios) - Apartado de carnet"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2449,7 +2449,7 @@
 - id: "documentacion#124"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación socios) - Apartado de carnet"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2457,7 +2457,7 @@
 - id: "documentacion#126"
   titulo: "Grabación - Manual/Tutorial (Aplicación socios) - Apartado de cuotas y pagos"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2465,7 +2465,7 @@
 - id: "documentacion#127"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación socios) - Apartado de cuotas y pagos"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2473,7 +2473,7 @@
 - id: "documentacion#128"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación socios) - Apartado de cuotas y pagos"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2481,7 +2481,7 @@
 - id: "documentacion#130"
   titulo: "Grabación - Manual/Tutorial (Aplicación socios) - Home (Explorando funcionalidades, vistas y atajos)"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2489,7 +2489,7 @@
 - id: "documentacion#131"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación socios) - Home (Explorando funcionalidades, vistas y atajos)"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2497,7 +2497,7 @@
 - id: "documentacion#132"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación socios) - Home (Explorando funcionalidades, vistas y atajos)"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2505,15 +2505,15 @@
 - id: "documentacion#134"
   titulo: "Grabación - Manual/Tutorial (Aplicación socios) - Login en la app, nociones básicas y generales"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
 
-- id: "documentacion#135"
+- id: "documentacion#133"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación socios) - Login en la app, nociones básicas y generales"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2521,7 +2521,7 @@
 - id: "documentacion#136"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación socios) - Login en la app, nociones básicas y generales"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2529,7 +2529,7 @@
 - id: "documentacion#138"
   titulo: "Grabación - Manual/Tutorial (Aplicación socios) - Apartado de noticias"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2537,7 +2537,7 @@
 - id: "documentacion#139"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación socios) - Apartado de noticias"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2545,7 +2545,7 @@
 - id: "documentacion#140"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación socios) - Apartado de noticias"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2553,7 +2553,7 @@
 - id: "documentacion#142"
   titulo: "Grabación - Manual/Tutorial (Aplicación socios) - Procesos de registro de socio"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2561,7 +2561,7 @@
 - id: "documentacion#143"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación socios) - Procesos de registro de socio"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2569,7 +2569,7 @@
 - id: "documentacion#144"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación socios) - Procesos de registro de socio"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2577,7 +2577,7 @@
 - id: "documentacion#146"
   titulo: "Grabación - Manual/Tutorial (Aplicación socios) - Apartado de reservas"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2585,7 +2585,7 @@
 - id: "documentacion#147"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación socios) - Apartado de reservas"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2593,71 +2593,71 @@
 - id: "documentacion#148"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación socios) - Apartado de reservas"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
 
-- id: "documentacion#150"
+- id: "documentacion#130"
   titulo: "Grabación - Manual/Tutorial (Aplicación socios) - Apartado de tienda"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
 
-- id: "documentacion#151"
+- id: "documentacion#131"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación socios) - Apartado de tienda"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
 
-- id: "documentacion#152"
+- id: "documentacion#132"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación socios) - Apartado de tienda"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
 
-- id: "documentacion#154"
+- id: "documentacion#134"
   titulo: "Grabación - Manual/Tutorial (Aplicación socios) - Apartado de trámites"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
 
-- id: "documentacion#155"
+- id: "documentacion#133"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación socios) - Apartado de trámites"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
 
-- id: "documentacion#156"
+- id: "documentacion#136"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación socios) - Apartado de trámites"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
 
-- id: "documentacion#158"
+- id: "documentacion#138"
   titulo: "Grabación - Manual/Tutorial (Aplicación empleados) - Home (Explorando funcionalidades, vistas y atajos)"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
 
-- id: "documentacion#159"
+- id: "documentacion#139"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación empleados) - Home (Explorando funcionalidades, vistas y atajos)"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2665,7 +2665,7 @@
 - id: "documentacion#160"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación empleados) - Home (Explorando funcionalidades, vistas y atajos)"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2673,7 +2673,7 @@
 - id: "documentacion#162"
   titulo: "Grabación - Manual/Tutorial (Aplicación empleados) - Funcionalidad y uso del lector QR"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2681,7 +2681,7 @@
 - id: "documentacion#163"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación empleados) - Funcionalidad y uso del lector QR"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2689,7 +2689,7 @@
 - id: "documentacion#164"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación empleados) - Funcionalidad y uso del lector QR"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2697,7 +2697,7 @@
 - id: "documentacion#166"
   titulo: "Grabación - Manual/Tutorial (Aplicación empleados) - Login en la app, nociones básicas y generales"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2705,7 +2705,7 @@
 - id: "documentacion#167"
   titulo: "Edición y carga - Manual/Tutorial (Aplicación empleados) - Login en la app, nociones básicas y generales"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2713,7 +2713,7 @@
 - id: "documentacion#168"
   titulo: "Transcripción al manual - Manual/Tutorial (Aplicación empleados) - Login en la app, nociones básicas y generales"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 12
   sprint_completado: 12
   categoria: "Tareas de documentación"
@@ -2725,15 +2725,15 @@
 - id: "documentacion#173"
   titulo: "Grabación - Manual/Tutorial (Plataforma web) - Apartado de alertas"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
 
-- id: "documentacion#175"
+- id: "documentacion#173"
   titulo: "Edición y carga - Manual/Tutorial (Plataforma web) - Apartado de alertas"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2741,7 +2741,7 @@
 - id: "documentacion#177"
   titulo: "Transcripción al manual - Manual/Tutorial (Plataforma web) - Apartado de alertas"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2749,15 +2749,15 @@
 - id: "documentacion#184"
   titulo: "Grabación - Manual/Tutorial (Plataforma web) - Apartado de tienda"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
 
-- id: "documentacion#185"
+- id: "documentacion#183"
   titulo: "Edición y carga - Manual/Tutorial (Plataforma web) - Apartado de tienda"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2765,7 +2765,7 @@
 - id: "documentacion#186"
   titulo: "Transcripción al manual - Manual/Tutorial (Plataforma web) - Apartado de tienda"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2773,7 +2773,7 @@
 - id: "documentacion#191"
   titulo: "Grabación - Manual/Tutorial (Plataforma web) - Apartado de noticias"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2781,7 +2781,7 @@
 - id: "documentacion#192"
   titulo: "Edición y carga - Manual/Tutorial (Plataforma web) - Apartado de noticias"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2789,15 +2789,15 @@
 - id: "documentacion#193"
   titulo: "Transcripción al manual - Manual/Tutorial (Plataforma web) - Apartado de noticias"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
 
-- id: "documentacion#195"
+- id: "documentacion#193"
   titulo: "Grabación - Manual/Tutorial (Plataforma web) - Apartado de métricas"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2805,7 +2805,7 @@
 - id: "documentacion#196"
   titulo: "Edición y carga - Manual/Tutorial (Plataforma web) - Apartado de métricas"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2813,7 +2813,7 @@
 - id: "documentacion#197"
   titulo: "Transcripción al manual - Manual/Tutorial (Plataforma web) - Apartado de métricas"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2821,7 +2821,7 @@
 - id: "documentacion#199"
   titulo: "Grabación - Manual/Tutorial (Plataforma web) - Login en la web, nociones básicas y generales"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2829,7 +2829,7 @@
 - id: "documentacion#200"
   titulo: "Edición y carga - Manual/Tutorial (Plataforma web) - Login en la web, nociones básicas y generales"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2837,7 +2837,7 @@
 - id: "documentacion#201"
   titulo: "Transcripción al manual - Manual/Tutorial (Plataforma web) - Login en la web, nociones básicas y generales"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2845,7 +2845,7 @@
 - id: "documentacion#203"
   titulo: "Grabación - Manual/Tutorial (Plataforma web) - Home (Explorando funcionalidades, vistas y atajos)"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2853,15 +2853,15 @@
 - id: "documentacion#204"
   titulo: "Edición y carga - Manual/Tutorial (Plataforma web) - Home (Explorando funcionalidades, vistas y atajos)"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
 
-- id: "documentacion#205"
+- id: "documentacion#203"
   titulo: "Transcripción al manual - Manual/Tutorial (Plataforma web) - Home (Explorando funcionalidades, vistas y atajos)"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2869,7 +2869,7 @@
 - id: "documentacion#207"
   titulo: "Grabación - Manual/Tutorial (Plataforma web) - Apartado de gestión de usuarios administrativos"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2877,7 +2877,7 @@
 - id: "documentacion#208"
   titulo: "Edición y carga - Manual/Tutorial (Plataforma web) - Apartado de gestión de usuarios administrativos"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2885,7 +2885,7 @@
 - id: "documentacion#209"
   titulo: "Transcripción al manual - Manual/Tutorial (Plataforma web) - Apartado de gestión de usuarios administrativos"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2893,7 +2893,7 @@
 - id: "documentacion#211"
   titulo: "Grabación - Manual/Tutorial (Plataforma web) - Apartado de gestión de socios"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2901,7 +2901,7 @@
 - id: "documentacion#212"
   titulo: "Edición y carga - Manual/Tutorial (Plataforma web) - Apartado de gestión de socios"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2909,15 +2909,15 @@
 - id: "documentacion#213"
   titulo: "Transcripción al manual - Manual/Tutorial (Plataforma web) - Apartado de gestión de socios"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
 
-- id: "documentacion#215"
+- id: "documentacion#213"
   titulo: "Grabación - Manual/Tutorial (Plataforma web) - Apartado de gestión de reservas e instalaciones"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2925,7 +2925,7 @@
 - id: "documentacion#216"
   titulo: "Edición y carga - Manual/Tutorial (Plataforma web) - Apartado de gestión de reservas e instalaciones"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2933,7 +2933,7 @@
 - id: "documentacion#217"
   titulo: "Transcripción al manual - Manual/Tutorial (Plataforma web) - Apartado de gestión de reservas e instalaciones"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2941,7 +2941,7 @@
 - id: "documentacion#219"
   titulo: "Grabación - Manual/Tutorial (Plataforma web) - Apartado de gestión de disciplinas"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2949,7 +2949,7 @@
 - id: "documentacion#220"
   titulo: "Edición y carga - Manual/Tutorial (Plataforma web) - Apartado de gestión de disciplinas"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2957,7 +2957,7 @@
 - id: "documentacion#221"
   titulo: "Transcripción al manual - Manual/Tutorial (Plataforma web) - Apartado de gestión de disciplinas"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2965,7 +2965,7 @@
 - id: "documentacion#223"
   titulo: "Grabación - Manual/Tutorial (Plataforma web) - Apartado de eventos"
   responsable: "axel"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
@@ -2973,15 +2973,15 @@
 - id: "documentacion#224"
   titulo: "Edición y carga - Manual/Tutorial (Plataforma web) - Apartado de eventos"
   responsable: "martin"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
 
-- id: "documentacion#225"
+- id: "documentacion#223"
   titulo: "Transcripción al manual - Manual/Tutorial (Plataforma web) - Apartado de eventos"
   responsable: "felipe"
-  puntos: 5
+  puntos: 3
   sprint_planificado: 13
   sprint_completado: 13
   categoria: "Tareas de documentación"
