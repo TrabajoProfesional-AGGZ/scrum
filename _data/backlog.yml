@@ -2734,6 +2734,70 @@
   sprint_completado: 12
   categoria: "Tareas de documentación"
 
+- id: "gateway-doc#1"
+  titulo: "Pasar la documentación de la implementación al repositorio documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 12
+  sprint_completado: 12
+  categoria: "Tareas de documentación"
+
+- id: "healthchecker-doc#1"
+  titulo: "Pasar la documentación de la implementación al repositorio documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 12
+  sprint_completado: 12
+  categoria: "Tareas de documentación"
+
+- id: "microservicio-club-doc#1"
+  titulo: "Pasar la documentación de la implementación al repositorio documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 12
+  sprint_completado: 12
+  categoria: "Tareas de documentación"
+
+- id: "microservicio-analiticas-doc#1"
+  titulo: "Pasar la documentación de la implementación al repositorio documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 12
+  sprint_completado: 12
+  categoria: "Tareas de documentación"
+
+- id: "microservicio-acceso-doc#1"
+  titulo: "Pasar la documentación de la implementación al repositorio documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 12
+  sprint_completado: 12
+  categoria: "Tareas de documentación"
+
+- id: "microservicio-autenticacion-doc#1"
+  titulo: "Pasar la documentación de la implementación al repositorio documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 12
+  sprint_completado: 12
+  categoria: "Tareas de documentación"
+
+- id: "microservicio-pagos-doc#1"
+  titulo: "Pasar la documentación de la implementación al repositorio documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 12
+  sprint_completado: 12
+  categoria: "Tareas de documentación"
+
+- id: "microservicio-bot-conversacional-doc#1"
+  titulo: "Pasar la documentación de la implementación al repositorio documental"
+  responsable: "felipe"
+  puntos: 1
+  sprint_planificado: 12
+  sprint_completado: 12
+  categoria: "Tareas de documentación"
+
 # ====================
 # INICIO DEL SPRINT 13
 # ====================
