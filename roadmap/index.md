@@ -13,7 +13,7 @@ En esta sección detallamos la hoja de ruta del proyecto, estructurando el desar
 
 El desarrollo de este "MVP" está segmentado en grandes fases, garantizando entregas de valor continuo, testeo temprano y un margen de tiempo seguro para imprevistos.
 
-### Fase 1: Estructura base y plataforma Web de gestión
+### Fase 1: Estructura base y plataforma web de gestión
 
 El objetivo inicial es establecer los cimientos de la arquitectura (microservicios) y habilitar el panel administrativo para la gestión integral del club.
 
@@ -64,17 +64,18 @@ Tras concluir el desarrollo central del código, el enfoque principal del equipo
 
 El tiempo restante del calendario se destinará exclusivamente a asegurar la máxima calidad del entregable y garantizar una presentación exitosa.
 
-* **Refinamiento continuo:** Pulir detalles de "UX/UI" para asegurar que tanto la plataforma web como la app móvil ofrezcan una experiencia impecable.
+* **Refinamiento continuo:** Pulir detalles de UX/UI para asegurar que tanto la plataforma web como la app móvil ofrezcan una experiencia impecable.
+* **Resolución de errores (Bug fixing):** Detección y corrección de pequeños *bugs* o fallos que puedan ser encontrados durante las pruebas de uso, asegurando la estabilidad total del ecosistema.
+* **Validación de producto:** Realización de múltiples validaciones del sistema con posibles usuarios finales para seguir mejorando la aplicación y obtener el *feedback* necesario que fortalezca los argumentos de cara a la defensa final y la evolución de la solución.
 * **Agregado de valor rápido:** Incorporar pequeñas funcionalidades o ajustes detectados durante el uso que aporten valor sin poner en riesgo la estabilidad del sistema.
 * **Defensa final:** Preparación del discurso, armado de material visual, ensayos de la presentación y puesta a punto de los entornos de demostración para el jurado.
 
-## Futuras funcionalidades ideadas para próximas posibles iteraciones del producto
+## Futuras líneas de desarrollo e iteraciones del producto
 
-Durante el desarrollo de esta primera versión funcional, se fueron identificando nuevas oportunidades de mejora y características adicionales de gran valor que quedan documentadas para futuras expansiones del sistema:
+Durante el ciclo de desarrollo de esta primera versión funcional, se identificaron diversas oportunidades de mejora y características de alto valor añadido. A continuación, se documentan las principales funcionalidades proyectadas para las futuras expansiones del ecosistema:
 
-- Rol de profesor/entrenador dentro de la plataforma web, quien puede gestionar sus propias clases, horarios y alumnos.
-- Hacer que la aplicación esté disponible en Play Store.
-- Integración con pasarelas de pago externas, permitiendo a los clubes ofrecer mayor variedad de métodos de pago.
-- Integración con molinetes y sistemas de control de acceso.
-- Interacciones con el correo para que el usuario tenga notificaciones por cumpleaños, anualidades de socio, etc.
-- Capacidad de aceptar múltiples cuentas destino para pagos, permitiendo a los clubes tener múltiples fondos de recaudación.
+* **Módulo de gestión de grupo familiar:** Vinculación de múltiples perfiles bajo la administración de un único socio titular, permitiendo la centralización de pagos, seguimiento de credenciales e inscripciones a disciplinas de todo el núcleo familiar desde una sola cuenta.
+* **Rol de profesor y entrenador:** Incorporación de un nivel de acceso específico en la plataforma web para que el personal deportivo pueda gestionar sus propias clases, realizar el seguimiento de sus alumnos y administrar sus grillas horarias.
+* **Gestión de fondos multi-cuenta:** Capacidad de configurar múltiples cuentas bancarias de destino, permitiendo a las instituciones derivar y organizar su recaudación en distintos fondos (por ejemplo, separar los ingresos de la cuota social de los de la tienda o disciplinas).
+* **Ampliación de pasarelas de pago:** Integración con proveedores y pasarelas de pago externas adicionales, brindando a los clubes la capacidad de ofrecer una mayor flexibilidad y variedad de métodos de cobro a sus asociados.
+* **Sincronización con hardware de acceso:** Integración directa de la plataforma y el carnet digital (código QR) con molinetes físicos y sistemas de control de acceso automatizado en las instalaciones de los clubes.
