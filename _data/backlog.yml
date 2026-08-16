@@ -2090,6 +2090,14 @@
   sprint_completado: 11
   categoria: "Tareas de desarrollo"
 
+- id: "microservicio-pagos#25"
+  titulo: "Cambio de integración con MercadoPago"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
+
 - id: "gateway#71"
   titulo: "Hacer la página documental final del gateway"
   responsable: "felipe"
@@ -2233,6 +2241,14 @@
   sprint_planificado: 11
   sprint_completado: 11
   categoria: "Tareas de documentación"
+
+- id: "aplicacion#81"
+  titulo: "Cambio de integración con MercadoPago"
+  responsable: "lautaro"
+  puntos: 5
+  sprint_planificado: 11
+  sprint_completado: 11
+  categoria: "Tareas de desarrollo"
 
 - id: "healthchecker#17"
   titulo: "Hacer la página documental final del healthchecker"
