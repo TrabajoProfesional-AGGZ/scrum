@@ -1,25 +1,24 @@
 ---
 layout: default
-title: Sprint planning N°11
+title: Sprint planning N°12
 parent: Sprint planning
-nav_order: 11
+nav_order: 12
 ---
 
-# Sprint planning N°11
+# Sprint planning N°12
 
-**Fecha:** Miércoles 12/08/2026  
+**Fecha:** Miércoles 19/08/2026  
 **Duración del Sprint:** 1 semana
 
 ## 🎯 Objetivo del sprint
 
-Iniciar al 100% el desarrollo de la documentación final del Trabajo Profesional. A nivel técnico, el objetivo es construir un "club maqueta" completamente funcional con un padrón societario extenso para simulaciones, finalizar la preparación del bot conversacional ("Botín") para la Demo oficial, e incorporar las últimas métricas (eventos y tienda) a la plataforma web.
+Consolidar la imagen comercial e infraestructura de monitoreo de SocioUnido. Se desarrollará la página web publicitaria principal, se adquirirá el dominio oficial y se creará el panel central de monitoreo de clubes. En paralelo, se finalizarán los anexos documentales y se dará inicio a la producción de los tutoriales y manuales de uso del sistema.
 
 ## ⏱️ Capacidad del equipo y acuerdos de trabajo
 
 * **Duración:** Se mantiene la ventana de **1 semana**, iniciando el día miércoles.
-* **Foco documental absoluto:** Se invertirá la mayor parte de la capacidad del equipo en redactar las páginas documentales de todos los microservicios, aplicaciones y gateways. Además, se confeccionarán todos los diagramas finales (C4 Model y DER) y la serie completa de Anexos (Vistas, Atributos de calidad, APIs, Lecciones aprendidas, Bugs, etc.).
-* **Preparación para la Demo:** El desarrollo activo se enfocará en pulir la interacción e imagen de "BotIn", realizando un testeo integral de su funcionalidad para asegurar una presentación impecable.
-* **Infraestructura y datos:** Se configurará un club de prueba robusto (con disciplinas, cuotas, eventos y productos) y se procederá a separar las aplicaciones de socios y empleados a nivel de Firebase para mayor seguridad y orden.
+* **Foco comercial y de control:** Parte del equipo trabajará en la creación de la *landing page* (punto de contacto central para futuros clientes) y en la compra del dominio web. Simultáneamente, se construirá el panel de monitoreo dentro del *healthchecker* para visualizar transacciones y métricas generales de cada club.
+* **Foco documental y capacitación:** Se destinará el esfuerzo restante a terminar todos los anexos del "Trabajo Profesional" y comenzar con la grabación de videotutoriales y redacción de manuales (tarea distribuida entre este sprint y el próximo).
 
 ## 📦 Sprint Backlog (Tareas comprometidas)
 
@@ -40,9 +39,8 @@ Iniciar al 100% el desarrollo de la documentación final del Trabajo Profesional
 
 ## ⚠️ Riesgos y dependencias
 
-* **Sobrecarga por volumen de redacción:** La cantidad de documentación requerida (manuales, múltiples diagramas arquitectónicos y anexos) es masiva y podría desfasar los tiempos del sprint.
-* **Mitigación:** Se ha categorizado y distribuido fuertemente la carga documental desde el primer día del sprint. No se tomarán nuevas tareas de código complejas más allá de las necesarias para la Demo.
-* **Inestabilidad en la presentación:** Que el bot o la maqueta fallen durante las pruebas de la Demo. Se destinarán tareas exclusivas de testeo funcional para blindar la experiencia antes del cierre.
+* **Tiempos de producción audiovisual:** La grabación y edición de tutoriales suele tomar más tiempo del estimado inicialmente.
+* **Mitigación:** Se decidió estratégicamente dividir esta carga de trabajo entre el sprint 12 y el 13, permitiendo avanzar sin bloqueos.
 
 <script type="application/json" id="backlog-data">
 {% if site.data.backlog %}{{ site.data.backlog | jsonify }}{% else %}[]{% endif %}
@@ -57,7 +55,7 @@ Iniciar al 100% el desarrollo de la documentación final del Trabajo Profesional
     } catch(e) {
       console.error("Error decodificando la base de datos de tareas:", e);
     }
-    const SPRINT_ACTUAL = 11;
+    const SPRINT_ACTUAL = 12;
     const tareasDelSprint = tareasData.filter(function(t) {
       return t.sprint_planificado === SPRINT_ACTUAL;
     });
@@ -71,7 +69,7 @@ Iniciar al 100% el desarrollo de la documentación final del Trabajo Profesional
         return resp === miembroFiltrado;
       });
       if (tareasAMostrar.length === 0) {
-        contenedor.innerHTML = '<p style="margin:0; color:#555;">No se registran tareas asignadas a este criterio dentro del Sprint planning N°11.</p>';
+        contenedor.innerHTML = '<p style="margin:0; color:#555;">No se registran tareas asignadas a este criterio dentro del Sprint planning N°12.</p>';
         return;
       }
       let html = '<ul style="margin: 0; padding-left: 20px;">';
