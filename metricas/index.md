@@ -34,8 +34,8 @@ Muestra la acumulación de puntos completados frente al alcance total trazado pa
 
 Compara los puntos comprometidos contra los puntos completados en cada iteración.
 
-<div style="width: 100%; overflow-x: auto; border: 1px solid #eee; padding: 10px; border-radius: 5px;">
-  <div style="width: 1000px; height: 350px;">
+<div style="width: 100%; border: 1px solid #eee; padding: 10px; border-radius: 5px;">
+  <div style="width: 100%; height: 350px;">
     <canvas id="grupalesVelocity"></canvas>
   </div>
 </div>
@@ -58,8 +58,8 @@ Seleccioná un integrante para visualizar la distribución de sus tareas:
 
 ### Rendimiento General del Integrante
 
-<div style="width: 100%; overflow-x: auto; border: 1px solid #eee; padding: 10px; border-radius: 5px; margin-bottom: 30px;">
-  <div style="width: 1000px; height: 300px;">
+<div style="width: 100%; border: 1px solid #eee; padding: 10px; border-radius: 5px; margin-bottom: 30px;">
+  <div style="width: 100%; height: 300px;">
     <canvas id="chartIndividual"></canvas>
   </div>
 </div>
